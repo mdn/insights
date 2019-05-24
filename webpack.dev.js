@@ -8,5 +8,5 @@ module.exports = merge(commonConfig, {
   devServer: {
     port: 8080,
     contentBase: path.join(__dirname, 'public')
-  },
+  }
 });
