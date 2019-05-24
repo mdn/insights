@@ -29,7 +29,7 @@ const config = merge(commonConfig, {
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename: 'css/[name].min.[contenthash].css'
+      filename: '[name].min.[contenthash].css'
     }),
     new OptimizeCssAssetsPlugin({
       cssProcessor: require('cssnano'),
