@@ -1,4 +1,4 @@
-# development
+# MDN Insights
 
 ## Installation
 
