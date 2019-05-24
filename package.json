@@ -1,11 +1,12 @@
 {
-  "name": "development",
+  "name": "mdn-insights",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "test": "jest",
-    "start": "webpack-dev-server --config webpack.dev.js --mode development",
-    "build": "webpack --config webpack.prod.js --mode production",
+    "start": "webpack-dev-server --config webpack.dev.js --mode development --watch --open",
+    "build": "npm run lint && webpack --config webpack.prod.js --mode production",
+    "prod": "npm run build",
     "lint": "npx eslint . && npx stylelint src/**/*.scss"
   },
   "repository": {
