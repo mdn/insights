@@ -48,10 +48,16 @@ const config = merge(commonConfig, {
   ]
 });
 
+/** For prod we must load css in this order:
+ * Sass-loader
+ * Postcss-loader
+ * Css-loader
+ * MiniCssExtractPlugin.loader
+ */
 config.module.rules = config.module.rules.map(rule => {
   if (rule.test.toString() === '/\\.(scss|css)$/') {
     rule.use[0] = MiniCssExtractPlugin.loader;
-    rule.use.push({
+    rule.use.splice(2, 0, {
       loader: 'postcss-loader',
       options: {
         sourceMap: false
