@@ -1,0 +1,46 @@
+
+.button {
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: normal;
+  border: $form-border-width solid $form-border-color;
+  background-color: $form-background-color;
+  padding: 5px 11px;
+  color: $form-text;
+  text-decoration: none;
+
+  &--neutral {
+    border-color: $blue;
+    color: $blue-dark;
+  }
+
+  &--negative {
+    border-color: $red-dark;
+    color: $red-dark;
+  }
+
+  &--positive {
+    min-height: 32px;
+    border-color: $green;
+    color: $green-dark;
+  }
+
+  &--transparent {
+    background-color: transparent;
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &--link {
+    @include button-link();
+  }
+
+  &::-moz-focus-inner {
+    margin-top: -1px;
+    margin-bottom: -1px;
+  }
+}

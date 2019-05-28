@@ -14,3 +14,16 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+html {
+  background: #fff;
+  color: $text-color;
+}
+
+body {
+  line-height: 1.6;
+  @include set-site-font-family();
+  @include set-font-size($base-font-size);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
