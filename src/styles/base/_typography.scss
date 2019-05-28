@@ -17,7 +17,7 @@ h2 {
   font-size: $mobile-h2-font-size;
   @include heading-text-style();
 
-  @media #{$mq-tablet-and-up} {
+  @include mq($from: tablet) {
     font-size: $h2-font-size;
     margin: $grid-spacing 0;
   }
@@ -147,7 +147,7 @@ as :not(pre) code {} so we need to be more specific, this covers common uses */
   }
 }
 
-@media #{$mq-mobile-and-down} {
+@include mq($until: mobile) {
   h1,
   h2,
   h3,
