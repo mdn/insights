@@ -3,11 +3,6 @@ Typography
 - headings, blockquotes, paragraphs, links, pre, code
 ********************************************************************** */
 
-@mixin heading-text-style() {
-  font-family: $heading-font-family;
-  line-height: $heading-line-height;
-}
-
 /*
 Headings
 ====================================================================== */
@@ -174,10 +169,6 @@ kbd {
   display: inline-block;
   font-family: $code-inline-font-family;
   font-size: .85em;
-  font-weight: bold;
-  line-height: 1;
-  padding: 2px 4px;
-  white-space: nowrap;
 }
 
 var {

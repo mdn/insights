@@ -33,3 +33,8 @@
     text-decoration: underline;
   }
 }
+
+@mixin heading-text-style() {
+  font-family: $heading-font-family;
+  line-height: $heading-line-height;
+}

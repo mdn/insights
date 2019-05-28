@@ -51,6 +51,7 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "sass-mq": "^5.0.0"
   }
 }
