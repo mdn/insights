@@ -6,14 +6,14 @@
 
 // 2. Vendors
 @import
-  'vendors/normalize';
+  '../../node_modules/normalize.css/normalize.css',
+  '../../node_modules/sass-mq/_mq.scss';
 
 // 3. Base stuff
 @import
   'base/base',
   'base/fonts',
-  'base/typography',
-  'base/helpers';
+  'base/typography';
 
 // 4. Layout-related sections
 @import
@@ -27,3 +27,8 @@
 // 6. Page-specific styles
 @import
   'pages/home';
+
+// 7. Util and helper functions
+@import
+  'utils/helpers',
+  'utils/flexbox';
