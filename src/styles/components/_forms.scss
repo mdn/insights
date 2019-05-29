@@ -1,0 +1,56 @@
+/*
+Styles for form elements
+********************************************************************** */
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+  @include set-site-font-family();
+  font-size: $base-font-size;
+  font-style: normal;
+  font-weight: normal;
+}
+
+input[type=text],
+input[type=password],
+input[type=search],
+input[type=email],
+input[type=url],
+input[type=number],
+textarea {
+  color: $form-text;
+  background: $form-background-color;
+  border: $form-border-width solid $form-border-color;
+  padding: $content-vertical-spacing $content-horizontal-spacing;
+  font-weight: normal;
+}
+
+textarea {
+  color: $text-color;
+  font-weight: normal;
+}
+
+input[type='search'] {
+  appearance: textfield;
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+}
+
+label {
+  cursor: pointer;
+}
+
+/* disabling of elements */
+.disabled,
+[disabled] {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: .5;
+}
