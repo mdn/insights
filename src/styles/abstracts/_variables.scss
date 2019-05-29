@@ -1,0 +1,147 @@
+// Varibles taken from MDN Kuma variables https://github.com/mozilla/kuma/blob/master/kuma/static/styles/includes/_vars.scss
+/*
+colors
+====================================================================== */
+$red: #e66465;
+$orange: #f69d3c;
+$yellow: #f6b73c;
+$green: #4d9f0c;
+$blue: #3d7e9a;
+$purple: #9198e5;
+$grey: #696969;
+
+$red-light: #ffe7e8;
+$orange-light: #ffe8d4;
+$yellow-light: #fff3d4;
+$green-light: #ebf8e1;
+$blue-light: #e4f0f5;
+$purple-light: #d7d9f2;
+$grey-light: #eee;
+
+$red-vdark: #5d3739;
+$orange-vdark: #332206;
+$yellow-vdark: #332807;
+$green-vdark: #162300;
+$blue-vdark: #001d33;
+$purple-vdark: #303253;
+$grey-vdark: #151515;
+
+$red-dark: mix($red, $red-vdark, 65);
+$orange-dark: mix($orange, $orange-vdark, 65);
+$yellow-dark: mix($yellow, $yellow-vdark, 65);
+$green-dark: mix($green, $green-vdark, 65);
+$blue-dark: mix($blue, $blue-vdark, 65);
+$purple-dark: mix($purple, $purple-vdark, 65);
+$grey-dark: mix($grey, $grey-vdark, 65);
+
+$negative: $red;
+$warning: $yellow;
+$positive: $green;
+$neutral: $blue;
+$default: $grey;
+
+$text-color: #333;
+$link-color: #3d7e9a;
+$menu-link-color: $text-color;
+$blue-background-text-color: #fff;
+$light-background-color: $grey-light;
+$header-background-color: $light-background-color;
+$border-width: 5px;
+$code-block-background-color: $grey-light;
+$code-block-border-color: $grey;
+$code-block-padding: 15px;
+$code-block-border-width: $border-width;
+$code-block-border-style: solid;
+$table-blue: #d4dde4;
+$accent-light: #83d0f2;
+$accent-dark: #216684;
+
+$text-dark: $text-color;
+$text-light: #fff;
+$bg-dark: #222;
+$error: #900;
+
+/*
+typography
+====================================================================== */
+$site-font-family-fallback: x-locale-body, sans-serif;
+$site-font-family: 'Arial', $site-font-family-fallback;
+$heading-font-family-fallback: 'Palatino', 'Palatino Linotype', x-locale-heading-secondary, serif;
+$heading-font-family: x-locale-heading-primary, zillaslab, $heading-font-family-fallback;
+$heading-line-height: 1.2;
+$tiny-font-family: 'Helvetica', arial, sans-serif;
+$code-block-font-family: consolas, monaco, 'Andale Mono', monospace; /* prism */
+$code-inline-font-family: consolas, 'Liberation Mono', courier, monospace; /* inline */
+$diff-font-family: $code-inline-font-family;
+
+/*
+sizes
+====================================================================== */
+$h1-font-size: 51px;
+$h2-font-size: 42px;
+$h3-font-size: 26px;
+$h4-font-size: 24px;
+$h5-font-size: 18px;
+$callout-font-size: 24px;
+$base-font-size: 18px;
+$tiny-font-size: 14px;
+
+$mobile-document-title-font-size: 32px;
+$mobile-h2-font-size: 28px;
+$collapse-trigger-mobile-font-size: 22px;
+
+/*
+forms
+====================================================================== */
+$form-border-width: 2px;
+$form-border-color: #9b9b9b;
+$form-text: $grey-dark;
+$form-background-color: #fff;
+$placeholder-text: lighten($form-border-color, 2);
+
+/*
+grid
+====================================================================== */
+/*
+grid - 12 columns assuming a 3% margin
+-------------------------------------------------------------- */
+$grid-spacing: 20px;
+$grid-margin: 3%;
+$grid-column-selector: '> [class^="column-"]';
+$grid-width-column-main: 9;
+$max-line-length: 42rem;
+
+/*
+animation
+====================================================================== */
+$default-animation-duration: .5s;
+$slide-timing-function: cubic-bezier(0, 1, .5, 1);
+
+/*
+dimensions
+====================================================================== */
+$gutter-width: 24px;
+
+$content-horizontal-spacing: 8px;
+$content-vertical-spacing: 6px;
+$list-item-spacing: $content-horizontal-spacing;
+
+$logo-height: 48px;
+
+$section-border-width: 3px;
+$section-border: $section-border-width solid $blue;
+
+/*
+forms
+====================================================================== */
+$input-padding: $content-vertical-spacing $content-horizontal-spacing;
+
+/*
+z-index
+====================================================================== */
+$z-main-nav: 1000;
+
+/*
+paths
+====================================================================== */
+$path-to-locale-fonts: '../fonts/';

@@ -1,0 +1,34 @@
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 2. Vendors
+@import
+  '../../node_modules/normalize.css/normalize.css',
+  '../../node_modules/sass-mq/_mq.scss';
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/typography';
+
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/footer';
+
+// 5. Components
+@import
+  'components/button';
+
+// 6. Page-specific styles
+@import
+  'pages/home';
+
+// 7. Util and helper functions
+@import
+  'utils/helpers',
+  'utils/flexbox';
