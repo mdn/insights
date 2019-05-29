@@ -8,8 +8,8 @@ textarea,
 select,
 optgroup,
 option {
-  @include set-font-size($base-font-size);
   @include set-site-font-family();
+  font-size: $base-font-size;
   font-style: normal;
   font-weight: normal;
 }

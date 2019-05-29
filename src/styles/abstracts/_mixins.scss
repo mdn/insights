@@ -1,37 +1,6 @@
-@mixin set-font-size($value) {
-  font-size: $value; // if this is px it will be the fallback for the rem value, otherwise it will be the only declaration
-
-  @if ($value != 'inherit') {
-    // make sure we're working with px otherwise remify will just spit out what we spat out before
-    $u: unit($value);
-    @if $u == 'px' {
-      font-size: -remify($value);
-    }
-  }
-}
-
 @mixin set-site-font-family() {
   font-family: $site-font-family;
   letter-spacing: -remify(-.05px);
-}
-
-// make a button look like a link
-@mixin button-link() {
-  appearance: none;
-  font-size: inherit;
-  font-weight: inherit;
-  letter-spacing: inherit;
-  line-height: inherit;
-  background-color: transparent;
-  text-transform: inherit;
-  border: 0;
-  padding: 0;
-  color: $link-color;
-
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-  }
 }
 
 @mixin heading-text-style() {

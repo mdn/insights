@@ -16,7 +16,7 @@ html {
 body {
   line-height: 1.6;
   @include set-site-font-family();
-  @include set-font-size($base-font-size);
+  font-size: $base-font-size;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

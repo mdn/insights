@@ -36,7 +36,21 @@
   }
 
   &--link {
-    @include button-link();
+    appearance: none;
+    font-size: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    background-color: transparent;
+    text-transform: inherit;
+    border: 0;
+    padding: 0;
+    color: $link-color;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
   }
 
   &::-moz-focus-inner {
