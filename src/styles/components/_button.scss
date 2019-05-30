@@ -12,6 +12,11 @@
   padding: 11px 20px;
   color: inherit;
   text-decoration: none;
+
+  &--fill-primary {
+    background-color: #000;
+    color: #fff;
+  }
 }
 
 .button-cta-link {
