@@ -10,13 +10,10 @@ html {
 
 html {
   background: #fff;
-  color: $text-color;
-}
-
-body {
+  color: $text-color-base;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
   line-height: 1.6;
-  @include set-site-font-family();
-  font-size: $base-font-size;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }

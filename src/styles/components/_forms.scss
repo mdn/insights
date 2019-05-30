@@ -1,5 +1,5 @@
 /*
-Styles for form elements
+Form elements
 ********************************************************************** */
 
 input,
@@ -8,8 +8,8 @@ textarea,
 select,
 optgroup,
 option {
-  @include set-site-font-family();
-  font-size: $base-font-size;
+  font-family: inherit;
+  font-size: $font-size-base;
   font-style: normal;
   font-weight: normal;
 }
@@ -21,15 +21,10 @@ input[type=email],
 input[type=url],
 input[type=number],
 textarea {
-  color: $form-text;
-  background: $form-background-color;
-  border: $form-border-width solid $form-border-color;
-  padding: $content-vertical-spacing $content-horizontal-spacing;
-  font-weight: normal;
-}
-
-textarea {
-  color: $text-color;
+  color: inherit;
+  background: $form-field-background-color;
+  border: 2px solid $form-field-border-color;
+  // padding: $content-vertical-spacing $content-horizontal-spacing;
   font-weight: normal;
 }
 
@@ -47,7 +42,7 @@ label {
   cursor: pointer;
 }
 
-/* disabling of elements */
+/* Disabling of elements */
 .disabled,
 [disabled] {
   pointer-events: none;

@@ -1,9 +1,0 @@
-@mixin set-site-font-family() {
-  font-family: $site-font-family;
-  letter-spacing: -remify(-.05px);
-}
-
-@mixin heading-text-style() {
-  font-family: $heading-font-family;
-  line-height: $heading-line-height;
-}
