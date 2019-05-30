@@ -10,11 +10,32 @@ $mdn-brand-purple: #9198e5;
 $mdn-brand-grey: #696969;
 
 $dna-brand-grey-300: #d8d8d8;
-$dna-brand-grey-900: #333;
+$dna-brand-grey-800: #333;
+$dna-brand-grey-900: #212121;
 $dna-brand-blue: #83c7f2;
 $dna-brand-purple: #839cf1;
 
-$text-color-base: $dna-brand-grey-900;
+$mdn-brand-colors: (
+  red: $mdn-brand-red,
+  orange: $mdn-brand-orange,
+  yellow: $mdn-brand-yellow,
+  green: $mdn-brand-green,
+  blue: $mdn-brand-blue,
+  purple: $mdn-brand-purple,
+  grey: $mdn-brand-grey
+);
+
+$dna-brand-colors: (
+  black: #000,
+  grey-300: $dna-brand-grey-300,
+  grey-800: $dna-brand-grey-800,
+  grey-900: $dna-brand-grey-900,
+  blue: $dna-brand-blue,
+  purple: $dna-brand-purple,
+  white: #fff
+);
+
+$text-color-base: $dna-brand-grey-800;
 $text-link-color-base: $mdn-brand-blue;
 
 /*
@@ -58,11 +79,17 @@ $mq-breakpoints: (
 Forms
 ====================================================================== */
 $form-field-border-width: 2px;
-$form-field-border-color: #9b9b9b;
-$form-field-text-color: $dna-brand-grey-900;
+$form-field-border-color: $dna-brand-grey-800;
+$form-field-text-color: $dna-brand-grey-800;
 $form-field-background-color: #fff;
 $form-field-placeholder-text: lighten($form-field-border-color, 2);
 $form-field-padding: 20px;
+
+/*
+Buttons
+====================================================================== */
+$button-border-width: $form-field-border-width;
+$button-border-color-base: $form-field-border-color;
 
 /*
 Z-index

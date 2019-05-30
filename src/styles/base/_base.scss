@@ -17,3 +17,9 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+
+svg {
+  &:not(:root) {
+    overflow: hidden;
+  }
+}

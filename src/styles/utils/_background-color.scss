@@ -1,0 +1,5 @@
+@each $name, $color in $dna-brand-colors {
+  .bg-color-#{$name} {
+    background-color: $color;
+  }
+}
