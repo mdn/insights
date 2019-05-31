@@ -1,0 +1,19 @@
+.stats {
+  margin-top: 60px;
+
+  &__col {
+    margin-top: 50px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    @include mq($from: tablet) {
+      margin-top: 0;
+    }
+  }
+
+  &__img {
+    margin-bottom: 15px;
+  }
+}
