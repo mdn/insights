@@ -9,6 +9,7 @@ $mdn-brand-blue: #3d7e9a;
 $mdn-brand-purple: #9198e5;
 $mdn-brand-grey: #696969;
 
+
 $dna-brand-grey-300: #d8d8d8;
 $dna-brand-grey-800: #333;
 $dna-brand-grey-900: #212121;
@@ -35,7 +36,6 @@ $dna-brand-colors: (
   white: #fff
 );
 
-$text-color-base: $dna-brand-grey-800;
 $text-link-color-base: $mdn-brand-blue;
 
 /*
@@ -43,6 +43,8 @@ Typography
 ====================================================================== */
 $font-family-base: 'Arial', x-locale-body, sans-serif;
 $font-family-secondary: x-locale-heading-primary, zillaslab, 'Palatino', 'Palatino Linotype', x-locale-heading-secondary, serif;
+
+$line-height-default: 1.4em;
 
 /*
 Sizes
@@ -103,4 +105,4 @@ $z-index-5: 500;
 /*
 Paths
 ====================================================================== */
-$path-to-locale-fonts: '../fonts/';
+$path-to-locale-fonts: '../assets/';

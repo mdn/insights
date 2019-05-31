@@ -5,4 +5,13 @@
   @include mq($from: tablet) {
     padding: 80px 0;
   }
+
+  &--full-screen {
+    min-height: 100vh;
+  }
+
+  &--dark {
+    background: $dna-brand-grey-900;
+    color: $text-color-light;
+  }
 }

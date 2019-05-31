@@ -11,3 +11,8 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.dark-highlight {
+  background: $dna-brand-grey-dark;
+  padding: 0 .1em .12em;
+}
