@@ -50,7 +50,11 @@ module.exports = {
       {
         test: /\.(html)$/,
         use: {
-          loader: 'html-loader',
+          loader: 'html-srcsets-loader',
+          options: {
+            attrs: ['img:src', 'img:srcset', 'source:srcset'],
+            minimize: false
+          }
         }
       },
       {
