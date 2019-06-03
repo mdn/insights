@@ -23,3 +23,9 @@
   position: absolute;
   width: 1px;
 }
+
+.mobile-hidden {
+  @include mq($until: tablet) {
+    display: none;
+  }
+}

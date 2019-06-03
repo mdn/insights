@@ -6,12 +6,9 @@
     padding: 80px 0;
   }
 
-  &--full-screen {
-    min-height: 100vh;
-  }
-
-  &--dark {
-    background: $dna-brand-grey-900;
+  &--intro {
+    background: $dna-brand-grey-800;
     color: $text-color-light;
+    min-height: 100vh;
   }
 }

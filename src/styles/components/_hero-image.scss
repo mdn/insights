@@ -1,0 +1,29 @@
+// Elipsis that allows text to flow.
+.content-clip-mask {
+  float: right;
+  height: $hero-image-large;
+  margin-top: 40px;
+  shape-outside: ellipse(250px 200px at 60% 54%);
+  width: $hero-image-large;
+  @include mq($from: desktop) {
+    margin-top: 0;
+  }
+}
+
+.hero-image {
+  margin: 3em auto 0;
+  max-width: 100%;
+  display: block;
+
+  @include mq($from: tablet) {
+    height: 490px;
+    margin: 40px 0 0 0;
+    opacity: .7;
+    position: absolute;
+    right: -$hero-image-large / 2;
+    top: -40px;
+  }
+  @include mq($from: desktop) {
+    margin-top: 0;
+  }
+}

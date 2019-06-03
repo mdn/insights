@@ -17,3 +17,23 @@
     margin-bottom: 15px;
   }
 }
+
+.section--intro {
+  .content {
+    max-width: 620px; //maximum width of content on intro screen.
+    @include mq($until: tablet) {
+      max-width: $max-line-length;
+      margin: 0 auto;
+    }
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    margin: 2em 0;
+    width: 100%;
+
+    @include mq($from: tablet) {
+      width: auto;
+    }
+  }
+}

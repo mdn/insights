@@ -1,0 +1,10 @@
+@each $name, $index in $z-index-map {
+  .z-index-#{$name} {
+    z-index: $index;
+  }
+}
+
+// Required for z-index class to take affect.
+.position-relative {
+  position: relative;
+}

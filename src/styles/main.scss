@@ -3,32 +3,34 @@
 
 // 2. Vendors
 @import '../../node_modules/normalize.css/normalize.css',
-'../../node_modules/sass-mq/_mq.scss';
+  '../../node_modules/sass-mq/_mq.scss';
 
 // 3. Base stuff
 @import 'base/base',
-'base/fonts',
-'base/typography';
+  'base/fonts',
+  'base/typography';
 
 // 4. Layout-related sections
 @import 'layout/header',
-'layout/footer',
-'layout/main';
+  'layout/footer',
+  'layout/main';
 
 // 5. Components
 @import 'components/button',
-'components/cols',
-'components/forms',
-'components/section';
+  'components/cols',
+  'components/forms',
+  'components/section',
+  'components/hero-image';
 
 // 6. Page-specific styles
 @import 'pages/home';
 
 // 7. Utils and helpers
 @import 'utils/alignment',
-'utils/background-color',
-'utils/color',
-'utils/display',
-'utils/flexbox',
-'utils/spacing',
-'utils/typography';
+  'utils/background-color',
+  'utils/color',
+  'utils/display',
+  'utils/flexbox',
+  'utils/spacing',
+  'utils/typography',
+  'utils/z-index';

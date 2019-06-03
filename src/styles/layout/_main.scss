@@ -1,9 +1,11 @@
 .main-content {
   border: 10px solid #fff;
+  overflow: hidden;
 }
 
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 32px;
+  position: relative;
 }
