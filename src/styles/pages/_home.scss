@@ -22,18 +22,19 @@
   .content {
     max-width: $max-line-length; //maximum width of content on intro screen.
     @include mq($until: tablet) {
-      max-width: $default-line-length;
       margin: 0 auto;
+      max-width: $default-line-length;
     }
   }
+
   button {
     display: block;
     margin: 2em auto;
     width: 100%;
 
     @include mq($from: tablet) {
-      width: auto;
       margin: 2em 0;
+      width: auto;
     }
   }
 }
