@@ -20,9 +20,9 @@
 
 .section--intro {
   .content {
-    max-width: 620px; //maximum width of content on intro screen.
+    max-width: $max-line-length; //maximum width of content on intro screen.
     @include mq($until: tablet) {
-      max-width: $max-line-length;
+      max-width: $default-line-length;
       margin: 0 auto;
     }
   }

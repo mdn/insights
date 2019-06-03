@@ -2,8 +2,8 @@
 .content-clip-mask {
   float: right;
   height: $hero-image-large;
-  margin-top: 40px;
-  shape-outside: ellipse(250px 200px at 60% 54%);
+  margin-top: $hero-image-top-spacing;
+  shape-outside: $hero-image-text-mask;
   width: $hero-image-large;
   @include mq($from: desktop) {
     margin-top: 0;
@@ -17,13 +17,12 @@
 
   @include mq($from: tablet) {
     height: $hero-image-large;
-    margin: 40px 0 0 0;
-    opacity: .7;
+    margin: 0;
     position: absolute;
     right: -$hero-image-large / 2;
-    top: -40px;
+    top: 0;
   }
   @include mq($from: desktop) {
-    margin-top: 0;
+    top: -$hero-image-top-spacing;
   }
 }
