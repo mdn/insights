@@ -1,7 +1,15 @@
 .header {
-  background-color: $dna-brand-grey-900;
+  background-color: $dna-brand-grey-800;
   border: 10px solid #fff;
   border-bottom: 0;
   color: #fff;
   padding: 45px 0;
+
+  &__logo-img {
+    margin-right: 20px;
+  }
+
+  &__button {
+    display: none;
+  }
 }
