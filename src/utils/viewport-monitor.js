@@ -1,6 +1,10 @@
 export const APPEARED = 'appeared';
 export const DISAPPEARED = 'disappeared';
 
+/**
+ * Monitors whether an element is visible in the viewport or not. Fires a custom
+ * event on that element with the value of 'appeared' or 'disappeared'.
+ */
 class ViewportMonitor {
   constructor(element) {
     if (!element) {
@@ -16,6 +20,9 @@ class ViewportMonitor {
     this.handleScrollOrResize();
   }
 
+  /**
+   * Bind relevant events.
+   */
   bindEvents() {
     this.scrollListener = window.addEventListener(
       'scroll',
@@ -27,14 +34,21 @@ class ViewportMonitor {
     );
   }
 
+  /**
+   * Teardown processes for the component.
+   */
   destroy() {
     window.removeEventListener(this.scrollListener);
     window.removeEventListener(this.resizeListener);
   }
 
+  /**
+   * Handles scrolling and resize events.
+   */
   handleScrollOrResize() {
     this.lastScrollY = window.scrollY;
 
+    // Prevent multiple rAFs from being queued.
     if (!this.isScrolling) {
       window.requestAnimationFrame(this.calculateVisibility.bind(this));
 
@@ -42,6 +56,11 @@ class ViewportMonitor {
     }
   }
 
+  /**
+   * Calculates the element's visibility based on the current scroll top,
+   * element top offset and its height. An element must have completely left
+   * the viewport for the 'disappeared' event to fire.
+   */
   calculateVisibility() {
     this.isScrolling = false;
 
@@ -64,7 +83,15 @@ class ViewportMonitor {
     }
   }
 
+  /**
+   * Triggers the custom event on the target element.
+   * @param {string} eventType Event type to fire.
+   */
   triggerEvent(eventType) {
+    if (typeof window.CustomEvent !== 'function') {
+      return;
+    }
+
     const event = new CustomEvent(eventType, {
       detail: {
         scrollY: this.lastScrollY
