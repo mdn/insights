@@ -1,4 +1,5 @@
 .header {
+  $base: &;
   background-color: $dna-brand-grey-800;
   border: 10px solid #fff;
   border-bottom: 0;
@@ -11,5 +12,18 @@
 
   &__button {
     display: none;
+  }
+
+  &.is-fixed {
+    border-bottom: 10px solid #fff;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, .24);
+    height: $header-fixed-height;
+    padding: 14px;
+    position: fixed;
+    width: 100%;
+
+    #{$base}__button {
+      display: inline-block;
+    }
   }
 }
