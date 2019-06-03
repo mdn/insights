@@ -16,7 +16,7 @@
   display: block;
 
   @include mq($from: tablet) {
-    height: 490px;
+    height: $hero-image-large;
     margin: 40px 0 0 0;
     opacity: .7;
     position: absolute;

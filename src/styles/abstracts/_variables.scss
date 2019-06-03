@@ -9,28 +9,31 @@ $mdn-brand-blue: #3d7e9a;
 $mdn-brand-purple: #9198e5;
 $mdn-brand-grey: #696969;
 
-
 $dna-brand-grey-300: #d8d8d8;
 $dna-brand-grey-800: #333;
 $dna-brand-grey-900: #212121;
 $dna-brand-blue: #83c7f2;
 $dna-brand-purple: #839cf1;
 
-$mdn-brand-colors: (red: $mdn-brand-red,
+$mdn-brand-colors: (
+  red: $mdn-brand-red,
   orange: $mdn-brand-orange,
   yellow: $mdn-brand-yellow,
   green: $mdn-brand-green,
   blue: $mdn-brand-blue,
   purple: $mdn-brand-purple,
-  grey: $mdn-brand-grey);
+  grey: $mdn-brand-grey
+);
 
-$dna-brand-colors: (black: #000,
+$dna-brand-colors: (
+  black: #000,
   grey-300: $dna-brand-grey-300,
   grey-800: $dna-brand-grey-800,
   grey-900: $dna-brand-grey-900,
   blue: $dna-brand-blue,
   purple: $dna-brand-purple,
-  white: #fff);
+  white: #fff
+);
 
 $text-link-color-base: $mdn-brand-blue;
 $text-color-base: $dna-brand-grey-800;
@@ -39,15 +42,8 @@ $text-color-light: #fff;
 /*
 Typography
 ====================================================================== */
-$font-family-base: 'Arial',
-x-locale-body,
-sans-serif;
-$font-family-secondary: x-locale-heading-primary,
-zillaslab,
-'Palatino',
-'Palatino Linotype',
-x-locale-heading-secondary,
-serif;
+$font-family-base: 'Arial', x-locale-body, sans-serif;
+$font-family-secondary: x-locale-heading-primary, zillaslab, 'Palatino', 'Palatino Linotype', x-locale-heading-secondary, serif;
 
 $line-height-default: 1.4em;
 $line-height-heading: 1.2;
@@ -81,10 +77,12 @@ $hero-image-large: 490px;
 /*
 Breakpoints
 ====================================================================== */
-$mq-breakpoints: (mobile: 320px,
+$mq-breakpoints: (
+  mobile: 320px,
   tablet: 740px,
   desktop: 980px,
-  wide: 1300px);
+  wide: 1300px
+);
 
 /*
 Forms
@@ -122,4 +120,4 @@ $z-index-map: (
 /*
 Paths
 ====================================================================== */
-$path-to-locale-fonts: '../assets/';
+$path-to-locale-fonts: '../assets/fonts/';
