@@ -77,6 +77,9 @@ $hero-image-large: 490px;
 $hero-image-top-spacing: 40px; // Ensure even spacing above the hero image to not intercept header text on smaller desktop.
 $hero-image-text-mask: ellipse(250px 200px at 60% 54%); // Matches image size to ensure text wraps.
 
+// Content
+$main-content-border-width: 10px;
+
 /*
 Breakpoints
 ====================================================================== */
