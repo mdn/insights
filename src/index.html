@@ -90,8 +90,9 @@
         </div>
         <div class="position-relative">
           <form class="newsletter-signup horizontal-center z-index-2" action="">
-            <input class="min-width-100" type="text">
-            <button class="min-width-100 button button--fill-primary">Sign up</button>
+            <label class="visually-hidden" for="newsletter-signup-email-input">you@example.com</label>
+            <input id="newsletter-signup-email-input" placeholder="you@example.com" class="min-width-100" type="text">
+            <input type="submit" value="Sign up" class="min-width-100 button button--fill-primary">
           </form>
           <div class="z-index-1 mobile-hidden newsletter-signup--backdrop"></div>
         </div>
