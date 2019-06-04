@@ -24,7 +24,8 @@
   'components/button',
   'components/cols',
   'components/forms',
-  'components/section';
+  'components/section',
+  'components/hero-image';
 
 // 6. Page-specific styles
 @import
@@ -38,4 +39,6 @@
   'utils/display',
   'utils/flexbox',
   'utils/spacing',
-  'utils/typography';
+  'utils/typography',
+  'utils/z-index',
+  'utils/breakpoints';

@@ -1,0 +1,32 @@
+$hero-image-large: 490px;
+$hero-image-top-spacing: 40px; // Ensure even spacing above the hero image to not intercept header text on smaller desktop.
+$hero-image-text-mask: ellipse(250px 200px at 60% 54%); // Matches image size to ensure text wraps.
+
+// Ellipsis that allows text to flow.
+.content-clip-mask {
+  float: right;
+  height: $hero-image-large;
+  margin-top: $hero-image-top-spacing;
+  shape-outside: $hero-image-text-mask;
+  width: $hero-image-large;
+  @include mq($from: desktop) {
+    margin-top: 0;
+  }
+}
+
+.hero-image {
+  display: block;
+  margin: 18px auto 0;
+  max-width: 100%;
+
+  @include mq($from: tablet) {
+    height: $hero-image-large;
+    margin: 0;
+    position: absolute;
+    right: -$hero-image-large / 2;
+    top: 0;
+  }
+  @include mq($from: desktop) {
+    top: -$hero-image-top-spacing;
+  }
+}

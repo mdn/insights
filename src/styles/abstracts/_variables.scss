@@ -35,14 +35,20 @@ $dna-brand-colors: (
   white: #fff
 );
 
-$text-color-base: $dna-brand-grey-800;
 $text-link-color-base: $mdn-brand-blue;
+$text-color-base: $dna-brand-grey-800;
 
 /*
 Typography
 ====================================================================== */
 $font-family-base: 'Arial', x-locale-body, sans-serif;
 $font-family-secondary: x-locale-heading-primary, zillaslab, 'Palatino', 'Palatino Linotype', x-locale-heading-secondary, serif;
+
+$line-height-default: 1.8;
+$line-height-heading: 1.2;
+
+$default-line-length: 35em;
+$max-line-length: 45em;
 
 /*
 Sizes
@@ -65,8 +71,12 @@ $font-size-base-tablet: 14px;
 $font-size-large-tablet: 16px;
 $font-size-small-tablet: 12px;
 
+// Header
 $header-original-height: 138px;
 $header-fixed-height: 86px;
+
+// Content
+$main-content-border-width: 10px;
 
 /*
 Breakpoints
@@ -103,7 +113,15 @@ $z-index-3: 300;
 $z-index-4: 400;
 $z-index-5: 500;
 
+$z-index-map: (
+  1: $z-index-1,
+  2: $z-index-2,
+  3: $z-index-3,
+  4: $z-index-4,
+  5: $z-index-5,
+);
+
 /*
 Paths
 ====================================================================== */
-$path-to-locale-fonts: '../fonts/';
+$path-to-locale-fonts: '../assets/fonts/';

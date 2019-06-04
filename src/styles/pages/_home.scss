@@ -17,3 +17,24 @@
     margin-bottom: 15px;
   }
 }
+
+.section--intro {
+  .content {
+    max-width: $max-line-length; //maximum width of content on intro screen.
+    @include mq($until: tablet) {
+      margin: 0 auto;
+      max-width: $default-line-length;
+    }
+  }
+
+  .button {
+    display: block;
+    margin: 14px auto;
+    width: 100%;
+
+    @include mq($from: tablet) {
+      margin: 14px 0;
+      width: auto;
+    }
+  }
+}
