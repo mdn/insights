@@ -46,6 +46,7 @@ class ViewportMonitor {
    * Handles scrolling and resize events.
    */
   handleScrollOrResize() {
+    this.scollDirection = window.scrollY > this.lastScrollY ? 'down' : 'up';
     this.lastScrollY = window.scrollY;
 
     // Prevent multiple rAFs from being queued.
@@ -94,7 +95,8 @@ class ViewportMonitor {
 
     const event = new CustomEvent(eventType, {
       detail: {
-        scrollY: this.lastScrollY
+        scrollY: this.lastScrollY,
+        scrollDirection: this.scollDirection
       }
     });
 
