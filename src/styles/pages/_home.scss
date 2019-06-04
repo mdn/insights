@@ -18,15 +18,7 @@
   }
 }
 
-.section--intro {
-  .content {
-    max-width: $max-line-length; //maximum width of content on intro screen.
-    @include mq($until: tablet) {
-      margin: 0 auto;
-      max-width: $default-line-length;
-    }
-  }
-
+.section--hero {
   .button {
     display: block;
     margin: 14px auto;
