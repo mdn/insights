@@ -1,14 +1,13 @@
 .newsletter-signup {
-  position: relative;
-  max-width: $min-line-length;
-  padding: 0 10px;
-  background: $dna-brand-grey-800;
+  @include mq($from: mobile) {
+    background-image: url('#{$path-to-locale-images}strands.png');
+    background-repeat: repeat-x;
+    background-position: center;
+  }
 
-  &--backdrop {
-    @include mq($from: mobile) {
-      background-image: url('#{$path-to-locale-images}strands.png');
-      background-repeat: repeat-x;
-      background-position: center;
-    }
+  &__form {
+    max-width: $min-line-length;
+    padding: 0 10px;
+    background: $dna-brand-grey-800;
   }
 }

@@ -88,11 +88,20 @@
             <p class="text-align-center">Don’t miss next years survey, sign up now to take part.</p>
           </div>
         </div>
-        <div class="newsletter-signup--backdrop">
-          <form class="newsletter-signup horizontal-center z-index-2" action="">
-            <label class="visually-hidden" for="newsletter-signup-email-input">you@example.com</label>
-            <input id="newsletter-signup-email-input" placeholder="you@example.com" class="min-width-100" type="text">
-            <input type="submit" value="Sign up" class="min-width-100 button button--fill-primary">
+        <div class="newsletter-signup">
+          <form class="newsletter-signup__form horizontal-center" action="">
+            <ul id="newsletter-form-errors" class="display-none" class="error-list">
+            </ul>
+            <label class="visually-hidden" for="newsletter-signup-email-input">Email</label>
+            <input id="newsletter-signup-email-input" placeholder="you@example.com" required name="email" class="min-width-100" type="email">
+            <div id="newsletterPrivacy" class="display-none newsletter-signup__confirmation spacing-bottom-2">
+              <input type="checkbox" id="newsletter-privacy-input" name="privacy" required="">
+              <label for="newsletter-privacy-input">
+                I'm okay with Mozilla handling my info as explained in this
+                <a class="text-color-light-blue" href="https://www.mozilla.org/privacy/">Privacy Policy</a>.
+              </label>
+            </div>
+            <button type="submit" class="button button--fill-primary min-width-100">Sign up</button>
           </form>
         </div>
       </section>
