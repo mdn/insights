@@ -5,13 +5,10 @@
   background: $dna-brand-grey-800;
 
   &--backdrop {
-    background-image: url('#{$path-to-locale-images}strands.png');
-    background-repeat: repeat-x;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    @include mq($from: mobile) {
+      background-image: url('#{$path-to-locale-images}strands.png');
+      background-repeat: repeat-x;
+      background-position: center;
+    }
   }
 }
