@@ -1,5 +1,4 @@
-@each $name,
-$breakpoint in $mq-breakpoints {
+@each $name, $breakpoint in $mq-breakpoints {
   .#{$name}-hidden {
     @include mq($until: $name) {
       display: none;
