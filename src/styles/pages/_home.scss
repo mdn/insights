@@ -29,11 +29,11 @@
 
   .button {
     display: block;
-    margin: 2em auto;
+    margin: 14px auto;
     width: 100%;
 
     @include mq($from: tablet) {
-      margin: 2em 0;
+      margin: 14px 0;
       width: auto;
     }
   }

@@ -16,7 +16,7 @@ $hero-image-text-mask: ellipse(250px 200px at 60% 54%); // Matches image size to
 
 .hero-image {
   display: block;
-  margin: 3em auto 0;
+  margin: 18px auto 0;
   max-width: 100%;
 
   @include mq($from: tablet) {
