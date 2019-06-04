@@ -77,6 +77,19 @@ $font-size-small-tablet: 12px;
 // Content
 $main-content-border-width: 10px;
 
+// Spacing
+$spacing-1: 5px;
+$spacing-2: 10px;
+$spacing-3: 20px;
+$spacing-4: 40px;
+
+$spacing-map: (
+  1: $spacing-1,
+  2: $spacing-2,
+  3: $spacing-3,
+  4: $spacing-4
+);
+
 /*
 Breakpoints
 ====================================================================== */

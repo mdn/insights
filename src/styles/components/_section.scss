@@ -7,12 +7,8 @@
     padding: 80px 0;
   }
 
-  &--hero {
-    background: $dna-brand-grey-800;
-  }
-
+  &--hero,
   &--continue-conversation {
     background: $dna-brand-grey-800;
-    color: $text-color-light;
   }
 }
