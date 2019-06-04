@@ -24,8 +24,10 @@ textarea {
   background: $form-field-background-color;
   border: 2px solid $form-field-border-color;
   color: inherit;
-  // padding: $content-vertical-spacing $content-horizontal-spacing;
+  display: block;
   font-weight: normal;
+  margin-bottom: 10px;
+  padding: $form-field-padding-y $form-field-padding-x;
 }
 
 input[type='search'] {

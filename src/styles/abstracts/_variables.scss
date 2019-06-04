@@ -47,6 +47,9 @@ $font-family-secondary: x-locale-heading-primary, zillaslab, 'Palatino', 'Palati
 $line-height-base: 1.8;
 $line-height-heading: 1.2;
 
+
+// Line lengths for restricting text.
+$min-line-length: 25em;
 $base-line-length: 35em;
 $max-line-length: 45em;
 
@@ -92,7 +95,8 @@ $form-field-border-color: $dna-brand-grey-800;
 $form-field-text-color: $dna-brand-grey-800;
 $form-field-background-color: #fff;
 $form-field-placeholder-text: lighten($form-field-border-color, 2);
-$form-field-padding: 20px;
+$form-field-padding-x: 20px;
+$form-field-padding-y: 18px;
 
 /*
 Buttons
@@ -120,4 +124,6 @@ $z-index-map: (
 /*
 Paths
 ====================================================================== */
-$path-to-locale-fonts: '../assets/fonts/';
+$path-to-assets: '../assets';
+$path-to-locale-fonts: '#{$path-to-assets}/fonts/';
+$path-to-locale-images: '#{$path-to-assets}/img/';
