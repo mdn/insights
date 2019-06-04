@@ -5,4 +5,9 @@
   @include mq($from: tablet) {
     padding: 80px 0;
   }
+
+  &--intro {
+    background: $dna-brand-grey-800;
+    min-height: calc(100vh - #{$main-content-border-width * 2});
+  }
 }
