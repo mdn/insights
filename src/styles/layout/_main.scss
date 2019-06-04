@@ -5,5 +5,9 @@
 .wrapper {
   max-width: 1000px;
   margin: 0 auto;
-  padding: 0 32px;
+  padding: 0 16px;
+
+  @include mq($from: tablet) {
+    padding: 0 32px;
+  }
 }
