@@ -1,3 +1,4 @@
+import Breakpoints, { BREAKPOINT_CHANGE } from '../utils/breakpoints.js';
 import ViewportMonitor, {
   APPEARED,
   DISAPPEARED
@@ -10,19 +11,53 @@ class Header {
     }
 
     this.element = element;
+    this.introSection = document.getElementById('section-intro');
+    this.fixedBps = ['tablet', 'desktop', 'wide'];
 
-    const introSectionEl = document.getElementById('section-intro');
+    this.bindViewportEvents(Breakpoints.getCurrentBreakpoint());
 
-    this.vm = new ViewportMonitor(introSectionEl);
+    document.documentElement.addEventListener(BREAKPOINT_CHANGE, event => {
+      this.bindViewportEvents(event.detail.breakpoint);
+    });
+  }
 
-    introSectionEl.addEventListener(APPEARED, () => {
+  bindViewportEvents(breakpoint) {
+    if (!this.fixedBps.includes(breakpoint)) {
+      return;
+    }
+
+    this.vm = new ViewportMonitor(this.introSection);
+
+    this.introSection.addEventListener(
+      APPEARED,
+      this.showFixedHeader.bind(this)
+    );
+    this.introSection.addEventListener(
+      DISAPPEARED,
+      this.hideFixedHeader.bind(this)
+    );
+  }
+
+  showFixedHeader(event) {
+    if (event.detail.scrollY < 300) {
+      return;
+    }
+
+    this.element.classList.add('is-fixed');
+    document.body.classList.add('is-header-fixed');
+
+    setTimeout(() => {
+      this.element.classList.add('is-visible');
+    }, 200);
+  }
+
+  hideFixedHeader() {
+    this.element.classList.remove('is-visible');
+
+    setTimeout(() => {
       this.element.classList.remove('is-fixed');
       document.body.classList.remove('is-header-fixed');
-    });
-    introSectionEl.addEventListener(DISAPPEARED, () => {
-      this.element.classList.add('is-fixed');
-      document.body.classList.add('is-header-fixed');
-    });
+    }, 200);
   }
 }
 
