@@ -9,10 +9,7 @@
   font-weight: bold;
   letter-spacing: normal;
   line-height: 1;
-  border: $form-field-border-width solid $form-field-border-color;
-  background-color: $form-field-background-color;
   padding: $form-field-padding-y $form-field-padding-x;
-  color: inherit;
   text-decoration: none;
 
   &--fill-primary {
