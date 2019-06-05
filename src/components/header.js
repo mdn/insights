@@ -14,7 +14,9 @@ class Header {
     this.introSection = document.getElementById('section-intro');
     this.fixedBps = ['tablet', 'desktop', 'wide'];
 
-    this.bindViewportEvents(Breakpoints.getCurrentBreakpoint());
+    setTimeout(() => {
+      this.bindViewportEvents(Breakpoints.getCurrentBreakpoint());
+    }, 500);
 
     document.documentElement.addEventListener(BREAKPOINT_CHANGE, event => {
       this.bindViewportEvents(event.detail.breakpoint);
@@ -30,11 +32,11 @@ class Header {
 
     this.introSection.addEventListener(
       APPEARED,
-      this.showFixedHeader.bind(this)
+      this.hideFixedHeader.bind(this)
     );
     this.introSection.addEventListener(
       DISAPPEARED,
-      this.hideFixedHeader.bind(this)
+      this.showFixedHeader.bind(this)
     );
   }
 
