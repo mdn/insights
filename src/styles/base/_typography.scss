@@ -44,6 +44,7 @@ h3,
   font-weight: normal;
   line-height: $line-height-heading;
   margin: 0 0 15px;
+  text-transform: none;
 
   &:last-child {
     margin-bottom: 0;
@@ -51,7 +52,7 @@ h3,
 
   @include mq($from: tablet) {
     font-size: $font-size-h3-tablet;
-    margin-bottom: 25px;
+    margin-bottom: $spacing-3;
   }
 }
 
@@ -68,8 +69,16 @@ h4,
 
   @include mq($from: tablet) {
     font-size: $font-size-h4-tablet;
-    margin-bottom: 25px;
+    margin-bottom: $spacing-2;
   }
+}
+
+h5,
+.h5 {
+  font-size: $font-size-base;
+  font-weight: bold;
+  line-height: $line-height-heading;
+  margin: 0 0 $spacing-3;
 }
 
 p,
