@@ -9,7 +9,7 @@
   font-weight: bold;
   letter-spacing: normal;
   line-height: 1;
-  padding: 11px 20px;
+  padding: $form-field-padding-y $form-field-padding-x;
   text-decoration: none;
 
   &--fill-primary {

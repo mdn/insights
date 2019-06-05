@@ -1,12 +1,14 @@
 .section {
   overflow-x: hidden;
   padding: 45px 0;
+  position: relative;
 
   @include mq($from: tablet) {
     padding: 80px 0;
   }
 
-  &--hero {
+  &--hero,
+  &--change {
     background: $dna-brand-grey-800;
   }
 }
