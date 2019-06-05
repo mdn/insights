@@ -19,10 +19,12 @@
 }
 
 .section--hero {
-  .button {
+  .button-download {
     display: block;
     margin: 14px auto;
-    width: 100%;
+    text-align: center;
+
+
 
     @include mq($from: tablet) {
       margin: 14px 0;

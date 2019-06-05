@@ -47,11 +47,12 @@
   font-family: $font-family-secondary;
   font-size: $font-size-large;
   padding: 3px;
+  text-align: center;
 
   &__inner {
     background-color: $dna-brand-grey-800;
     color: #fff;
-    display: inline-block;
+    display: block;
     padding: 14px 30px;
     transition: background-color .2s ease-out;
   }

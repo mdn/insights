@@ -1,7 +1,7 @@
 .header {
   $base: &;
   background-color: $dna-brand-grey-800;
-  border: 10px solid #fff;
+  border: $main-content-border-width solid #fff;
   border-bottom: 0;
   color: #fff;
   padding: 14px 0;
@@ -11,21 +11,26 @@
   }
 
   &__button {
+    background-color: $dna-brand-grey-800;
     bottom: 0;
     display: block;
     left: 0;
+    padding: 4px;
     position: fixed;
     right: 0;
+    z-index: $z-index-5;
 
-    .button-download,
-    .button-download__inner {
-      text-align: center;
+    .button-download {
       width: 100%;
     }
   }
 
   @include mq($from: tablet) {
     padding: 45px 0;
+
+    &__button {
+      display: none;
+    }
 
     &.is-fixed {
       border-bottom: 10px solid #fff;
@@ -39,6 +44,7 @@
       transform: translateY(-$header-fixed-height);
       transition: translate .2s;
       width: 100%;
+      z-index: $z-index-5;
 
       &.is-visible {
         transform: translateY(0);
