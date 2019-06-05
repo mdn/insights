@@ -6,8 +6,7 @@
     padding: 80px 0;
   }
 
-  &--intro {
+  &--hero {
     background: $dna-brand-grey-800;
-    min-height: calc(100vh - #{$main-content-border-width * 2});
   }
 }

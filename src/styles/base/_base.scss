@@ -13,7 +13,7 @@ html {
   color: $text-color-base;
   font-family: $font-family-base;
   font-size: $font-size-base;
-  line-height: 1.6;
+  line-height: $line-height-base;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
