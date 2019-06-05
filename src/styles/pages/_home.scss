@@ -24,8 +24,6 @@
     margin: 14px auto;
     text-align: center;
 
-
-
     @include mq($from: tablet) {
       margin: 14px 0;
       width: auto;
