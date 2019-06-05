@@ -12,8 +12,10 @@ class Header {
 
     this.element = element;
     this.introSection = document.getElementById('section-intro');
+    // Breakpoints where the header can be fixed.
     this.fixedBps = ['tablet', 'desktop', 'wide'];
 
+    // @TODO: Remove this by adjusting Webpack so that CSS loads before the JS.
     setTimeout(() => {
       this.bindViewportEvents(Breakpoints.getCurrentBreakpoint());
     }, 500);
@@ -23,6 +25,11 @@ class Header {
     });
   }
 
+  /**
+   * Binds viewport events. Returns before binding them if we're not on one of
+   * the breakpoints defined above.
+   * @param {string} breakpoint Current breakpoint.
+   */
   bindViewportEvents(breakpoint) {
     if (!this.fixedBps.includes(breakpoint)) {
       return;
@@ -40,6 +47,10 @@ class Header {
     );
   }
 
+  /**
+   * Handle showing the fixed header.
+   * @param {CustomEvent} event Custom event object.
+   */
   showFixedHeader(event) {
     if (event.detail.scrollY < 300) {
       return;
@@ -53,6 +64,9 @@ class Header {
     }, 200);
   }
 
+  /**
+   * Handle hiding the fixed header.
+   */
   hideFixedHeader() {
     this.element.classList.remove('is-visible');
 
