@@ -57,12 +57,6 @@ const config = merge(commonConfig, {
 config.module.rules = config.module.rules.map(rule => {
   if (rule.test.toString() === '/\\.(scss|css)$/') {
     rule.use[0] = MiniCssExtractPlugin.loader;
-    rule.use.splice(2, 0, {
-      loader: 'postcss-loader',
-      options: {
-        sourceMap: false
-      }
-    });
   }
 
   return rule;
