@@ -1,13 +1,13 @@
-.newsletter-signup {
+.survey-sign-up {
   @include mq($from: mobile) {
     background-image: url('#{$path-to-locale-images}strands.png');
-    background-repeat: repeat-x;
     background-position: center;
+    background-repeat: repeat-x;
   }
 
   &__form {
+    background: $dna-brand-grey-800;
     max-width: $min-line-length;
     padding: 0 10px;
-    background: $dna-brand-grey-800;
   }
 }

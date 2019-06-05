@@ -12,8 +12,8 @@ $mdn-brand-grey: #696969;
 $dna-brand-grey-300: #d8d8d8;
 $dna-brand-grey-800: #333;
 $dna-brand-grey-900: #212121;
-$dna-brand-blue: #83c7f2;
-$dna-brand-light-blue: lighten($dna-brand-blue, 5%);
+$dna-brand-blue-500: #83c7f2;
+$dna-brand-blue-100: lighten($dna-brand-blue-500, 5%);
 $dna-brand-purple: #839cf1;
 
 $mdn-brand-colors: (
@@ -31,8 +31,8 @@ $dna-brand-colors: (
   grey-300: $dna-brand-grey-300,
   grey-800: $dna-brand-grey-800,
   grey-900: $dna-brand-grey-900,
-  blue: $dna-brand-blue,
-  light-blue: $dna-brand-light-blue,
+  blue-500: $dna-brand-blue-500,
+  blue-100: $dna-brand-blue-100,
   purple: $dna-brand-purple,
   white: #fff
 );
