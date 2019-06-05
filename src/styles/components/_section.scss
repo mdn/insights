@@ -1,6 +1,6 @@
 .section {
-  padding: 45px 0;
   overflow-x: hidden;
+  padding: 45px 0;
 
   @include mq($from: tablet) {
     padding: 80px 0;

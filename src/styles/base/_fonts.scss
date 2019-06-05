@@ -1,20 +1,20 @@
 @font-face {
-  font-family: zillaslab;
   font-display: 'fallback';
+  font-family: zillaslab;
+  font-style: normal;
+  font-weight: normal;
   src:
     url('#{$path-to-locale-fonts}#{"ZillaSlab-Regular.subset.woff2"}') format('woff2'),
     url('#{$path-to-locale-fonts}#{"ZillaSlab-Regular.subset.woff"}') format('woff');
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
-  font-family: zillaslab;
   font-display: 'optional';
+  font-family: zillaslab;
+  font-style: normal;
+  font-weight: bold;
   src:
     url('#{$path-to-locale-fonts}#{"ZillaSlab-Bold.woff2"}') format('woff2'),
     url('#{$path-to-locale-fonts}#{"ZillaSlab-Bold.subset.woff"}') format('woff');
-  font-weight: bold;
-  font-style: normal;
 }
 

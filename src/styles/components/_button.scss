@@ -1,16 +1,15 @@
 
 .button {
-  border: 0;
+  background-color: $form-field-background-color;
+  border: $form-field-border-width solid $form-field-border-color;
+  color: inherit;
   cursor: pointer;
   display: inline-block;
-  line-height: 1;
-  font-weight: bold;
   font-size: $font-size-large;
+  font-weight: bold;
   letter-spacing: normal;
-  border: $form-field-border-width solid $form-field-border-color;
-  background-color: $form-field-background-color;
+  line-height: 1;
   padding: 11px 20px;
-  color: inherit;
   text-decoration: none;
 
   &--fill-primary {
