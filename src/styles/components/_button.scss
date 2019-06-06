@@ -47,3 +47,36 @@
     padding-left: 30px;
   }
 }
+
+.button-download {
+  $base: &;
+  background: linear-gradient(to right, $dna-brand-blue-500 0%, $dna-brand-purple 50%, $dna-brand-blue-500 100%);
+  border: 0;
+  font-family: $font-family-secondary;
+  font-size: $font-size-large;
+  padding: 3px;
+  text-align: center;
+
+  &__inner {
+    background-color: $dna-brand-grey-800;
+    color: #fff;
+    display: block;
+    padding: 14px 30px;
+    transition: background-color .2s ease-out;
+  }
+
+  &:hover,
+  &:focus {
+    #{$base}__inner {
+      background-color: darken($dna-brand-grey-800, 10%);
+    }
+  }
+
+  &--small {
+    font-size: $font-size-base;
+
+    #{$base}__inner {
+      padding: 9px 18px;
+    }
+  }
+}

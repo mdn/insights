@@ -19,6 +19,19 @@
   </head>
   <body>
     <header class="header" role="banner">
+      <div class="wrapper">
+        <div class="flex flex-content-space-between flex-items-center">
+          <div class="header__logo flex flex-items-center">
+            <img class="header__logo-img" srcset="./assets/img/dna-logo_1x.png 1x, ./assets/img/dna-logo_2x.png 2x" alt="">
+            <span class="h3 header__title">MDN Insights</span>
+          </div>
+          <div class="header__button">
+            <a class="button button-download button-download--small" href="#">
+              <span class="button-download__inner">Download Report (PDF, 12mb)</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
 
     <main class="main">
@@ -34,7 +47,9 @@
               </h1>
               <h2 class="h3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut. Duis aute irure dolor in reprehenderit in voluptate.</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-              <button class="button button--fill-primary">Download report</button>
+              <a class="button button-download" href="#">
+                <span class="button-download__inner">Download Report (PDF, 12mb)</span>
+              </a>
             </div>
             <img inline class="hero--image" src="assets/img/dna-graphic.svg" alt="" role="presentation" />
           </div>
