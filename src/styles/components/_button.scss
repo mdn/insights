@@ -50,7 +50,7 @@
 
 .button-download {
   $base: &;
-  background: linear-gradient(to right, $dna-brand-blue 0%, $dna-brand-purple 50%, $dna-brand-blue 100%);
+  background: linear-gradient(to right, $dna-brand-blue-500 0%, $dna-brand-purple 50%, $dna-brand-blue-500 100%);
   border: 0;
   font-family: $font-family-secondary;
   font-size: $font-size-large;
