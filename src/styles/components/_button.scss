@@ -9,7 +9,7 @@
   font-weight: bold;
   letter-spacing: normal;
   line-height: 1;
-  padding: 11px 20px;
+  padding: $form-field-padding-y $form-field-padding-x;
   text-decoration: none;
 
   &--fill-primary {
@@ -20,21 +20,30 @@
 
 .button-cta-link {
   border: 0;
-  border-bottom: $button-border-width solid $button-border-color-base;
+  border-bottom: $button-border-width solid #fff;
   color: inherit;
   cursor: pointer;
   display: inline-block;
   font-size: $font-size-large;
   letter-spacing: normal;
   line-height: 1;
+  min-width: 100%;
   padding: 11px 0;
+  position: relative;
   text-decoration: none;
 
+  img,
+  svg {
+    position: absolute;
+    right: 0;
+    top: 11px;
+  }
+
   &--icon-right {
-    padding-right: 40px;
+    padding-right: 30px;
   }
 
   &--icon-left {
-    padding-left: 40px;
+    padding-left: 30px;
   }
 }

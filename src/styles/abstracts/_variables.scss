@@ -13,7 +13,8 @@ $mdn-brand-grey: #696969;
 $dna-brand-grey-300: #d8d8d8;
 $dna-brand-grey-800: #333;
 $dna-brand-grey-900: #212121;
-$dna-brand-blue: #83c7f2;
+$dna-brand-blue-500: #83c7f2;
+$dna-brand-blue-100: #9ad1f4;
 $dna-brand-purple: #839cf1;
 
 $mdn-brand-colors: (
@@ -31,7 +32,8 @@ $dna-brand-colors: (
   grey-300: $dna-brand-grey-300,
   grey-800: $dna-brand-grey-800,
   grey-900: $dna-brand-grey-900,
-  blue: $dna-brand-blue,
+  blue-500: $dna-brand-blue-500,
+  blue-100: $dna-brand-blue-100,
   purple: $dna-brand-purple,
   white: #fff
 );
@@ -48,6 +50,9 @@ $font-family-secondary: x-locale-heading-primary, zillaslab, 'Palatino', 'Palati
 $line-height-base: 1.8;
 $line-height-heading: 1.2;
 
+
+// Line lengths for restricting text.
+$min-line-length: 25em;
 $base-line-length: 35em;
 $max-line-length: 45em;
 
@@ -75,6 +80,21 @@ $font-size-small-tablet: 12px;
 // Content
 $main-content-border-width: 10px;
 
+// Spacing
+$spacing-1: 5px;
+$spacing-2: 10px;
+$spacing-3: 20px;
+$spacing-4: 40px;
+$spacing-5: 60px;
+
+$spacing-map: (
+  1: $spacing-1,
+  2: $spacing-2,
+  3: $spacing-3,
+  4: $spacing-4,
+  5: $spacing-5
+);
+
 /*
 Breakpoints
 ====================================================================== */
@@ -93,7 +113,8 @@ $form-field-border-color: $dna-brand-grey-800;
 $form-field-text-color: $dna-brand-grey-800;
 $form-field-background-color: #fff;
 $form-field-placeholder-text: lighten($form-field-border-color, 2);
-$form-field-padding: 20px;
+$form-field-padding-x: 20px;
+$form-field-padding-y: 18px;
 
 /*
 Buttons
@@ -121,4 +142,6 @@ $z-index-map: (
 /*
 Paths
 ====================================================================== */
-$path-to-locale-fonts: '../assets/fonts/';
+$path-to-assets: '../assets';
+$path-to-locale-fonts: '#{$path-to-assets}/fonts/';
+$path-to-locale-images: '#{$path-to-assets}/img/';
