@@ -82,5 +82,9 @@
 
   &__license {
     line-height: 1.2;
+
+    @include mq($from: tablet) {
+      max-width: 40%;
+    }
   }
 }
