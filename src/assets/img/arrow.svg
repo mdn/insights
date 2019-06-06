@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons/General/arrow-right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Designs" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop/MDN_insights_home-Copy-4" transform="translate(-864.000000, -1735.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group" transform="translate(641.000000, 1730.000000)">
+                <g id="Icons/General/arrow-right" transform="translate(230.500000, 13.000000) rotate(-270.000000) translate(-230.500000, -13.000000) translate(223.000000, 6.000000)">
+                    <g id="arrow-right-solid">
+                        <path d="M6.0890411,0.955707763 L6.79863014,0.246118721 C7.09908676,-0.0543378995 7.58493151,-0.0543378995 7.88219178,0.246118721 L14.0958904,6.456621 C14.396347,6.75707763 14.396347,7.24292237 14.0958904,7.54018265 L7.88219178,13.7538813 C7.58173516,14.0543379 7.09589041,14.0543379 6.79863014,13.7538813 L6.0890411,13.0442922 C5.78538813,12.7406393 5.79178082,12.2452055 6.10182648,11.9479452 L9.95342466,8.27853881 L0.767123288,8.27853881 C0.342009132,8.27853881 0,7.93652968 0,7.51141553 L0,6.48858447 C0,6.06347032 0.342009132,5.72146119 0.767123288,5.72146119 L9.95342466,5.72146119 L6.10182648,2.05205479 C5.78858447,1.75479452 5.78219178,1.25936073 6.0890411,0.955707763 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
