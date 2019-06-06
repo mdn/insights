@@ -13,6 +13,13 @@
     color: $mdn-brand-blue-300;
   }
 
+  &__groups {
+    @include mq($from: tablet) {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
   &__group {
     border-bottom: 1px solid #fff;
     margin-bottom: 15px;
@@ -20,6 +27,21 @@
 
     @include mq($from: tablet) {
       border-bottom: 0;
+      flex-basis: 25%;
+      margin-left: 20px;
+      max-width: 25%;
+    }
+
+    &-logo {
+      @include mq($from: tablet) {
+        left: 32px;
+        position: absolute;
+        top: 0;
+
+        &--mozilla {
+          top: 80px;
+        }
+      }
     }
   }
 
