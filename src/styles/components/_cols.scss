@@ -12,6 +12,12 @@
 }
 
 .col {
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
   @include mq($from: tablet) {
     margin: 0 16px;
   }
