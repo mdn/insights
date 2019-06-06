@@ -4,8 +4,8 @@
   font-style: normal;
   font-weight: normal;
   src:
-    url('#{$path-to-locale-fonts}#{"ZillaSlab-Regular.subset.woff2"}') format('woff2'),
-    url('#{$path-to-locale-fonts}#{"ZillaSlab-Regular.subset.woff"}') format('woff');
+    url('#{$path-to-local-fonts}#{"ZillaSlab-Regular.subset.woff2"}') format('woff2'),
+    url('#{$path-to-local-fonts}#{"ZillaSlab-Regular.subset.woff"}') format('woff');
 }
 
 @font-face {
@@ -14,7 +14,7 @@
   font-style: normal;
   font-weight: bold;
   src:
-    url('#{$path-to-locale-fonts}#{"ZillaSlab-Bold.woff2"}') format('woff2'),
-    url('#{$path-to-locale-fonts}#{"ZillaSlab-Bold.subset.woff"}') format('woff');
+    url('#{$path-to-local-fonts}#{"ZillaSlab-Bold.woff2"}') format('woff2'),
+    url('#{$path-to-local-fonts}#{"ZillaSlab-Bold.subset.woff"}') format('woff');
 }
 

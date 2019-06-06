@@ -2,8 +2,8 @@
   @include mq($from: mobile) {
     /* stylelint-disable unit-no-unknown */
     background-image: image-set(
-      '#{$path-to-locale-images}strands_1x.png' 1x,
-      '#{$path-to-locale-images}strands_2x.png' 2x
+      '#{$path-to-local-images}strands_1x.png' 1x,
+      '#{$path-to-local-images}strands_2x.png' 2x
     );
     /* stylelint-enable unit-no-unknown */
     background-position: center;
