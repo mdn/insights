@@ -15,8 +15,8 @@
 
 // 4. Layout-related sections
 @import
-  'layout/header',
   'layout/footer',
+  'layout/header',
   'layout/main';
 
 // 5. Components
@@ -24,10 +24,11 @@
   'components/button',
   'components/cols',
   'components/forms',
+  'components/hero',
+  'components/progress-icon',
   'components/section',
-  'components/hero-image',
-  'components/survey-sign-up',
-  'components/section';
+  'components/section',
+  'components/survey-sign-up';
 
 // 6. Page-specific styles
 @import
@@ -37,10 +38,10 @@
 @import
   'utils/alignment',
   'utils/background-color',
+  'utils/breakpoints',
   'utils/color',
   'utils/display',
   'utils/flexbox',
   'utils/spacing',
   'utils/typography',
-  'utils/z-index',
-  'utils/breakpoints';
+  'utils/z-index';

@@ -4,7 +4,7 @@ $hero-image-text-mask: ellipse(250px 200px at 60% 56%); // Matches image size to
 
 .hero {
   // Ellipse that allows text to flow.
-  &--content-clip-mask {
+  &__content-clip-mask {
     float: right;
     height: $hero-image-large;
     margin-top: $hero-image-top-spacing;
@@ -16,7 +16,7 @@ $hero-image-text-mask: ellipse(250px 200px at 60% 56%); // Matches image size to
     }
   }
 
-  &--content {
+  &__content {
     max-width: $max-line-length; // Maximum width of content on intro screen.
     position: relative;
     z-index: $z-index-2;
@@ -27,7 +27,7 @@ $hero-image-text-mask: ellipse(250px 200px at 60% 56%); // Matches image size to
     }
   }
 
-  &--image {
+  &__image {
     display: block;
     margin: 18px auto 0;
     max-width: 100%;
