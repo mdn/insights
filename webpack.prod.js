@@ -18,8 +18,8 @@ const config = merge(commonConfig, {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
-      inject: 'body',
+      template: 'index.html',
+      inject: 'body'
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
@@ -29,7 +29,7 @@ const config = merge(commonConfig, {
       cssProcessor: require('cssnano'),
       cssProcessorOptions: {
         map: {
-          inline: false,
+          inline: false
         },
         discardComments: {
           removeAll: true
@@ -40,9 +40,7 @@ const config = merge(commonConfig, {
     }),
     new webpack.LoaderOptionsPlugin({
       options: {
-        postcss: [
-          autoprefixer()
-        ]
+        postcss: [autoprefixer()]
       }
     })
   ]

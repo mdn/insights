@@ -1,9 +1,9 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './index.js',
+  context: __dirname + '/src/',
   node: {
     fs: 'empty'
   },
@@ -65,12 +65,12 @@ module.exports = {
         }
       },
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpe?g|gif|svg)$/,
         use: [
           {
             loader: 'url-loader',
             options: {
-              name: '[path][name].[ext]?hash=[hash:20]',
+              name: '[path][name].[hash:20].[ext]',
               limit: 8192
             }
           }
@@ -82,18 +82,18 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              name: 'assets/[name].[ext]',
-            },
+              name: '[path][name].[hash:20].[ext]',
+              publicPath: '../'
+            }
           }
         ]
-      },
+      }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+      template: 'index.html'
     }),
-    new HtmlWebpackInlineSVGPlugin(),
-    new StyleLintPlugin(),
+    new StyleLintPlugin()
   ]
 };
