@@ -46,6 +46,12 @@
   &--icon-left {
     padding-left: 30px;
   }
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
 }
 
 .button-download {
