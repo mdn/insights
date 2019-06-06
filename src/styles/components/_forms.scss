@@ -14,16 +14,16 @@ option {
   font-weight: normal;
 }
 
-input[type=text],
-input[type=password],
-input[type=search],
-input[type=email],
-input[type=url],
-input[type=number],
+input[type='text'],
+input[type='password'],
+input[type='search'],
+input[type='email'],
+input[type='url'],
+input[type='number'],
 textarea {
   background: $form-field-background-color;
   border: 2px solid $form-field-border-color;
-  color: inherit;
+  color: $text-color-base;
   display: block;
   font-weight: normal;
   margin-bottom: 10px;
@@ -32,6 +32,7 @@ textarea {
 
 input[type='search'] {
   appearance: textfield;
+
   &::-webkit-search-decoration,
   &::-webkit-search-cancel-button,
   &::-webkit-search-results-button,
@@ -44,7 +45,6 @@ label {
   cursor: pointer;
 }
 
-/* Disabling of elements */
 .disabled,
 [disabled] {
   cursor: not-allowed;
