@@ -6,9 +6,4 @@
   @include mq($from: tablet) {
     padding: 80px 0;
   }
-
-  &--hero,
-  &--change {
-    background: $dna-brand-grey-800;
-  }
 }
