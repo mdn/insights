@@ -18,6 +18,33 @@
   }
 }
 
+.timeline {
+  &__progress-icon {
+    background: #fff;
+    border: 4px solid $dna-brand-purple;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 50px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 50px;
+  }
+
+  &__content {
+    max-width: 600px;
+  }
+
+  &__cta {
+    background: $dna-brand-grey-800;
+    color: #fff;
+    padding: $spacing-3;
+    width: 280px;
+  }
+}
+
 .section--hero {
   .button-download {
     display: block;

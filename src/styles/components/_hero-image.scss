@@ -10,6 +10,7 @@ $hero-image-text-mask: ellipse(250px 200px at 60% 56%); // Matches image size to
     margin-top: $hero-image-top-spacing;
     shape-outside: $hero-image-text-mask;
     width: $hero-image-large;
+
     @include mq($from: desktop) {
       margin-top: -$hero-image-top-spacing;
     }
@@ -17,8 +18,9 @@ $hero-image-text-mask: ellipse(250px 200px at 60% 56%); // Matches image size to
 
   &--content {
     max-width: $max-line-length; // Maximum width of content on intro screen.
-    z-index: $z-index-2;
     position: relative;
+    z-index: $z-index-2;
+
     @include mq($until: tablet) {
       margin: 0 auto;
       max-width: $base-line-length;
@@ -30,6 +32,7 @@ $hero-image-text-mask: ellipse(250px 200px at 60% 56%); // Matches image size to
     margin: 18px auto 0;
     max-width: 100%;
     z-index: $z-index-1;
+
     @include mq($from: tablet) {
       height: $hero-image-large;
       margin: 0;
@@ -37,6 +40,7 @@ $hero-image-text-mask: ellipse(250px 200px at 60% 56%); // Matches image size to
       right: -$hero-image-large / 2;
       top: 0;
     }
+
     @include mq($from: desktop) {
       top: -$hero-image-top-spacing;
     }

@@ -13,10 +13,10 @@ html {
   color: $text-color-base;
   font-family: $font-family-base;
   font-size: $font-size-base;
-  line-height: $line-height-base;
-  min-width: 300px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  line-height: $line-height-base;
+  min-width: 300px;
 }
 
 body {
@@ -44,6 +44,8 @@ body {
 }
 
 svg {
+  fill: currentColor;
+
   &:not(:root) {
     overflow: hidden;
   }

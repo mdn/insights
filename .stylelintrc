@@ -1,4 +1,7 @@
 {
+  "plugins": [
+    "stylelint-order"
+  ],
   "rules": {
     "at-rule-name-case": "lower",
     "at-rule-name-space-after": "always-single-line",
@@ -53,6 +56,8 @@
     "no-unknown-animations": true,
     "number-leading-zero": "never",
     "number-no-trailing-zeros": true,
+    "order/order": [ "custom-properties", "declarations" ],
+    "order/properties-alphabetical-order": true,
     "property-case": "lower",
     "property-no-unknown": true,
     "rule-empty-line-before": ["always", { ignore: ["after-comment", "inside-block"] }],

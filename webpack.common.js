@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackInlineSVGPlugin = require('html-webpack-inline-svg-plugin');
 const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 module.exports = {
@@ -33,6 +34,12 @@ module.exports = {
           },
           {
             loader: 'css-loader',
+            options: {
+              sourceMap: true
+            }
+          },
+          {
+            loader: 'postcss-loader',
             options: {
               sourceMap: true
             }
@@ -79,13 +86,14 @@ module.exports = {
             },
           }
         ]
-      }
+      },
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
+    new HtmlWebpackInlineSVGPlugin(),
     new StyleLintPlugin(),
   ]
 };
