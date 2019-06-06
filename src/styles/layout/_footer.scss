@@ -1,0 +1,64 @@
+.footer {
+  background-color: #222;
+  color: #fff;
+  font-size: $font-size-large;
+  padding: 35px 0;
+
+  @include mq($from: tablet) {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+
+  a {
+    color: $mdn-brand-blue-300;
+  }
+
+  &__group {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+    @include mq($from: tablet) {
+      border-bottom: 0;
+    }
+  }
+
+  &__list {
+    margin: 0;
+
+    &-title {
+      font-weight: bold;
+
+      @include mq($until: tablet) {
+        display: none;
+      }
+    }
+
+    &-item {
+      margin: 10px 0;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__tos {
+    list-style-type: none;
+    margin: 0 0 15px;
+    padding: 0;
+
+    > li {
+      display: inline-block;
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__license {
+    line-height: 1.2;
+  }
+}

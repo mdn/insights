@@ -19,6 +19,8 @@ html {
 }
 
 svg {
+  fill: currentColor;
+
   &:not(:root) {
     overflow: hidden;
   }
