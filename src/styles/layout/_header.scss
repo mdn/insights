@@ -64,7 +64,7 @@
 body {
   // Take into account sticky download button on 'mobile' breakpoint.
   @include mq($until: tablet) {
-    padding-bottom: 50px;
+    padding-bottom: 45px;
   }
 
   &.is-header-fixed {
