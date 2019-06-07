@@ -7,7 +7,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const path = require('path');
 
-const buildPath = path.resolve(__dirname, 'dist');
 const commonConfig = require('./webpack.common');
 
 const config = merge(commonConfig, {
@@ -15,7 +14,7 @@ const config = merge(commonConfig, {
   devtool: 'cheap-module-source-map',
   output: {
     filename: 'js/[name].[hash:20].js',
-    path: buildPath
+    path: path.resolve(__dirname, 'dist')
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -24,7 +23,7 @@ const config = merge(commonConfig, {
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename: 'css/[name].min.[contenthash].css'
+      filename: '/css/[name].min.[contenthash].css'
     }),
     new OptimizeCssAssetsPlugin({
       cssProcessor: require('cssnano'),
@@ -47,12 +46,11 @@ const config = merge(commonConfig, {
   ]
 });
 
-/** For prod we must load css in this order:
- * Sass-loader
- * Postcss-loader
- * Css-loader
- * MiniCssExtractPlugin.loader
- */
+// For prod we must load css in this order:
+// * Sass-loader
+// * Postcss-loader
+// * Css-loader
+// * MiniCssExtractPlugin.loader
 config.module.rules = config.module.rules.map(rule => {
   if (rule.test.toString() === '/\\.(scss|css)$/') {
     rule.use[0] = MiniCssExtractPlugin.loader;

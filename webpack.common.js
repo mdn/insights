@@ -59,7 +59,7 @@ module.exports = {
         use: {
           loader: 'html-srcsets-loader',
           options: {
-            attrs: ['img:src', 'img:srcset', 'source:srcset']
+            attrs: ['img:src', 'img:srcset', 'source:srcset', 'link:href']
           }
         }
       },
@@ -71,7 +71,7 @@ module.exports = {
             options: {
               name: '[path][name].[hash:20].[ext]',
               limit: 8192,
-              publicPath: '../'
+              publicPath: '/'
             }
           }
         ]
@@ -83,7 +83,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
               name: '[path][name].[hash:20].[ext]',
-              publicPath: '../'
+              publicPath: '/'
             }
           }
         ]
