@@ -15,10 +15,17 @@
   &--fill-primary {
     background-color: #000;
     color: #fff;
+    transition: background-color .2s;
+
+    &:hover,
+    &:focus {
+      background-color: lighten(#000, 30%);
+    }
   }
 }
 
 .button-cta-link {
+  $base: &;
   border: 0;
   border-bottom: $button-border-width solid #fff;
   color: inherit;
@@ -32,19 +39,40 @@
   position: relative;
   text-decoration: none;
 
-  img,
-  svg {
+  &__icon {
     position: absolute;
-    right: 0;
     top: 11px;
+    transition: transform .2s;
   }
 
   &--icon-right {
     padding-right: 25px;
+
+    #{$base}__icon {
+      right: 0;
+    }
+
+    &:hover,
+    &:focus {
+      #{$base}__icon {
+        transform: translateX(5px);
+      }
+    }
   }
 
   &--icon-left {
     padding-left: 25px;
+
+    #{$base}__icon {
+      left: 0;
+    }
+
+    &:hover,
+    &:focus {
+      #{$base}__icon {
+        transform: translateX(-5px);
+      }
+    }
   }
 
   &:hover,
@@ -68,7 +96,7 @@
     color: #fff;
     display: block;
     padding: 14px 30px;
-    transition: background-color .2s ease-out;
+    transition: background-color .2s;
   }
 
   &:hover,
