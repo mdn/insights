@@ -12,6 +12,7 @@ const commonConfig = require('./webpack.common');
 
 const config = merge(commonConfig, {
   mode: 'production',
+  devtool: 'cheap-module-source-map',
   output: {
     filename: 'js/[name].[hash:20].js',
     path: buildPath

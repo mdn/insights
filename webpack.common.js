@@ -59,8 +59,7 @@ module.exports = {
         use: {
           loader: 'html-srcsets-loader',
           options: {
-            attrs: ['img:src', 'img:srcset', 'source:srcset'],
-            minimize: false
+            attrs: ['img:src', 'img:srcset', 'source:srcset']
           }
         }
       },
@@ -68,16 +67,17 @@ module.exports = {
         test: /\.(png|jpe?g|gif|svg)$/,
         use: [
           {
-            loader: 'url-loader',
+            loader: 'file-loader',
             options: {
               name: '[path][name].[hash:20].[ext]',
-              limit: 8192
+              limit: 8192,
+              publicPath: '../'
             }
           }
         ]
       },
       {
-        test: /\.(eot|woff|woff2|svg|ttf)([?]?.*)$/,
+        test: /\.(eot|woff|woff2|ttf)([?]?.*)$/,
         use: [
           {
             loader: 'file-loader',
