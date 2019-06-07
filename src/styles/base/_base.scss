@@ -16,7 +16,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   line-height: $line-height-base;
-  min-width: 300px;
+  min-width: $site-min-width;
 }
 
 body {

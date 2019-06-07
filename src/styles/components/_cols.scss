@@ -1,3 +1,5 @@
+$cols-num: 12;
+
 .cols {
   display: flex;
   flex-direction: column;
@@ -7,7 +9,8 @@
 
   @include mq($from: tablet) {
     flex-direction: row;
-    margin: 0 -16px;
+    margin-left: -16px;
+    margin-right: -16px;
   }
 }
 
@@ -19,6 +22,20 @@
   }
 
   @include mq($from: tablet) {
-    margin: 0 16px;
+    margin-bottom: 0;
+
+    @for $i from 1 through $cols-num {
+      &--#{$i} {
+        flex-basis: percentage($i / $cols-num);
+        max-width: percentage($i / $cols-num);
+      }
+    }
+  }
+
+  &__inner {
+    @include mq($from: tablet) {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
   }
 }

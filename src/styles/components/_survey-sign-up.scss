@@ -1,4 +1,6 @@
 .survey-sign-up {
+  margin-top: 20px;
+
   @include mq($from: mobile) {
     /* stylelint-disable unit-no-unknown */
     background-image: image-set(
@@ -10,9 +12,20 @@
     background-repeat: repeat-x;
   }
 
-  &__form {
+  &__form,
+  &__success {
     background: $dna-brand-grey-800;
+    margin: 0 auto;
     max-width: $min-line-length;
+    min-height: 102px;
     padding: 0 10px;
+  }
+
+  &__privacy {
+    margin-bottom: 10px;
+  }
+
+  &__error {
+    margin-bottom: 10px;
   }
 }

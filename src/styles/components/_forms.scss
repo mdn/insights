@@ -45,6 +45,21 @@ label {
   cursor: pointer;
 }
 
+.form-checkbox,
+.form-radio {
+  input[type='checkbox'],
+  input[type='radio'] {
+    float: left;
+    margin-top: 6px;
+  }
+
+  label {
+    display: block;
+    margin-left: 25px;
+    overflow: hidden;
+  }
+}
+
 .disabled,
 [disabled] {
   cursor: not-allowed;
@@ -52,9 +67,9 @@ label {
   pointer-events: none;
 }
 
-.error-list {
+.form-error {
   color: $mdn-brand-red;
-  list-style-type: none;
+  line-height: $line-height-heading;
   margin: 0;
   padding: 0;
 }

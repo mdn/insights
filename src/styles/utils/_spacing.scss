@@ -57,31 +57,3 @@
   padding-bottom: 0;
   padding-top: 0;
 }
-
-@each $name, $space in $spacing-map {
-  .spacing-left-#{$name} {
-    margin-left: $space;
-  }
-
-  .spacing-right-#{$name} {
-    margin-right: $space;
-  }
-
-  .spacing-top-#{$name} {
-    margin-top: $space;
-  }
-
-  .spacing-bottom-#{$name} {
-    margin-bottom: $space;
-  }
-
-  .spacing-x-#{$name} {
-    margin-left: $space;
-    margin-right: $space;
-  }
-
-  .spacing-y-#{$name} {
-    margin-bottom: $space;
-    margin-top: $space;
-  }
-}
