@@ -20,7 +20,11 @@
 
 .timeline {
   &__title {
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+
+    @include mq($from: tablet) {
+      margin-bottom: 80px;
+    }
   }
 
   &__row {
