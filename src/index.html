@@ -186,6 +186,8 @@
         </div>
         <div class="survey-sign-up">
           <form class="survey-sign-up__form horizontal-center" id="sign-up-form" action="https://httpbin.org/post">
+            <input type="hidden" id="fmt" name="fmt" value="H">
+            <input type="hidden" id="newsletters-input" name="newsletters" value="app-dev">
             <label class="visually-hidden" for="survey-sign-up-email-input">Email</label>
             <input id="survey-sign-up-email-input" placeholder="you@example.com" required name="email" class="min-width-100" type="email" autocomplete="off">
             <div id="survey-sign-up-privacy" class="display-none survey-sign-up__privacy">
