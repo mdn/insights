@@ -37,10 +37,6 @@
         left: 32px;
         position: absolute;
         top: 0;
-
-        &--mozilla {
-          top: 80px;
-        }
       }
     }
   }
@@ -87,4 +83,10 @@
       max-width: 40%;
     }
   }
+}
+
+.footer-list-item--social {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
 }
