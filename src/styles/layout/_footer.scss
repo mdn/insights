@@ -27,9 +27,9 @@
 
     @include mq($from: tablet) {
       border-bottom: 0;
-      flex-basis: 25%;
+      flex-basis: 50%;
       margin-left: 20px;
-      max-width: 25%;
+      max-width: 50%;
     }
 
     &-logo {
@@ -37,10 +37,6 @@
         left: 32px;
         position: absolute;
         top: 0;
-
-        &--mozilla {
-          top: 80px;
-        }
       }
     }
   }
@@ -87,4 +83,10 @@
       max-width: 40%;
     }
   }
+}
+
+.footer-list-item--social {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
 }
