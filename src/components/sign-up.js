@@ -29,8 +29,6 @@ class SignUp {
 
     formData.append('source_url', document.location.href);
 
-    console.info(formData);
-
     this.request.onload = this.handleXHRComplete.bind(this);
     this.request.onerror = this.handleXHRError.bind(this);
     this.request.ontimeout = this.handleXHRError.bind(this);
