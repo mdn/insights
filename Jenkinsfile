@@ -17,22 +17,22 @@ node {
 
     println "Pulling image ${image.id}"
     image.pull()
-    image.inside("-w /mdn -v ${WORKSPACE}:/mdn -e HOME=/tmp"){
+    image.inside("-w /mdn -v ${WORKSPACE}:/mdn -e HOME=${WORKSPACE}"){
+      sh 'rm -rf node_modules'
       sh 'npm install'
     }
   }
 
   if (env.BRANCH_NAME == "master") {
     stage('Lint') {
-      image.inside("-w /mdn -v ${WORKSPACE}:/mdn") {
+      image.inside("-w /mdn -v ${WORKSPACE}:/mdn -e HOME=${WORKSPACE}") {
         sh 'npm run lint'
       }
     }
   }
   else if ((env.BRANCH_NAME == 'prod-push') || (env.BRANCH_NAME == 'stage-push')){
     stage('Build') {
-      image.inside("-w /mdn -v ${WORKSPACE}:/mdn") {
-        sh 'rm -rf node_modules'
+      image.inside("-w /mdn -v ${WORKSPACE}:/mdn -e HOME=${WORKSPACE}") {
         sh 'npm run build'
       }
     }
