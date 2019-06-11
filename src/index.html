@@ -13,7 +13,7 @@
     <meta name="og:title" content="Web DNA Survey 2019 | MDN">
     <meta name="og:type" content="website">
     <meta name="og:url" content="https://insights.developer.mozilla.org" itemprop="url">
-    <meta name="og:image" content="./assets/img/opengraph-logo.png" itemprop="image">
+    <meta name="og:image" content="${require('./assets/img/opengraph-logo.png')}" itemprop="image">
     <meta name="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." itemprop="description">
     <meta name="theme-color" content="#333">
     <meta name="msapplication-navbutton-color" content="#333">
@@ -23,6 +23,15 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/img/favicon-72.png">
     <link rel="apple-touch-icon-precomposed" href="./assets/img/favicon-57.png">
     <link rel="shortcut icon" href="./assets/img/favicon-32.png">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('send', 'pageview');
+    </script>
   </head>
   <body>
     <header class="header" role="banner" id="header">
