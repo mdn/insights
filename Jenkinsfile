@@ -17,7 +17,7 @@ node {
 
     println "Pulling image ${image.id}"
     image.pull()
-    image.inside("-w /mdn -v ${WORKSPACE}:/mdn"){
+    image.inside("-w /mdn -v ${WORKSPACE}:/mdn -e HOME=/tmp"){
       sh 'npm install'
     }
   }
