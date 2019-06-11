@@ -3,7 +3,6 @@ $hero-image-right-spacing: 0;
 $hero-image-top-spacing: 200px; // Ensure even spacing above the hero image to not intercept header text on smaller desktop.
 
 $tablet-content-width: 520px;
-$tablet-text-content-width: 350px;
 
 .hero {
   &__content {
@@ -15,10 +14,6 @@ $tablet-text-content-width: 350px;
       margin: 0 auto;
       max-width: $base-line-length;
     }
-  }
-
-  &__text-content {
-    max-width: $tablet-text-content-width;
   }
 
   &__image {

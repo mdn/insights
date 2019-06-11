@@ -84,7 +84,7 @@
 
 .button-download {
   $base: &;
-  background: linear-gradient($dna-brand-purple 50%, $dna-brand-blue-500 100%);
+  background: linear-gradient($dna-brand-purple 70%, $dna-brand-blue-500 100%);
   border: 0;
   color: #fff;
   font-family: $font-family-secondary;
@@ -101,7 +101,7 @@
   &:hover,
   &:focus {
     #{$base}__inner {
-      background-color: rgba(0, 0, 0, .2);
+      background-color: $dna-brand-grey-800;
     }
   }
 
