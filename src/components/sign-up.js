@@ -42,7 +42,7 @@ class SignUp {
 
     // Creates a query string of the FormData values to pass to the XHR.
     const formDataQueryString = Array.from(formData.entries())
-      .reduce((acc, pair) => [...acc, `${pair[0]}=${pair[1]}`], [])
+      .map(pair => `${pair[0]}=${pair[1]}`)
       .join('&');
 
     this.request.onload = this.handleXHRComplete.bind(this);
