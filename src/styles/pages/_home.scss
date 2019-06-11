@@ -45,6 +45,10 @@
 }
 
 .section--hero {
+  border: $main-content-border-width solid $dna-brand-grey-800;
+  border-top: none;
+  overflow: visible;
+
   .button-download {
     display: block;
     margin: 14px auto;

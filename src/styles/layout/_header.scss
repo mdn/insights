@@ -1,9 +1,8 @@
 .header {
   $base: &;
-  background-color: $dna-brand-grey-800;
-  border: $main-content-border-width solid #fff;
+  border: $main-content-border-width solid $dna-brand-grey-800;
   border-bottom: 0;
-  color: #fff;
+  margin: $spacing-2 $spacing-2 0;
   padding: 14px 0;
 
   &__logo-img {
@@ -33,10 +32,11 @@
     }
 
     &.is-fixed {
-      border-bottom: 10px solid #fff;
+      border: $main-content-border-width solid $dna-brand-grey-800;
       box-shadow: 0 2px 16px rgba(0, 0, 0, .24);
       height: $header-fixed-height;
       left: 0;
+      margin: $spacing-2 $spacing-2 0;
       padding: 14px;
       position: fixed;
       right: 0;
