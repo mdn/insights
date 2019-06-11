@@ -59,6 +59,7 @@ module.exports = {
         use: {
           loader: 'html-srcsets-loader',
           options: {
+            interpolate: 'require',
             attrs: ['img:src', 'img:srcset', 'source:srcset', 'link:href']
           }
         }
