@@ -12,13 +12,16 @@ class SignUp {
     this.errorMessage = element.querySelector('.survey-sign-up__error');
 
     this.form.addEventListener('submit', this.handleSubmit.bind(this));
-    this.emailInput.addEventListener('focus', this.handleInputFocus.bind(this));
+    this.emailInput.addEventListener(
+      'focus',
+      this.handleEmailInputFocus.bind(this)
+    );
   }
 
   /**
    * Handles email input focus. Shows the privacy policy notice and checkbox.
    */
-  handleInputFocus() {
+  handleEmailInputFocus() {
     this.privacyInput
       .closest('.survey-sign-up__privacy')
       .classList.remove('display-none');
