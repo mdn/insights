@@ -12,13 +12,16 @@ class SignUp {
     this.errorMessage = element.querySelector('.survey-sign-up__error');
 
     this.form.addEventListener('submit', this.handleSubmit.bind(this));
-    this.emailInput.addEventListener('focus', this.handleInputFocus.bind(this));
+    this.emailInput.addEventListener(
+      'focus',
+      this.handleEmailInputFocus.bind(this)
+    );
   }
 
   /**
    * Handles email input focus. Shows the privacy policy notice and checkbox.
    */
-  handleInputFocus() {
+  handleEmailInputFocus() {
     this.privacyInput
       .closest('.survey-sign-up__privacy')
       .classList.remove('display-none');
@@ -37,6 +40,11 @@ class SignUp {
 
     formData.append('source_url', document.location.href);
 
+    // Creates a query string of the FormData values to pass to the XHR.
+    const formDataQueryString = Array.from(formData.entries())
+      .map(pair => `${pair[0]}=${pair[1]}`)
+      .join('&');
+
     this.request.onload = this.handleXHRComplete.bind(this);
     this.request.onerror = this.handleXHRError.bind(this);
     this.request.ontimeout = this.handleXHRError.bind(this);
@@ -46,21 +54,32 @@ class SignUp {
       'application/x-www-form-urlencoded'
     );
     this.request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-    this.request.send(formData);
+    this.request.send(formDataQueryString);
   }
 
-  handleXHRComplete(response) {
-    const status = response.target.status;
+  /**
+   * Handle XHR completed. Hide or show the relevant message depending on the
+   * status code.
+   * @param {ProgressEvent} res Response object.
+   */
+  handleXHRComplete(res) {
+    const status = res.target.status;
 
     if (status >= 200 && status < 300) {
       // Response is null if handled by service worker.
-      if (response === null) {
-        this.handleXHRError().bind(this);
+      if (res === null) {
+        this.handleXHRError();
 
         return;
       }
 
-      this.showSuccessMessage();
+      const response = JSON.parse(res.target.response);
+
+      if (response.success) {
+        this.showSuccessMessage();
+      } else {
+        this.handleXHRError();
+      }
     } else {
       this.handleXHRError();
     }
