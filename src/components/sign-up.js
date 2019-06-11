@@ -15,12 +15,20 @@ class SignUp {
     this.emailInput.addEventListener('focus', this.handleInputFocus.bind(this));
   }
 
+  /**
+   * Handles email input focus. Shows the privacy policy notice and checkbox.
+   */
   handleInputFocus() {
     this.privacyInput
       .closest('.survey-sign-up__privacy')
       .classList.remove('display-none');
   }
 
+  /**
+   * Handles form submit. Submits the FormData to the form's action attribute
+   * using XMLHttpRequest.
+   * @param {Event} event Submit event object.
+   */
   handleSubmit(event) {
     event.preventDefault();
 
@@ -60,17 +68,26 @@ class SignUp {
     this.request = null;
   }
 
+  /**
+   * Handles any errors.
+   */
   handleXHRError() {
     this.showErrorMessage();
 
     this.request = null;
   }
 
+  /**
+   * Shows the generic success message.
+   */
   showSuccessMessage() {
     this.form.classList.add('display-none');
     this.successMessage.classList.remove('display-none');
   }
 
+  /**
+   * Shows the generic error message.
+   */
   showErrorMessage() {
     this.errorMessage.classList.remove('display-none');
   }

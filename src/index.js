@@ -3,6 +3,9 @@ import SignUp from './components/sign-up.js';
 
 import './styles/main.scss';
 
+/**
+ * Initialise.
+ */
 function init() {
   new Header(document.getElementById('header'));
   new SignUp(document.getElementById('sign-up-form'));
