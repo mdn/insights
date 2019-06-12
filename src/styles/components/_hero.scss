@@ -1,23 +1,12 @@
 $hero-image-large: 490px;
-$hero-image-top-spacing: 40px; // Ensure even spacing above the hero image to not intercept header text on smaller desktop.
-$hero-image-text-mask: ellipse(250px 200px at 60% 56%); // Matches image size to ensure text wraps.
+$hero-image-right-spacing: 0;
+$hero-image-top-spacing: 150px; // Ensure even spacing above the hero image to not intercept header text on smaller desktop.
+
+$tablet-content-width: 520px;
 
 .hero {
-  // Ellipse that allows text to flow.
-  &__content-clip-mask {
-    float: right;
-    height: $hero-image-large;
-    margin-top: $hero-image-top-spacing;
-    shape-outside: $hero-image-text-mask;
-    width: $hero-image-large;
-
-    @include mq($from: desktop) {
-      margin-top: -$hero-image-top-spacing;
-    }
-  }
-
   &__content {
-    max-width: $max-line-length; // Maximum width of content on intro screen.
+    max-width: $tablet-content-width; // Maximum width of content on intro screen.
     position: relative;
     z-index: $z-index-2;
 
@@ -30,19 +19,16 @@ $hero-image-text-mask: ellipse(250px 200px at 60% 56%); // Matches image size to
   &__image {
     display: block;
     margin: 18px auto 0;
-    max-width: 100%;
+    max-width: 35em;
+    top: -$hero-image-top-spacing;
     z-index: $z-index-1;
 
     @include mq($from: tablet) {
       height: $hero-image-large;
       margin: 0;
+      max-width: none;
       position: absolute;
-      right: -$hero-image-large / 2;
-      top: 0;
-    }
-
-    @include mq($from: desktop) {
-      top: -$hero-image-top-spacing;
+      right: $hero-image-right-spacing;
     }
   }
 }
