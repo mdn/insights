@@ -25,7 +25,6 @@ export class EventTracker {
    * Binds the relevant event based on the data-ga-on attribute on the element.
    */
   bindEvents() {
-    console.info('bind-events', this.element);
     this.element.addEventListener(
       this.type,
       () => {
