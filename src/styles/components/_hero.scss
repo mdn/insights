@@ -1,6 +1,6 @@
 $hero-image-large: 490px;
 $hero-image-right-spacing: 0;
-$hero-image-top-spacing: 200px; // Ensure even spacing above the hero image to not intercept header text on smaller desktop.
+$hero-image-top-spacing: 150px; // Ensure even spacing above the hero image to not intercept header text on smaller desktop.
 
 $tablet-content-width: 520px;
 
@@ -26,7 +26,7 @@ $tablet-content-width: 520px;
     @include mq($from: tablet) {
       height: $hero-image-large;
       margin: 0;
-      max-width: auto;
+      max-width: none;
       position: absolute;
       right: $hero-image-right-spacing;
     }

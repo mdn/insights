@@ -47,6 +47,7 @@
       height: $header-fixed-height;
       left: 0;
       margin-top: -$header-fixed-height;
+      padding: $spacing-2;
       position: fixed;
       right: 0;
       top: 0;
@@ -61,7 +62,7 @@
 
       #{$base}__inner {
         border-bottom: $main-content-border-width solid $dna-brand-grey-800;
-        padding: 14px;
+        padding: $spacing-2;
       }
 
       #{$base}__button {

@@ -104,12 +104,4 @@
       background-color: $dna-brand-grey-800;
     }
   }
-
-  &--small {
-    font-size: $font-size-base;
-
-    #{$base}__inner {
-      padding: 9px 18px;
-    }
-  }
 }
