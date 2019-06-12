@@ -1,9 +1,13 @@
 .header {
   $base: &;
-  border: $main-content-border-width solid $dna-brand-grey-800;
-  border-bottom: 0;
-  margin: $spacing-2 $spacing-2 0;
-  padding: 14px 0;
+  background-color: #fff;
+  padding: $spacing-2 $spacing-2 0;
+
+  &__inner {
+    border: $main-content-border-width solid $dna-brand-grey-800;
+    border-bottom: 0;
+    padding: 14px 0;
+  }
 
   &__logo-img {
     margin-right: 20px;
@@ -30,19 +34,19 @@
   }
 
   @include mq($from: tablet) {
-    padding: 45px 0;
+    &__inner {
+      padding: 45px 0;
+    }
 
     &__button {
       display: none;
     }
 
     &.is-fixed {
-      border: $main-content-border-width solid $dna-brand-grey-800;
       box-shadow: 0 2px 16px rgba(0, 0, 0, .24);
       height: $header-fixed-height;
       left: 0;
-      margin: $spacing-2 $spacing-2 0;
-      padding: 14px;
+      margin-top: -$header-fixed-height;
       position: fixed;
       right: 0;
       top: 0;
@@ -53,6 +57,11 @@
 
       &.is-visible {
         transform: translateY(100%);
+      }
+
+      #{$base}__inner {
+        border-bottom: $main-content-border-width solid $dna-brand-grey-800;
+        padding: 14px;
       }
 
       #{$base}__button {
@@ -73,7 +82,7 @@ body {
   // Take into account sticky download button on 'mobile' breakpoint.
   @include mq($until: tablet) {
     &.is-download-button-fixed {
-      padding-bottom: 45px;
+      padding-bottom: 32px;
     }
   }
 
