@@ -11,6 +11,7 @@
 
   &__logo-img {
     margin-right: 20px;
+    width: 60px;
   }
 
   &__button {
@@ -35,7 +36,7 @@
 
   @include mq($from: tablet) {
     &__inner {
-      padding: 45px 0;
+      padding: 45px 8px;
     }
 
     &__button {
@@ -62,7 +63,7 @@
 
       #{$base}__inner {
         border-bottom: $main-content-border-width solid $dna-brand-grey-800;
-        padding: $spacing-2 0;
+        padding: $spacing-2 8px;
       }
 
       #{$base}__button {

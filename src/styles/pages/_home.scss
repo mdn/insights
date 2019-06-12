@@ -20,11 +20,23 @@
 
 .timeline {
   &__title {
-    margin-bottom: 40px;
+    margin-bottom: $spacing-3;
+    position: relative;
 
     @include mq($from: tablet) {
-      margin-bottom: 80px;
+      margin-bottom: 20px;
     }
+  }
+
+  &__title-text {
+    position: absolute;
+    top: calc(50% - 16px);
+  }
+
+  &__title-backdrop {
+    margin-left: 60px;
+    max-width: 480px;
+    min-width: 380px;
   }
 
   &__row {
@@ -36,11 +48,17 @@
   }
 
   &__island {
-    padding: $spacing-3;
+    background: linear-gradient(to right, $dna-brand-blue-500 0%, $dna-brand-purple 50%, $dna-brand-blue-500 100%);
+    padding: $spacing-1;
 
     @include mq($from: tablet) {
-      max-width: 280px;
+      max-width: 300px;
     }
+  }
+
+  &__island-content {
+    background: $dna-brand-grey-800;
+    padding: $spacing-3;
   }
 }
 

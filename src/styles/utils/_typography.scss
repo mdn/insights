@@ -13,8 +13,16 @@
 }
 
 .highlight-dark {
-  background: $dna-brand-grey-900;
+  background: $dna-brand-grey-800; // default dark
   box-decoration-break: clone;
   color: #fff;
   padding: 0 4px;
+
+  &--900 {
+    background: $dna-brand-grey-900;
+  }
+
+  &--800 {
+    background: $dna-brand-grey-800;
+  }
 }
