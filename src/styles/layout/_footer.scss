@@ -11,6 +11,10 @@
 
   a {
     color: $mdn-brand-blue-300;
+
+    svg {
+      color: #fff;
+    }
   }
 
   &__groups {
