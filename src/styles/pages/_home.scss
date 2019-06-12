@@ -20,11 +20,23 @@
 
 .timeline {
   &__title {
-    margin-bottom: 40px;
+    margin-bottom: $spacing-3;
+    position: relative;
 
     @include mq($from: tablet) {
-      margin-bottom: 80px;
+      margin-bottom: 20px;
     }
+  }
+
+  &__title-text {
+    position: absolute;
+    top: calc(50% - 16px);
+  }
+
+  &__title-backdrop {
+    margin-left: 60px;
+    max-width: 480px;
+    min-width: 380px;
   }
 
   &__row {
@@ -36,15 +48,25 @@
   }
 
   &__island {
-    padding: $spacing-3;
+    background: linear-gradient(to right, $dna-brand-blue-500 0%, $dna-brand-purple 50%, $dna-brand-blue-500 100%);
+    padding: $spacing-1;
 
     @include mq($from: tablet) {
-      max-width: 280px;
+      max-width: 300px;
     }
+  }
+
+  &__island-content {
+    background: $dna-brand-grey-800;
+    padding: $spacing-3;
   }
 }
 
 .section--hero {
+  border: $main-content-border-width solid $dna-brand-grey-800;
+  border-top: none;
+  overflow: visible;
+
   .button-download {
     display: block;
     margin: 14px auto;
@@ -54,6 +76,92 @@
       display: inline-block;
       margin: 14px 0;
       width: auto;
+    }
+  }
+}
+
+.continue-conversation {
+  @include mq($from: tablet) {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 100px);
+  }
+
+  &__intro {
+    align-self: flex-end;
+
+    @include mq($from: tablet) {
+      grid-column: 1 / 5;
+      grid-row: 1;
+    }
+    @include mq($from: desktop) {
+      grid-column: 2 / 5;
+      grid-row: 2;
+    }
+  }
+
+  &__link {
+    align-self: flex-end;
+
+    @include mq($from: tablet) {
+      grid-column: 1 / 4;
+      grid-row: 4;
+    }
+    @include mq($from: desktop) {
+      grid-column: 2 / 4;
+      grid-row: 5;
+    }
+  }
+
+  /*
+    Quote card flex positioning here, see components
+  */
+  .quote-card {
+    align-self: flex-start;
+
+    &--1 {
+      @include mq($from: tablet) {
+        grid-column: 1 / 5;
+        grid-row: 2 / 6;
+      }
+      @include mq($from: desktop) {
+        grid-column: 2 / 5;
+        grid-row: 3 / 6;
+      }
+    }
+
+    &--2 {
+      @include mq($from: tablet) {
+        grid-column: 5 / 9;
+        grid-row: 1 / 4;
+      }
+      @include mq($from: desktop) {
+        grid-column: 5 / 8;
+        grid-row: 1 / 4;
+      }
+    }
+
+    &--3 {
+      @include mq($from: tablet) {
+        grid-column: 5 / 9;
+        grid-row: 4 / 7;
+      }
+      @include mq($from: desktop) {
+        grid-column: 6 / 9;
+        grid-row: 4 / 7;
+      }
+    }
+  }
+}
+
+.section--change {
+  @include mq($from: mobile) {
+    background: url('#{$path-to-local-images}backdrop-pattern_1x.png') center repeat;
+    background-size: cover;
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('#{$path-to-local-images}backdrop-pattern_2x.png');
     }
   }
 }

@@ -1,15 +1,6 @@
 .survey-sign-up {
   margin-top: 20px;
 
-  @include mq($from: mobile) {
-    background: url('#{$path-to-local-images}strands_1x.png') center repeat-x;
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url('#{$path-to-local-images}strands_2x.png');
-      background-size: 50%;
-    }
-  }
-
   &__form,
   &__success {
     background: $dna-brand-grey-800;
