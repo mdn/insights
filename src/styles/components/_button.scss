@@ -27,7 +27,7 @@
 .button-cta-link {
   $base: &;
   border: 0;
-  border-bottom: $button-border-width solid #fff;
+  border-bottom: $button-border-width solid currentColor;
   color: inherit;
   cursor: pointer;
   display: inline-block;
