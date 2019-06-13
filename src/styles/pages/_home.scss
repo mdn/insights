@@ -1,7 +1,9 @@
 .stats {
+  margin-bottom: 20px;
   margin-top: 60px;
 
   &__col {
+    margin-bottom: 0;
     margin-top: 50px;
 
     &:first-child {
@@ -11,10 +13,6 @@
     @include mq($from: tablet) {
       margin-top: 0;
     }
-  }
-
-  &__img {
-    margin-bottom: 15px;
   }
 }
 
@@ -90,10 +88,12 @@
 
   &__intro {
     align-self: flex-end;
+    margin-bottom: 15px;
 
     @include mq($from: tablet) {
       grid-column: 1 / 5;
       grid-row: 1;
+      margin-bottom: 0;
     }
     @include mq($from: desktop) {
       grid-column: 2 / 5;
@@ -156,12 +156,5 @@
 }
 
 .section--change {
-  @include mq($from: mobile) {
-    background: url('#{$path-to-local-images}backdrop-pattern_1x.png') center repeat;
-    background-size: cover;
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url('#{$path-to-local-images}backdrop-pattern_2x.png');
-    }
-  }
+  background: url('#{$path-to-local-images}backdrop-pattern_2x.png') center center / 260px repeat;
 }
