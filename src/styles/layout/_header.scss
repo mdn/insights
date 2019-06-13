@@ -6,7 +6,7 @@
   &__inner {
     border: $main-content-border-width solid $dna-brand-grey-800;
     border-bottom: 0;
-    padding: 14px 0;
+    padding: 14px;
   }
 
   &__logo-img {
@@ -36,7 +36,7 @@
 
   @include mq($from: tablet) {
     &__inner {
-      padding: 45px 8px;
+      padding: 45px 45px;
     }
 
     &__button {
