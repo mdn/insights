@@ -107,6 +107,7 @@
 
   &__link {
     align-self: flex-end;
+    max-width: 500px;
 
     @include mq($from: tablet) {
       grid-column: 1 / 4;
