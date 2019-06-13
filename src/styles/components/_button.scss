@@ -27,7 +27,7 @@
 .button-cta-link {
   $base: &;
   border: 0;
-  border-bottom: $button-border-width solid #fff;
+  border-bottom: $button-border-width solid currentColor;
   color: inherit;
   cursor: pointer;
   display: inline-block;
@@ -84,33 +84,24 @@
 
 .button-download {
   $base: &;
-  background: linear-gradient(to right, $dna-brand-blue-500 0%, $dna-brand-purple 50%, $dna-brand-blue-500 100%);
+  background: linear-gradient($dna-brand-purple 70%, $dna-brand-blue-500 100%);
   border: 0;
+  color: #fff;
   font-family: $font-family-secondary;
   font-size: $font-size-large;
-  padding: 3px;
+  padding: 0;
   text-align: center;
 
   &__inner {
-    background-color: $dna-brand-grey-800;
-    color: #fff;
     display: block;
-    padding: 14px 26px;
+    padding: 17px 29px;
     transition: background-color .2s;
   }
 
   &:hover,
   &:focus {
     #{$base}__inner {
-      background-color: darken($dna-brand-grey-800, 10%);
-    }
-  }
-
-  &--small {
-    font-size: $font-size-base;
-
-    #{$base}__inner {
-      padding: 9px 18px;
+      background-color: $dna-brand-grey-800;
     }
   }
 }

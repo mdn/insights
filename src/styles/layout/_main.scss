@@ -1,12 +1,12 @@
 .main-content {
-  border: $main-content-border-width solid #fff;
+  border: $spacing-2 solid #fff;
   border-top: 0;
 }
 
 .wrapper {
   margin: 0 auto;
   max-width: $site-max-width;
-  padding: 0 16px;
+  padding: 0 8px;
   position: relative;
 
   @include mq($from: tablet) {

@@ -7,11 +7,13 @@ module.exports = {
       or when introducing a library like react. */
     purgecss({
       content: ['./**/*.html'],
-      whitelistPatterns: [
-        /js-.*/,
-      ],
+      whitelistPatterns: [/js-.*/],
       whitelist: [
-        'display-none'
+        'display-none',
+        'is-fixed',
+        'is-download-button-fixed',
+        'is-header-fixed',
+        'is-visible'
       ]
     }),
     autoprefixer({

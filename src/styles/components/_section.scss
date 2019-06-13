@@ -6,4 +6,8 @@
   @include mq($from: tablet) {
     padding: 80px 0;
   }
+
+  @include mq($from: desktop) {
+    padding: 80px 0 128px 0;
+  }
 }
