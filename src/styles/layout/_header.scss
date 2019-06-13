@@ -3,6 +3,10 @@
   background-color: #fff;
   padding: $spacing-2 $spacing-2 0;
 
+  &__title {
+    font-size: 20px;
+  }
+
   &__inner {
     border: $main-content-border-width solid $dna-brand-grey-800;
     border-bottom: 0;
@@ -10,7 +14,7 @@
   }
 
   &__logo-img {
-    margin-right: 20px;
+    margin-right: 16px;
     width: 60px;
   }
 
