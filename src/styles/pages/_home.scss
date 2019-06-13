@@ -90,6 +90,10 @@
     align-self: flex-end;
     margin-bottom: 15px;
 
+    .h3 {
+      margin-bottom: 4px;
+    }
+
     @include mq($from: tablet) {
       grid-column: 1 / 5;
       grid-row: 1;
@@ -103,6 +107,7 @@
 
   &__link {
     align-self: flex-end;
+    max-width: 500px;
 
     @include mq($from: tablet) {
       grid-column: 1 / 4;
