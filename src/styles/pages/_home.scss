@@ -156,12 +156,5 @@
 }
 
 .section--change {
-  @include mq($from: mobile) {
-    background: url('#{$path-to-local-images}backdrop-pattern_1x.png') center repeat;
-    background-size: cover;
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url('#{$path-to-local-images}backdrop-pattern_2x.png');
-    }
-  }
+  background: url('#{$path-to-local-images}backdrop-pattern_2x.png') center center / 260px repeat;
 }
