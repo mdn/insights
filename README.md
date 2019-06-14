@@ -23,8 +23,6 @@ Contribution workflow should look like this:
 - When completed, create a PR to be merged into `stage-push` so your changes can be tested on staging.
 - Once confirmed on staging, create a PR from your fork into `master` ready for review.
 
----
-
 ## Tooling
 
 ### Build tools
