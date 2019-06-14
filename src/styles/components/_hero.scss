@@ -1,4 +1,5 @@
-$hero-image-large: 490px;
+$hero-image-height-desktop: 490px;
+$hero-image-height-tablet: 440px;
 $hero-image-right-spacing: 0;
 $hero-image-top-spacing: 150px; // Ensure even spacing above the hero image to not intercept header text on smaller desktop.
 
@@ -18,17 +19,22 @@ $tablet-content-width: 520px;
 
   &__image {
     display: block;
-    margin: 18px auto 0;
-    max-width: 35em;
+    margin: 38px auto 0;
+    max-width: 100%;
     top: -$hero-image-top-spacing;
     z-index: $z-index-1;
 
     @include mq($from: tablet) {
-      height: $hero-image-large;
-      margin: 0;
+      height: $hero-image-height-tablet;
+      margin: 16px 0;
       max-width: none;
       position: absolute;
       right: $hero-image-right-spacing;
+    }
+
+    @include mq($from: desktop) {
+      height: $hero-image-height-desktop;
+      margin: 0;
     }
   }
 }
