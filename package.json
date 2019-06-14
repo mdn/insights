@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "start": "webpack-dev-server --config webpack.dev.js --mode development --watch --open",
-    "start:disable-host-check": "webpack-dev-server --config webpack.dev.js --mode development --watch --open --disable-host-check",
+    "start:disable-host-check": "webpack-dev-server --config webpack.dev.js --mode development --watch --open",
     "build": "npm run lint && webpack --config webpack.prod.js --mode production",
     "prod": "npm run build",
     "lint": "npx eslint . && npx stylelint src/**/*.scss"
