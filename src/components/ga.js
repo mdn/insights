@@ -1,5 +1,8 @@
 /**
  * Simple way to declaratively set event tracking on an element.
+ * Usage:
+ * <a data-ga-on="click" data-ga-category="foo" data-ga-action="bar" />
+ * <form data-ga-on="submit" data-ga-category="foo" data-ga-action="bar" data-ga-label="baz" />
  * @param {Element} element Element to apply tracking to.
  */
 export class EventTracker {
