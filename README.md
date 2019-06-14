@@ -31,7 +31,7 @@ Contribution workflow should look like this:
 
 ### Linting and formatting
 
-- [eslint](http://www.jshint.com/docs/)
+- [eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [stylelint](https://github.com/stylelint/stylelint)
 
