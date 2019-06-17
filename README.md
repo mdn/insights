@@ -13,7 +13,7 @@
 
 ## Deploying
 
-Jenkins is used for building and pushing the dist/ directory to staging. Changes can be pushed to the `stage-push` branch to kick of the build and deployment to staging. See the `Jenkinsfile` in the root of this repo.
+Jenkins is used for building and pushing the dist/ directory to staging. Changes can be pushed to the `stage-push` branch to kick off the build and deployment to staging. See the `Jenkinsfile` in the root of this repo.
 
 ## Workflow
 
