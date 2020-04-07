@@ -1,6 +1,6 @@
 
 def notify_slack(Map args, credential_id='slack-hook-devportal-notifications') {
-    def command = "${env.WORKSPACE}/scripts/slack-notify.sh"
+    def command = "${env.WORKSPACE}/bin/slack-notify.sh"
     withCredentials([string(credentialsId: credential_id, variable: 'HOOK')]) {
         for (arg in args) {
             command += " --${arg.key} '${arg.value}'"
