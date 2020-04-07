@@ -1,12 +1,29 @@
 
+def notify_slack(Map args, credential_id='slack-hook-devportal-notifications') {
+    def command = "${env.WORKSPACE}/scripts/slack-notify.sh"
+    withCredentials([string(credentialsId: credential_id, variable: 'HOOK')]) {
+        for (arg in args) {
+            command += " --${arg.key} '${arg.value}'"
+        }
+        command += " --hook '${HOOK}'"
+        sh command
+    }
+}
+
 def syncS3(String bucket, String extra_args='') {
   try {
     sh "bin/s3-sync.sh ${bucket} ${extra_args}"
   } catch(err) {
-    sh "bin/irc-notify.sh --stage 's3 sync " + env.BRANCH_NAME + "' --status 'failed'"
+      notify_slack([
+        status: "failure",
+        stage: "Failed to deploy to ${env.BRANCH_NAME}"
+      ])
       throw err
   }
-  sh "bin/irc-notify.sh --stage 's3 sync " + env.BRANCH_NAME + "' --status 'shipped'"
+  notify_slack([
+    status: "success",
+    stage: "Shipped to ${env.BRANCH_NAME}"
+  ])
 }
 
 node {
