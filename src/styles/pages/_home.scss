@@ -72,7 +72,7 @@
 
     @include mq($from: tablet) {
       display: inline-block;
-      margin: 14px 0;
+      margin: 14px 0 32px;
       width: auto;
     }
   }
