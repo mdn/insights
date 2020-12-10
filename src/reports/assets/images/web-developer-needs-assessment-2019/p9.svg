@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 354.24 108">
+  <defs>
+    <style>.cls-1{fill:#f2f2f2;}.cls-12,.cls-2{font-size:10px;}.cls-2{font-family:ArialMT, Arial;}.cls-3{letter-spacing:-0.06em;}.cls-4{letter-spacing:-0.01em;}.cls-5{fill:#fff;}.cls-6{letter-spacing:0em;}.cls-7{fill:#00458b;}.cls-8{fill:none;stroke:#fff;}.cls-9{letter-spacing:-0.01em;}.cls-10{letter-spacing:-0.02em;}.cls-11{letter-spacing:-0.02em;}.cls-12{fill:#959595;font-family:Arial-ItalicMT, Arial;font-style:italic;}.cls-13{letter-spacing:-0.04em;}.cls-14{letter-spacing:-0.01em;}.cls-15{letter-spacing:-0.05em;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <rect class="cls-1" width="354.24" height="27"></rect>
+      <text class="cls-2" transform="translate(4.5 17.44)">
+        <tspan class="cls-3">T</tspan>
+        <tspan x="5.47" y="0">otal </tspan>
+        <tspan class="cls-4" x="24.37" y="0">R</tspan>
+        <tspan x="31.47" y="0">esponses</tspan>
+      </text>
+      <rect class="cls-5" y="27" width="354.24" height="27"></rect>
+      <text class="cls-2" transform="translate(4.5 44.44)">
+        <tspan class="cls-6">P</tspan>
+        <tspan x="6.62" y="0">artial </tspan>
+        <tspan class="cls-4" x="31.07" y="0">R</tspan>
+        <tspan x="38.17" y="0">esponses</tspan>
+      </text>
+      <rect class="cls-1" y="54" width="354.24" height="27"></rect>
+      <text class="cls-2" transform="translate(4.5 71.44)">Complete <tspan class="cls-4" x="45.58" y="0">R</tspan><tspan x="52.68" y="0">esponses</tspan></text>
+      <rect class="cls-5" y="81" width="86.18" height="16.87"></rect>
+      <text class="cls-2" transform="translate(4.5 93.37)">Disqualiﬁed</text>
+      <rect class="cls-7" x="183.54" y="0.5" width="78.76" height="26"></rect>
+      <rect class="cls-8" x="183.54" y="0.5" width="78.76" height="26"></rect>
+      <rect class="cls-7" x="183.54" y="54.5" width="28.81" height="26"></rect>
+      <rect class="cls-8" x="183.54" y="54.5" width="28.81" height="26"></rect>
+      <rect class="cls-7" x="183.54" y="81.5" width="2.92" height="26"></rect>
+      <rect class="cls-8" x="183.54" y="81.5" width="2.92" height="26"></rect>
+      <text class="cls-2" transform="translate(236.88 44.07)">43,904 </text>
+      <text class="cls-2" transform="translate(221.04 71.4)">2<tspan class="cls-9" x="5.56" y="0">8</tspan><tspan x="11.03" y="0">,</tspan><tspan class="cls-10" x="13.81" y="0">4</tspan><tspan class="cls-11" x="19.22" y="0">7</tspan><tspan x="24.55" y="0">4 </tspan></text>
+      <text class="cls-12" transform="translate(250.84 71.4)">(3<tspan class="cls-13" x="8.89" y="0">7</tspan><tspan x="14.03" y="0">.4%)</tspan></text>
+      <text class="cls-2" transform="translate(270.72 17.03)">7<tspan class="cls-14" x="5.56" y="0">6</tspan><tspan x="10.99" y="0">,188</tspan></text>
+      <rect class="cls-7" x="183.54" y="27.5" width="44.96" height="26"></rect>
+      <rect class="cls-8" x="183.54" y="27.5" width="44.96" height="26"></rect>
+      <text class="cls-2" transform="translate(195.12 98.48)">3<tspan class="cls-15" x="5.56" y="0">,</tspan><tspan x="7.86" y="0">739</tspan></text>
+    </g>
+  </g>
+</svg>
