@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 861.93 170.66">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-1,.cls-2{opacity:0.05;}.cls-3{font-size:13.42px;}.cls-12,.cls-3{font-family:ArialMT, Arial;}.cls-4{letter-spacing:-0.07em;}.cls-10,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{fill:#00458b;stroke:#fff;stroke-miterlimit:10;}.cls-5{stroke-width:0.62px;}.cls-6{stroke-width:0.79px;}.cls-7{stroke-width:1px;}.cls-8{stroke-width:0.35px;}.cls-9{stroke-width:0.66px;}.cls-10{stroke-width:0.62px;}.cls-11{letter-spacing:-0.06em;}.cls-12{font-size:13.77px;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="JavaScript">
+      <g id="barTextPercentages">
+        <rect class="cls-1" y="121.96" width="861.93" height="24.23"></rect>
+        <rect class="cls-2" y="97.73" width="861.93" height="24.23"></rect>
+        <rect class="cls-1" y="73.51" width="861.93" height="24.23"></rect>
+        <rect class="cls-2" y="49.28" width="861.93" height="24.23"></rect>
+        <rect class="cls-1" y="25.05" width="861.93" height="24.23"></rect>
+        <rect class="cls-2" y="0.82" width="861.93" height="24.23"></rect>
+        <text class="cls-3" transform="translate(807.58 65.37)">
+          <tspan class="cls-4">1</tspan>
+          <tspan x="6.47" y="0">1.0%</tspan>
+        </text>
+        <text class="cls-3" transform="translate(807.58 16.58)">44.6%</text>
+        <text class="cls-3" transform="translate(807.58 41.14)">20.6%</text>
+        <text class="cls-3" transform="translate(807.58 113.82)">10.4%</text>
+        <text class="cls-3" transform="translate(807.58 138.05)">2.8%</text>
+        <text class="cls-3" transform="translate(807.58 89.59)">10.6%</text>
+        <rect class="cls-5" x="563.31" y="49.28" width="55" height="24.23"></rect>
+        <rect class="cls-6" x="563.31" y="25.05" width="103" height="24.23"></rect>
+        <rect class="cls-7" x="563.31" y="0.5" width="223" height="24.23"></rect>
+        <rect class="cls-8" x="563.31" y="121.96" width="14" height="24.23"></rect>
+        <rect class="cls-9" x="563.31" y="97.73" width="52" height="24.23"></rect>
+        <rect class="cls-10" x="563.31" y="73.51" width="53" height="24.23"></rect>
+        <text class="cls-3" transform="translate(14.45 65.37)">Documentation of web accessibility<tspan class="cls-11" x="208.83" y="0"> </tspan><tspan x="211.82" y="0">APIs</tspan></text>
+        <text class="cls-3" transform="translate(14.45 41.14)">Lack of support from my employer regarding accessibility</text>
+        <text class="cls-3" transform="translate(14.45 16.58)">Learning how to design and build accessible experiences</text>
+        <text class="cls-3" transform="translate(14.45 138.05)">Other</text>
+        <text class="cls-3" transform="translate(14.45 113.82)">Support in web frameworks</text>
+        <text class="cls-3" transform="translate(14.45 89.59)">Interoperability between assistive technologies like screen readers</text>
+        <text class="cls-12" transform="translate(14.59 166.19)">n = 5,526</text>
+      </g>
+    </g>
+  </g>
+</svg>

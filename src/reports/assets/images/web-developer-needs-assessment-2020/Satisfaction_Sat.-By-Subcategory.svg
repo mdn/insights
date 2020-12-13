@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 791.87 272.99">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-1,.cls-2{opacity:0.05;}.cls-3,.cls-4{font-size:13.42px;}.cls-10,.cls-11,.cls-12,.cls-13,.cls-14,.cls-3,.cls-6,.cls-7,.cls-8,.cls-9{fill:#f96282;}.cls-3,.cls-4,.cls-5{font-family:ArialMT, Arial;}.cls-5{font-size:13.77px;}.cls-10,.cls-11,.cls-12,.cls-13,.cls-14,.cls-15,.cls-6,.cls-7,.cls-8,.cls-9{stroke:#fff;stroke-miterlimit:10;}.cls-6{stroke-width:1.66px;}.cls-7{stroke-width:1.45px;}.cls-8{stroke-width:1.6px;}.cls-9{stroke-width:1.66px;}.cls-10{stroke-width:1.45px;}.cls-11{stroke-width:1.41px;}.cls-12{stroke-width:1.45px;}.cls-13{stroke-width:1.5px;}.cls-14{stroke-width:1.61px;}.cls-15{fill:#00458b;stroke-width:1.31px;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Sat._By_Subcategory" data-name="Sat. By Subcategory">
+      <g id="barPercentages">
+        <rect class="cls-1" y="122.12" width="791.82" height="24.23"></rect>
+        <rect class="cls-2" x="0.04" y="97.89" width="791.82" height="24.23"></rect>
+        <rect class="cls-1" x="0.04" y="73.66" width="791.82" height="24.23"></rect>
+        <rect class="cls-1" y="122.12" width="791.82" height="24.23"></rect>
+        <rect class="cls-2" x="0.04" y="49.44" width="791.82" height="24.23"></rect>
+        <rect class="cls-2" x="0.04" y="194.56" width="791.82" height="24.23"></rect>
+        <rect class="cls-1" x="0.04" y="170.34" width="791.82" height="24.23"></rect>
+        <rect class="cls-1" x="0.04" y="218.79" width="791.82" height="24.23"></rect>
+        <rect class="cls-2" x="0.04" y="146.11" width="791.82" height="24.23"></rect>
+        <rect class="cls-1" x="0.04" y="25.21" width="791.82" height="24.23"></rect>
+        <rect class="cls-2" x="0.04" y="0.98" width="791.82" height="24.23"></rect>
+        <text class="cls-3" transform="translate(14.7 113.98)">Frameworks and libraries</text>
+        <text class="cls-3" transform="translate(14.7 88.78)">IDEs</text>
+        <text class="cls-3" transform="translate(14.51 65.52)">Browser dev tools</text>
+        <text class="cls-3" transform="translate(14.51 41.3)">HTML, CSS, JavaScript, etc. documentation</text>
+        <text class="cls-4" transform="translate(14.51 16.74)">Mean Overall Satisfaction</text>
+        <text class="cls-3" transform="translate(14.7 138.21)">Automated browser testing tools</text>
+        <text class="cls-3" transform="translate(14.7 164.43)">Performance tools </text>
+        <text class="cls-5" transform="translate(14.45 268.52)">n = 6,645</text>
+        <text class="cls-3" transform="translate(14.7 210.65)">Browser compatibility</text>
+        <text class="cls-3" transform="translate(14.7 186.42)">Accessibility tools</text>
+        <text class="cls-3" transform="translate(14.7 234.88)">Privacy and security tools</text>
+        <rect class="cls-6" x="288.84" y="73.66" width="396" height="24.23"></rect>
+        <rect class="cls-7" x="288.77" y="122.12" width="304" height="24.23"></rect>
+        <rect class="cls-8" x="288.84" y="97.89" width="363" height="24.23"></rect>
+        <rect class="cls-9" x="288.84" y="49.44" width="401" height="24.23"></rect>
+        <rect class="cls-10" x="288.84" y="170.34" width="302" height="24.23"></rect>
+        <rect class="cls-11" x="288.84" y="218.79" width="287" height="24.23"></rect>
+        <rect class="cls-12" x="288.84" y="194.56" width="298" height="24.23"></rect>
+        <rect class="cls-13" x="288.84" y="146.11" width="327" height="24.23"></rect>
+        <rect class="cls-14" x="288.84" y="25.21" width="423" height="24.23"></rect>
+        <rect class="cls-15" x="288.84" y="0.66" width="387" height="24.23"></rect>
+        <text class="cls-3" transform="translate(739.08 65.52)">4.01</text>
+        <text class="cls-3" transform="translate(739.26 113.98)">3.63</text>
+        <text class="cls-3" transform="translate(739.26 88.78)">3.96</text>
+        <text class="cls-3" transform="translate(739.2 164.44)">3.27</text>
+        <text class="cls-3" transform="translate(739.26 138.21)">3.04</text>
+        <text class="cls-3" transform="translate(739.26 186.42)">3.02</text>
+        <text class="cls-3" transform="translate(739.26 210.65)">2.98</text>
+        <text class="cls-3" transform="translate(739.26 234.88)">2.87</text>
+        <text class="cls-4" transform="translate(739.08 16.74)">3.87</text>
+        <text class="cls-3" transform="translate(739.08 41.3)">4.23</text>
+      </g>
+    </g>
+  </g>
+</svg>

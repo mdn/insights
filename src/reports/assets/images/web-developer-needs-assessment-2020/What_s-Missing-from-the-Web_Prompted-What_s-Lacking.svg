@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 542.78 251.13">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-1,.cls-2{opacity:0.05;}.cls-3{font-size:13.42px;}.cls-3,.cls-9{font-family:ArialMT, Arial;}.cls-4{letter-spacing:-0.06em;}.cls-5{letter-spacing:0em;}.cls-6{letter-spacing:-0.04em;}.cls-7{letter-spacing:-0.06em;}.cls-8{letter-spacing:0em;}.cls-9{font-size:13.77px;}.cls-10,.cls-11,.cls-12,.cls-13,.cls-14,.cls-15,.cls-16,.cls-17,.cls-18{fill:#00458b;stroke:#fff;stroke-miterlimit:10;}.cls-10{stroke-width:1px;}.cls-11{stroke-width:0.85px;}.cls-12{stroke-width:1.02px;}.cls-13{stroke-width:0.97px;}.cls-14{stroke-width:1.04px;}.cls-15{stroke-width:0.81px;}.cls-16{stroke-width:0.84px;}.cls-17{stroke-width:0.52px;}.cls-18{stroke-width:0.69px;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Prompted_What_s_Lacking" data-name="Prompted What's Lacking">
+      <g id="barTextPercentages">
+        <rect class="cls-1" y="170.44" width="542.78" height="24.23"></rect>
+        <rect class="cls-2" y="146.21" width="542.78" height="24.23"></rect>
+        <rect class="cls-2" y="194.67" width="542.78" height="24.23"></rect>
+        <rect class="cls-1" y="121.98" width="542.78" height="24.23"></rect>
+        <rect class="cls-2" y="97.76" width="542.78" height="24.23"></rect>
+        <rect class="cls-1" y="73.53" width="542.78" height="24.23"></rect>
+        <rect class="cls-2" y="49.3" width="542.78" height="24.23"></rect>
+        <rect class="cls-1" y="25.07" width="542.78" height="24.23"></rect>
+        <rect class="cls-2" y="0.84" width="542.78" height="24.23"></rect>
+        <text class="cls-3" transform="translate(12.45 89.62)">APIs giving access to hardware</text>
+        <text class="cls-3" transform="translate(14.45 65.39)">Access to native<tspan class="cls-4" x="97.7" y="0"> </tspan><tspan class="cls-5" x="100.69" y="0">APIs</tspan></text>
+        <text class="cls-3" transform="translate(14.45 41.16)">Performance</text>
+        <text class="cls-3" transform="translate(14.45 16.61)">Browser compatibility</text>
+        <text class="cls-3" transform="translate(14.45 113.84)">Debugging</text>
+        <text class="cls-3" transform="translate(14.45 186.53)">CSS support</text>
+        <text class="cls-3" transform="translate(14.45 162.3)">Access to filesystem</text>
+        <text class="cls-3" transform="translate(14.45 210.75)">None of these</text>
+        <text class="cls-3" transform="translate(14.45 138.07)">P<tspan class="cls-6" x="8.95" y="0">W</tspan><tspan class="cls-7" x="21.12" y="0">A</tspan><tspan class="cls-8" x="29.33" y="0" xml:space="preserve"> support</tspan></text>
+        <text class="cls-9" transform="translate(14.45 246.66)">n = 6645</text>
+        <rect class="cls-10" x="214.46" y="73.53" width="144" height="24.23"></rect>
+        <rect class="cls-11" x="214.46" y="97.76" width="101.5" height="24.23"></rect>
+        <rect class="cls-12" x="214.46" y="49.3" width="151" height="24.23"></rect>
+        <rect class="cls-13" x="214.46" y="25.07" width="154.5" height="24.23"></rect>
+        <rect class="cls-14" x="214.46" y="0.52" width="244" height="24.23"></rect>
+        <rect class="cls-15" x="214.46" y="170.44" width="79" height="24.23"></rect>
+        <rect class="cls-16" x="214.46" y="146.21" width="97" height="24.23"></rect>
+        <rect class="cls-17" x="214.46" y="194.67" width="38" height="24.23"></rect>
+        <rect class="cls-18" x="214.46" y="121.98" width="99.5" height="24.23"></rect>
+        <text class="cls-3" transform="translate(481.57 65.39)">30.2%</text>
+        <text class="cls-3" transform="translate(481.57 89.62)">28.8%</text>
+        <text class="cls-3" transform="translate(481.57 113.84)">20.3%</text>
+        <text class="cls-3" transform="translate(481.57 16.61)">48.8%</text>
+        <text class="cls-3" transform="translate(481.57 41.16)">30.9%</text>
+        <text class="cls-3" transform="translate(481.57 186.53)">15.8%</text>
+        <text class="cls-3" transform="translate(481.57 162.3)">19.4%</text>
+        <text class="cls-3" transform="translate(481.57 210.75)">7.6%</text>
+        <text class="cls-3" transform="translate(481.57 138.07)">19.9%</text>
+      </g>
+    </g>
+  </g>
+</svg>
