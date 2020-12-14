@@ -1,0 +1,28 @@
+@import "~@mdn/minimalist/sass/vars/layout";
+
+.google,
+.twitter {
+  &::before {
+    background-size: 18px;
+    content: "";
+    display: inline-block;
+    height: 18px;
+    margin-right: $base-unit;
+    vertical-align: sub;
+    width: 18px;
+  }
+}
+
+.google {
+  &::before {
+    background: transparent url("~@mdn/dinocons/brands/google-mono.svg") 0 0
+      no-repeat;
+  }
+}
+
+.twitter {
+  &::before {
+    background: transparent url("~@mdn/dinocons/social/twitter.svg") 0 0
+      no-repeat;
+  }
+}

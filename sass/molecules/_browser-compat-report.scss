@@ -1,0 +1,24 @@
+@import "~@mdn/minimalist/sass/vars/layout";
+
+.browser-compat-report {
+  /*
+   * Overriding some styles from:
+   * sass/atoms/_typography.scss  
+   */
+  .main-lead {
+    margin: 0 0 $base-spacing;
+    max-width: 42rem;
+  }
+
+  .button {
+    max-width: inherit;
+    text-align: center;
+    width: 100%;
+
+    @media #{$mq-small-desktop-and-up} {
+      max-width: max-content;
+      text-align: left;
+      width: inherit;
+    }
+  }
+}
