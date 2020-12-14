@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 862.7 174.17">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-1,.cls-2{opacity:0.05;}.cls-3{font-size:13.42px;}.cls-3,.cls-6{font-family:ArialMT, Arial;}.cls-4{letter-spacing:-0.04em;}.cls-5{letter-spacing:-0.04em;}.cls-6{font-size:13.77px;}.cls-10,.cls-11,.cls-12,.cls-7,.cls-8,.cls-9{fill:#00458b;stroke:#fff;stroke-miterlimit:10;}.cls-7{stroke-width:0.65px;}.cls-8{stroke-width:0.51px;}.cls-9{stroke-width:0.63px;}.cls-10{stroke-width:0.68px;}.cls-11{stroke-width:0.9px;}.cls-12{stroke-width:0.8px;}.cls-13{letter-spacing:-0.07em;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="JavaScript">
+      <g id="barTextPercentages">
+        <rect class="cls-1" y="121.86" width="862.66" height="24.23"></rect>
+        <rect class="cls-2" x="0.05" y="97.64" width="862.66" height="24.23"></rect>
+        <rect class="cls-1" x="0.05" y="73.41" width="862.66" height="24.23"></rect>
+        <rect class="cls-1" y="121.86" width="862.66" height="24.23"></rect>
+        <rect class="cls-2" x="0.05" y="49.18" width="862.66" height="24.23"></rect>
+        <rect class="cls-1" x="0.05" y="24.95" width="862.66" height="24.23"></rect>
+        <rect class="cls-2" x="0.05" y="0.73" width="862.66" height="24.23"></rect>
+        <text class="cls-3" transform="translate(12.51 89.5)">Lack of interoperability between implementations</text>
+        <text class="cls-3" transform="translate(14.51 65.27)">Not enough components built into HTM<tspan class="cls-4" x="232.71" y="0">L</tspan></text>
+        <text class="cls-3" transform="translate(14.51 41.04)">Inability to customize components built into HTM<tspan class="cls-4" x="287.87" y="0">L</tspan></text>
+        <text class="cls-3" transform="translate(14.51 16.49)">Lack of browserengine adoption/support for a given feature</text>
+        <text class="cls-3" transform="translate(14.51 113.73)">The quality of components built into HTM<tspan class="cls-5" x="243.88" y="0">L</tspan></text>
+        <text class="cls-3" transform="translate(14.51 137.95)">Other</text>
+        <text class="cls-6" transform="translate(14.7 169.7)">n = 4,063</text>
+        <rect class="cls-7" x="563.53" y="73.41" width="61" height="24.23"></rect>
+        <rect class="cls-8" x="563.46" y="121.86" width="38" height="24.23"></rect>
+        <rect class="cls-9" x="563.53" y="97.64" width="55.5" height="24.23"></rect>
+        <rect class="cls-10" x="563.53" y="49.18" width="67.5" height="24.23"></rect>
+        <rect class="cls-11" x="563.53" y="24.95" width="133" height="24.23"></rect>
+        <rect class="cls-12" x="563.53" y="0.4" width="145" height="24.23"></rect>
+        <text class="cls-3" transform="translate(809.71 65.27)">13.5%</text>
+        <text class="cls-3" transform="translate(809.71 89.5)">12.2%</text>
+        <text class="cls-3" transform="translate(809.64 137.95)">7.6%</text>
+        <text class="cls-3" transform="translate(809.71 113.73)">
+          <tspan class="cls-13">1</tspan>
+          <tspan x="6.47" y="0">1.1%</tspan>
+        </text>
+        <text class="cls-3" transform="translate(809.71 16.49)">29.0%</text>
+        <text class="cls-3" transform="translate(809.71 41.04)">26.6%</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930.43 273.33">
+  <defs>
+    <style>.cls-1,.cls-2{opacity:0.05;}.cls-2{fill:#fff;}.cls-3{font-size:13.42px;font-family:ArialMT, Arial;}.cls-11,.cls-13,.cls-15,.cls-17,.cls-19,.cls-4,.cls-5,.cls-7,.cls-9{fill:none;stroke-miterlimit:10;}.cls-4{stroke:#cbcbcb;stroke-width:0.91px;}.cls-5{stroke:#f86281;}.cls-6{fill:#f86281;}.cls-7{stroke:#a6aecf;}.cls-8{fill:#a6aecf;}.cls-9{stroke:#00458b;}.cls-10{fill:#00458b;}.cls-11{stroke:#7b89b8;}.cls-12{fill:#7b89b8;}.cls-13{stroke:#4d66a1;}.cls-14{fill:#4d66a1;}.cls-15{stroke:#ffc2ca;}.cls-16{fill:#ffc2ca;}.cls-17{stroke:#ffa4b1;}.cls-18{fill:#ffa4b1;}.cls-19{stroke:#ff8499;}.cls-20{fill:#ff8499;}.cls-21{letter-spacing:-0.02em;}.cls-22{letter-spacing:-0.11em;}.cls-23{letter-spacing:-0.07em;}.cls-24{letter-spacing:-0.06em;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Top_Ten_Needs" data-name="Top Ten Needs">
+      <g id="NeedValues">
+        <rect class="cls-1" y="112.06" width="930.43" height="24.23"></rect>
+        <rect class="cls-2" y="87.83" width="930.43" height="24.23"></rect>
+        <rect class="cls-1" y="63.6" width="930.43" height="24.23"></rect>
+        <rect class="cls-2" y="39.37" width="930.43" height="24.23"></rect>
+        <rect class="cls-1" y="15.14" width="930.43" height="24.23"></rect>
+        <rect class="cls-2" y="233.52" width="930.43" height="24.23"></rect>
+        <rect class="cls-1" y="209.29" width="930.43" height="24.23"></rect>
+        <rect class="cls-2" y="185.06" width="930.43" height="24.23"></rect>
+        <rect class="cls-1" y="160.83" width="930.43" height="24.23"></rect>
+        <rect class="cls-2" y="136.61" width="930.43" height="24.23"></rect>
+        <text class="cls-3" transform="translate(14.45 103.92)">4</text>
+        <text class="cls-3" transform="translate(14.45 79.69)">3</text>
+        <text class="cls-3" transform="translate(14.45 55.46)">2</text>
+        <text class="cls-3" transform="translate(14.45 30.91)">1</text>
+        <text class="cls-3" transform="translate(14.45 128.14)">5</text>
+        <text class="cls-3" transform="translate(14.45 225.38)">9</text>
+        <text class="cls-3" transform="translate(14.45 201.15)">8</text>
+        <text class="cls-3" transform="translate(14.45 176.92)">7</text>
+        <text class="cls-3" transform="translate(14.45 152.37)">6</text>
+        <text class="cls-3" transform="translate(6.65 249.61)">10</text>
+        <rect class="cls-4" x="43.33" y="15.14" width="410" height="242.6"></rect>
+        <line class="cls-5" x1="46.9" y1="27.26" x2="449.76" y2="27.26"></line>
+        <circle class="cls-6" cx="47.09" cy="27.26" r="3.76"></circle>
+        <circle class="cls-6" cx="449.57" cy="27.26" r="3.76"></circle>
+        <line class="cls-7" x1="46.9" y1="172.95" x2="449.76" y2="172.95"></line>
+        <circle class="cls-8" cx="47.09" cy="172.95" r="3.76"></circle>
+        <circle class="cls-8" cx="449.57" cy="172.95" r="3.76"></circle>
+        <line class="cls-9" x1="46.9" y1="245.63" x2="449.76" y2="245.63"></line>
+        <circle class="cls-10" cx="47.09" cy="245.63" r="3.76"></circle>
+        <circle class="cls-10" cx="449.57" cy="245.63" r="3.76"></circle>
+        <line class="cls-11" x1="47.1" y1="221.12" x2="449.96" y2="196.93"></line>
+        <path class="cls-12" d="M47.51,224.86a3.76,3.76,0,1,1,3.53-4A3.75,3.75,0,0,1,47.51,224.86Z"></path>
+        <path class="cls-12" d="M450,200.7a3.76,3.76,0,1,0-4-3.53A3.77,3.77,0,0,0,450,200.7Z"></path>
+        <line class="cls-13" x1="46.9" y1="197.39" x2="449.76" y2="221.19"></line>
+        <path class="cls-14" d="M46.86,201.15a3.76,3.76,0,1,1,4-3.53A3.76,3.76,0,0,1,46.86,201.15Z"></path>
+        <path class="cls-14" d="M449.35,224.94a3.76,3.76,0,1,0-3.53-4A3.76,3.76,0,0,0,449.35,224.94Z"></path>
+        <line class="cls-15" x1="46.89" y1="148.51" x2="449.76" y2="124.38"></line>
+        <path class="cls-16" d="M47.31,152.25a3.76,3.76,0,1,1,3.53-4A3.76,3.76,0,0,1,47.31,152.25Z"></path>
+        <path class="cls-16" d="M449.8,128.15a3.76,3.76,0,1,0-4-3.53A3.77,3.77,0,0,0,449.8,128.15Z"></path>
+        <line class="cls-15" x1="46.9" y1="99.94" x2="449.76" y2="99.94"></line>
+        <circle class="cls-16" cx="47.09" cy="99.94" r="3.76"></circle>
+        <circle class="cls-16" cx="449.57" cy="99.94" r="3.76"></circle>
+        <line class="cls-17" x1="46.88" y1="123.75" x2="449.78" y2="76.13"></line>
+        <path class="cls-18" d="M47.5,127.46a3.76,3.76,0,1,1,3.3-4.17A3.75,3.75,0,0,1,47.5,127.46Z"></path>
+        <circle class="cls-18" cx="449.6" cy="76.15" r="3.76" transform="translate(319.51 513.21) rotate(-83.04)"></circle>
+        <line class="cls-7" x1="46.8" y1="52.31" x2="449.85" y2="147.9"></line>
+        <path class="cls-8" d="M46.12,56a3.76,3.76,0,1,1,4.53-2.79A3.75,3.75,0,0,1,46.12,56Z"></path>
+        <path class="cls-8" d="M448.8,151.51A3.76,3.76,0,1,0,446,147,3.76,3.76,0,0,0,448.8,151.51Z"></path>
+        <line class="cls-19" x1="46.89" y1="75.33" x2="449.76" y2="50.05"></line>
+        <path class="cls-20" d="M47.32,79.07a3.76,3.76,0,1,1,3.51-4A3.77,3.77,0,0,1,47.32,79.07Z"></path>
+        <path class="cls-20" d="M449.81,53.82a3.76,3.76,0,1,0-4-3.52A3.77,3.77,0,0,0,449.81,53.82Z"></path>
+        <text class="cls-3" transform="translate(476.5 79.69)">3. Making a design look/work the same across browsers</text>
+        <text class="cls-3" transform="translate(476.5 103.92)">4.<tspan class="cls-21" x="11.19" y="0"> </tspan><tspan class="cls-22" x="14.68" y="0">T</tspan><tspan x="21.39" y="0">esting across browsers</tspan></text>
+        <text class="cls-3" transform="translate(476.5 128.14)">5. Discovering bugs not caught during testing</text>
+        <text class="cls-3" transform="translate(476.5 30.91)">1. Having to support specific browsers (e.g., IE<tspan class="cls-23" x="277.44" y="0">1</tspan><tspan x="283.9" y="0">1) </tspan></text>
+        <text class="cls-3" transform="translate(476.5 55.46)">2.<tspan class="cls-24" x="11.19" y="0"> </tspan><tspan class="cls-21" x="14.18" y="0">A</tspan><tspan x="22.89" y="0">voiding or removing a feature that doesn't work across browsers</tspan></text>
+        <text class="cls-3" transform="translate(476.5 201.15)">8. Managing user data to comply with laws and regulations</text>
+        <text class="cls-3" transform="translate(476.5 225.38)">9. Supporting multiple frameworks in the same code base</text>
+        <text class="cls-3" transform="translate(476.5 249.61)">10. Understanding and implementing security measures</text>
+        <text class="cls-3" transform="translate(50.65 268.97)">n = 26,854</text>
+        <text class="cls-3" transform="translate(390.31 268.97)">n = 6,645</text>
+        <text class="cls-3" transform="translate(50.65 11.51)">2019</text>
+        <text class="cls-3" transform="translate(416.8 11.51)">2020</text>
+        <text class="cls-3" transform="translate(476.5 152.37)">6. Outdated or inaccurate documentation for frameworks and libraries</text>
+        <text class="cls-3" transform="translate(476.5 176.92)">7. Keeping up with a large number of new and existing tools or frameworks</text>
+      </g>
+    </g>
+  </g>
+</svg>

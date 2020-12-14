@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610.91 155.4">
+  <defs>
+    <style>.cls-1,.cls-2{opacity:0.05;}.cls-2{fill:#fff;}.cls-3{font-size:13.42px;}.cls-3,.cls-4{font-family:ArialMT, Arial;}.cls-4{font-size:13.77px;}.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{fill:#00458b;stroke:#fff;stroke-miterlimit:10;}.cls-5{stroke-width:1.91px;}.cls-6{stroke-width:0.75px;}.cls-7{stroke-width:2.11px;}.cls-8{stroke-width:1.43px;}.cls-9{stroke-width:1.07px;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Years_of_Experience" data-name="Years of Experience">
+      <g id="barTextPercentages">
+        <rect class="cls-1" y="97.29" width="610.91" height="24.23"></rect>
+        <rect class="cls-2" y="73.06" width="610.91" height="24.23"></rect>
+        <rect class="cls-1" y="48.83" width="610.91" height="24.23"></rect>
+        <rect class="cls-1" y="0.38" width="610.91" height="24.23"></rect>
+        <rect class="cls-2" y="24.6" width="610.91" height="24.23"></rect>
+        <text class="cls-3" transform="translate(14.45 16.47)">Developing 10+ years</text>
+        <text class="cls-3" transform="translate(14.45 113.38)">Developing less than 1 year</text>
+        <text class="cls-3" transform="translate(14.45 89.15)">Developing 6-9 years</text>
+        <text class="cls-3" transform="translate(14.45 64.92)">Developing 1-2 years</text>
+        <text class="cls-3" transform="translate(14.45 40.69)">Developing 3-5 years</text>
+        <text class="cls-4" transform="translate(14.45 150.93)">n = 6645</text>
+        <rect class="cls-5" x="246.76" y="97.29" width="42" height="24.23"></rect>
+        <rect class="cls-6" x="246.76" y="0.38" width="154.5" height="24.23"></rect>
+        <rect class="cls-7" x="246.76" y="73.06" width="84" height="24.23"></rect>
+        <rect class="cls-8" x="246.76" y="48.83" width="90.5" height="24.23"></rect>
+        <rect class="cls-9" x="246.76" y="24.6" width="128.5" height="24.23"></rect>
+        <text class="cls-3" transform="translate(559.14 16.47)">30.9%</text>
+        <text class="cls-3" transform="translate(559.14 89.15)">16.8%</text>
+        <text class="cls-3" transform="translate(559.14 113.38)">8.4%</text>
+        <text class="cls-3" transform="translate(559.14 64.92)">18.1%</text>
+        <text class="cls-3" transform="translate(559.14 40.69)">25.7%</text>
+      </g>
+    </g>
+  </g>
+</svg>
