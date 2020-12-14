@@ -1,0 +1,9 @@
+.logo {
+  display: block;
+  background: transparent url("../../assets/mdn-web-docs-logo.svg") 0 0
+    no-repeat;
+  background-size: 220px 48px;
+  height: 48px;
+  margin: 0 auto ($base-spacing * 2);
+  width: 220px;
+}

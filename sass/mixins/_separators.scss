@@ -1,0 +1,23 @@
+@import "~@mdn/minimalist/sass/vars/color-palette";
+@import "~@mdn/minimalist/sass/vars/layout";
+
+@mixin neutral-separator() {
+  background: linear-gradient(to left, $neutral-550, $neutral-100);
+  border: 0;
+  height: 10px;
+}
+
+@mixin blue-gradient-separator() {
+  background: linear-gradient(to right, $primary-100, $primary-300);
+  border: 0;
+  height: 10px;
+}
+
+.neutral-separator {
+  @include neutral-separator();
+}
+
+.blue-gradient-separator {
+  @include blue-gradient-separator();
+  margin: ($base-spacing * 2) 0;
+}

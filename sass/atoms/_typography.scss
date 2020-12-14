@@ -1,0 +1,21 @@
+@import "~@mdn/minimalist/sass/vars/layout";
+@import "~@mdn/minimalist/sass/vars/color-palette";
+@import "~@mdn/minimalist/sass/vars/typography";
+
+.slab {
+  background-color: $neutral-100;
+  color: $neutral-600;
+  display: inline-block;
+  padding: 0 ($base-spacing / 4);
+}
+
+.main-lead,
+.secondary-lead {
+  margin: ($base-spacing * 2) auto;
+}
+
+.main-lead {
+  font-family: zillaslab;
+  font-size: $medium-font-size;
+  font-weight: normal;
+}
