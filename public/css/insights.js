@@ -7,60 +7,9 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
-
-/***/ "./sass/insights.scss":
 /*!****************************!*
   !*** ./sass/insights.scss ***!
   \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://mdn-insights/./sass/insights.scss?");
-
-/***/ })
-
-/******/ 	});
-/************************************************************************/
-/******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
-/******/ 	
-/******/ 	// The require function
-/******/ 	function __webpack_require__(moduleId) {
-/******/ 		// Check if module is in cache
-/******/ 		if(__webpack_module_cache__[moduleId]) {
-/******/ 			return __webpack_module_cache__[moduleId].exports;
-/******/ 		}
-/******/ 		// Create a new module (and put it into the cache)
-/******/ 		var module = __webpack_module_cache__[moduleId] = {
-/******/ 			// no module.id needed
-/******/ 			// no module.loaded needed
-/******/ 			exports: {}
-/******/ 		};
-/******/ 	
-/******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
-/******/ 	
-/******/ 		// Return the exports of the module
-/******/ 		return module.exports;
-/******/ 	}
-/******/ 	
-/************************************************************************/
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/************************************************************************/
-/******/ 	// startup
-/******/ 	// Load entry module
-/******/ 	__webpack_require__("./sass/insights.scss");
-/******/ 	// This entry module used 'exports' so it can't be inlined
+eval("throw new Error(\"Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\\nModuleBuildError: Module build failed (from ./node_modules/css-loader/dist/cjs.js):\\nError: Can't resolve '../assets/mdn-web-docs-logo.svg' in '/Users/schalkneethling/repos/insights/sass'\\n    at finishWithoutResolve (/Users/schalkneethling/repos/insights/node_modules/enhanced-resolve/lib/Resolver.js:293:18)\\n    at /Users/schalkneethling/repos/insights/node_modules/enhanced-resolve/lib/Resolver.js:362:15\\n    at /Users/schalkneethling/repos/insights/node_modules/enhanced-resolve/lib/Resolver.js:410:5\\n    at eval (eval at create (/Users/schalkneethling/repos/insights/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)\\n    at /Users/schalkneethling/repos/insights/node_modules/enhanced-resolve/lib/Resolver.js:410:5\\n    at eval (eval at create (/Users/schalkneethling/repos/insights/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)\\n    at /Users/schalkneethling/repos/insights/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:87:43\\n    at /Users/schalkneethling/repos/insights/node_modules/enhanced-resolve/lib/Resolver.js:410:5\\n    at eval (eval at create (/Users/schalkneethling/repos/insights/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)\\n    at /Users/schalkneethling/repos/insights/node_modules/enhanced-resolve/lib/Resolver.js:410:5\\n    at processResult (/Users/schalkneethling/repos/insights/node_modules/webpack/lib/NormalModule.js:583:19)\\n    at /Users/schalkneethling/repos/insights/node_modules/webpack/lib/NormalModule.js:676:5\\n    at /Users/schalkneethling/repos/insights/node_modules/loader-runner/lib/LoaderRunner.js:397:11\\n    at /Users/schalkneethling/repos/insights/node_modules/loader-runner/lib/LoaderRunner.js:252:18\\n    at context.callback (/Users/schalkneethling/repos/insights/node_modules/loader-runner/lib/LoaderRunner.js:124:13)\\n    at Object.loader (/Users/schalkneethling/repos/insights/node_modules/css-loader/dist/index.js:155:5)\\n    at processTicksAndRejections (node:internal/process/task_queues:93:5)\");\n\n//# sourceURL=webpack://mdn-insights/./sass/insights.scss?");
 /******/ })()
 ;

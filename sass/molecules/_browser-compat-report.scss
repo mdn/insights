@@ -1,5 +1,7 @@
 @import "~@mdn/minimalist/sass/vars/layout";
 
+@import "~@mdn/minimalist/sass/mixins/utils";
+
 .browser-compat-report {
   /*
    * Overriding some styles from:
@@ -10,13 +12,23 @@
     max-width: 42rem;
   }
 
+  ul {
+    @include reset-list();
+
+    li,
+    a {
+      display: inline-block;
+    }
+  }
+
   .button {
+    margin-bottom: $base-spacing / 2;
     max-width: inherit;
     text-align: center;
     width: 100%;
 
     @media #{$mq-small-desktop-and-up} {
-      max-width: max-content;
+      margin-bottom: inherit;
       text-align: left;
       width: inherit;
     }
