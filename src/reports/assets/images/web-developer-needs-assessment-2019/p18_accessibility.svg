@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.16 64.94">
+  <defs>
+    <style>.cls-1{fill:#e7e5e2;}.cls-2{fill:none;stroke:#fff;stroke-width:1.72px;}.cls-3{fill:#00458b;}.cls-4{fill:#101010;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <rect class="cls-1" width="80.16" height="40.08"></rect>
+      <rect class="cls-2" x="0.86" y="0.86" width="78.44" height="38.36"></rect>
+      <path class="cls-3" d="M15.23,64.94V24a6.42,6.42,0,0,1,12.83,0V64.94Z"></path>
+      <path class="cls-3" d="M28.06,64.94V47.58a6.41,6.41,0,0,1,12.82,0V64.94Z"></path>
+      <path class="cls-3" d="M40.88,64.94V52.07a6.42,6.42,0,1,1,12.83,0V64.94Z"></path>
+      <path class="cls-3" d="M53.71,64.94V55.27a5.61,5.61,0,1,1,11.22,0v9.67Z"></path>
+      <path class="cls-4" d="M9.22,11.22a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+      <path class="cls-4" d="M9.22,17.64a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+      <path class="cls-4" d="M9.22,24.05a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+      <path class="cls-4" d="M15.63,11.22a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+      <path class="cls-4" d="M27.66,11.22a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+      <path class="cls-4" d="M34.07,17.64a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+      <path class="cls-4" d="M46.09,11.22a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+      <path class="cls-4" d="M52.51,17.64a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+      <path class="cls-4" d="M46.09,24.05a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+      <path class="cls-4" d="M52.51,11.22a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+      <path class="cls-4" d="M64.53,17.64a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+      <path class="cls-4" d="M64.53,24.05a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+      <path class="cls-4" d="M70.94,11.22a2,2,0,1,1-2,2,2,2,0,0,1,2-2"></path>
+    </g>
+  </g>
+</svg>

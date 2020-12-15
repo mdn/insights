@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 862.49 219.06">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-1,.cls-2{opacity:0.05;}.cls-3{font-size:13.42px;}.cls-3,.cls-4{font-family:ArialMT, Arial;}.cls-4{font-size:13.77px;}.cls-10,.cls-11,.cls-12,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{fill:#00458b;stroke:#fff;stroke-miterlimit:10;}.cls-5{stroke-width:0.59px;}.cls-6{stroke-width:0.47px;}.cls-7{stroke-width:0.7px;}.cls-8{stroke-width:0.77px;}.cls-9{stroke-width:0.88px;}.cls-10{stroke-width:0.45px;}.cls-11{stroke-width:0.43px;}.cls-12{stroke-width:0.37px;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="JavaScript">
+      <g id="barTextPercentages">
+        <rect class="cls-1" y="170.36" width="862.49" height="24.23"></rect>
+        <rect class="cls-2" y="146.13" width="862.49" height="24.23"></rect>
+        <rect class="cls-1" y="121.9" width="862.49" height="24.23"></rect>
+        <rect class="cls-2" y="97.68" width="862.49" height="24.23"></rect>
+        <rect class="cls-1" y="73.45" width="862.49" height="24.23"></rect>
+        <rect class="cls-2" y="49.22" width="862.49" height="24.23"></rect>
+        <rect class="cls-1" y="24.99" width="862.49" height="24.23"></rect>
+        <rect class="cls-2" y="0.76" width="862.49" height="24.23"></rect>
+        <text class="cls-3" transform="translate(12.45 89.54)">Other</text>
+        <text class="cls-3" transform="translate(14.45 65.31)">Lack of build tooling support (in Emscripten/Babel/webpack/etc.)</text>
+        <text class="cls-3" transform="translate(14.45 41.08)">Lack of browser/engine support for a given language feature</text>
+        <text class="cls-3" transform="translate(14.45 16.53)">Lack of debug tooling support (browser dev tools or IDE integration)</text>
+        <text class="cls-3" transform="translate(14.45 113.76)">Lack of interoperability between implementations</text>
+        <text class="cls-3" transform="translate(14.45 186.45)">Browser updates causing things to break</text>
+        <text class="cls-3" transform="translate(14.45 162.22)">Lack of perfomance (speed and size) profiling support (browser dev tools or IDE integration)</text>
+        <text class="cls-3" transform="translate(14.45 137.99)">Inadequate performance (speed and size), particularly on low-end devices</text>
+        <text class="cls-4" transform="translate(14.75 214.59)">n = 229</text>
+        <rect class="cls-5" x="563.46" y="73.45" width="50" height="24.23"></rect>
+        <rect class="cls-6" x="563.46" y="97.68" width="30.5" height="24.23"></rect>
+        <rect class="cls-7" x="563.46" y="49.22" width="70" height="24.23"></rect>
+        <rect class="cls-8" x="563.46" y="24.99" width="96" height="24.23"></rect>
+        <rect class="cls-9" x="563.46" y="0.44" width="174.5" height="24.23"></rect>
+        <rect class="cls-10" x="563.46" y="170.36" width="24" height="24.23"></rect>
+        <rect class="cls-11" x="563.46" y="146.13" width="26" height="24.23"></rect>
+        <rect class="cls-12" x="563.46" y="121.9" width="28.5" height="24.23"></rect>
+        <text class="cls-3" transform="translate(809.67 65.31)">14.0%</text>
+        <text class="cls-3" transform="translate(809.67 89.54)">10.0%</text>
+        <text class="cls-3" transform="translate(809.67 113.76)">6.1%</text>
+        <text class="cls-3" transform="translate(809.67 16.53)">34.9%</text>
+        <text class="cls-3" transform="translate(809.67 41.08)">19.2%</text>
+        <text class="cls-3" transform="translate(809.67 186.45)">4.8%</text>
+        <text class="cls-3" transform="translate(809.67 162.22)">5.2%</text>
+        <text class="cls-3" transform="translate(809.67 137.99)">5.7%</text>
+      </g>
+    </g>
+  </g>
+</svg>

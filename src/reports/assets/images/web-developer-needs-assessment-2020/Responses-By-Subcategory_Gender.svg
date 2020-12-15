@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 610.43 134.21">
+  <defs>
+    <style>.cls-1{fill:#fff;}.cls-1,.cls-2{opacity:0.05;}.cls-3{font-size:13.42px;}.cls-3,.cls-8{font-family:ArialMT, Arial;}.cls-4,.cls-5,.cls-6,.cls-7{fill:#00458b;stroke:#fff;stroke-miterlimit:10;}.cls-4{stroke-width:1px;}.cls-5{stroke-width:1.02px;}.cls-6{stroke-width:0.97px;}.cls-7{stroke-width:1.04px;}.cls-8{font-size:13.77px;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Gender">
+      <g id="barTextPercentages">
+        <rect class="cls-1" y="73.37" width="610.43" height="24.23"></rect>
+        <rect class="cls-2" y="49.14" width="610.43" height="24.23"></rect>
+        <rect class="cls-1" y="24.91" width="610.43" height="24.23"></rect>
+        <rect class="cls-2" y="0.68" width="610.43" height="24.23"></rect>
+        <text class="cls-3" transform="translate(12.45 89.46)">Decline to state</text>
+        <text class="cls-3" transform="translate(14.45 65.23)">Neither of these describe me</text>
+        <text class="cls-3" transform="translate(14.45 41)">Identify as woman</text>
+        <text class="cls-3" transform="translate(14.45 16.45)">Identify as man</text>
+        <rect class="cls-4" x="246.96" y="73.53" width="144" height="24.23"></rect>
+        <rect class="cls-5" x="246.96" y="49.3" width="151" height="24.23"></rect>
+        <rect class="cls-6" x="246.96" y="25.07" width="154.5" height="24.23"></rect>
+        <rect class="cls-7" x="246.96" y="0.52" width="244" height="24.23"></rect>
+        <text class="cls-3" transform="translate(560.45 65.23)">4.3%</text>
+        <text class="cls-3" transform="translate(560.45 89.46)">1.8%</text>
+        <text class="cls-3" transform="translate(560.45 16.45)">87.0%</text>
+        <text class="cls-3" transform="translate(560.45 41)">6.8%</text>
+        <text class="cls-8" transform="translate(14.45 129.74)">n = 6645</text>
+      </g>
+    </g>
+  </g>
+</svg>

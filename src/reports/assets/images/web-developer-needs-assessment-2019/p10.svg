@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360.64 307.08">
+  <defs>
+    <style>.cls-1{fill:#ffa356;}.cls-2{fill:#f96282;}.cls-3{fill:#9f4e9d;}.cls-4{fill:#00458b;}.cls-5,.cls-7{font-size:10px;font-family:ArialMT, Arial;}.cls-6{letter-spacing:-0.01em;}.cls-7{fill:#959595;}.cls-8{letter-spacing:-0.05em;}.cls-9{letter-spacing:-0.02em;}.cls-10{letter-spacing:-0.01em;}.cls-11{letter-spacing:-0.02em;}.cls-12{letter-spacing:-0.02em;}.cls-13{letter-spacing:-0.02em;}.cls-14{fill:none;stroke:#000;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M215.23,144.23V34.11q-3.48,0-7,.24Z"></path>
+      <path class="cls-2" d="M215.23,144.23,208.35,34.35a105.41,105.41,0,0,0-27.23,5.16Z"></path>
+      <path class="cls-3" d="M215.23,144.23,181.05,39.51A111.47,111.47,0,0,0,156.42,51a108.88,108.88,0,0,0-21.7,17.85Z"></path>
+      <path class="cls-4" d="M215.23,144.23,134.88,69a109.55,109.55,0,0,0-29.77,75.26,107.53,107.53,0,0,0,3.94,29.23,111.31,111.31,0,0,0,11.1,26.25A109.44,109.44,0,0,0,159.59,239a112.24,112.24,0,0,0,26.33,11.07,111.41,111.41,0,0,0,58.66,0,111.06,111.06,0,0,0,48.72-28.19,108.76,108.76,0,0,0,17.29-22.21,110.57,110.57,0,0,0,11.13-26.25,110.24,110.24,0,0,0,0-58.49,110.52,110.52,0,0,0-77.14-76.92,108.9,108.9,0,0,0-29.35-3.94Z"></path>
+      <text class="cls-5" transform="translate(335.31 285.96)">
+        <tspan class="cls-6">M</tspan>
+        <tspan x="8.24" y="0">an</tspan>
+      </text>
+      <text class="cls-7" transform="translate(332.13 303.83)">8<tspan class="cls-8" x="5.56" y="0">7</tspan><tspan x="10.67" y="0">.1%</tspan></text>
+      <text class="cls-7" transform="translate(337.85 22.8)">1.1%</text>
+      <text class="cls-7" transform="translate(51.85 28.55)">3<tspan class="cls-9" x="5.56" y="0">.</tspan><tspan x="8.15" y="0">6%</tspan></text>
+      <text class="cls-7" transform="translate(0 49.43)">
+        <tspan class="cls-10">8</tspan>
+        <tspan x="5.46" y="0">.2%</tspan>
+      </text>
+      <text class="cls-5" transform="translate(51.85 10.46)">Declined to State</text>
+      <text class="cls-5" transform="translate(0 31.34)">
+        <tspan class="cls-8">W</tspan>
+        <tspan x="8.99" y="0">oman</tspan>
+      </text>
+      <text class="cls-5" transform="translate(266.2 8.58)">
+        <tspan class="cls-11">N</tspan>
+        <tspan x="7.01" y="0">eithe</tspan>
+        <tspan class="cls-12" x="28.7" y="0">r</tspan>
+        <tspan x="31.87" y="0" xml:space="preserve"> Describe </tspan>
+        <tspan class="cls-13" x="76.88" y="0">M</tspan>
+        <tspan x="84.98" y="0">e</tspan>
+      </text>
+      <line class="cls-14" x1="239.71" y1="290.77" x2="226.26" y2="258.23"></line>
+      <line class="cls-14" x1="239.71" y1="13.32" x2="209.87" y2="32.16"></line>
+      <line class="cls-14" x1="354.51" y1="290.46" x2="239.11" y2="290.46"></line>
+      <line class="cls-14" x1="354.53" y1="13.39" x2="239.13" y2="13.39"></line>
+      <line class="cls-14" x1="166.72" y1="15.58" x2="196.56" y2="34.42"></line>
+      <line class="cls-14" x1="115.57" y1="39.74" x2="145.41" y2="58.58"></line>
+      <line class="cls-14" x1="51.66" y1="15.66" x2="167.06" y2="15.66"></line>
+      <line class="cls-14" x1="0.53" y1="39.83" x2="115.93" y2="39.83"></line>
+    </g>
+  </g>
+</svg>

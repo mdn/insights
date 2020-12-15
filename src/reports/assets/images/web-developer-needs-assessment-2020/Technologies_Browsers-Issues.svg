@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 862.7 419.44">
+  <defs>
+    <style>.cls-1,.cls-2{opacity:0.05;}.cls-2{fill:#fff;}.cls-3{font-size:13.42px;}.cls-22,.cls-3{font-family:ArialMT, Arial;}.cls-4{letter-spacing:-0.06em;}.cls-5{letter-spacing:0em;}.cls-10,.cls-11,.cls-12,.cls-13,.cls-14,.cls-15,.cls-16,.cls-17,.cls-18,.cls-19,.cls-20,.cls-21,.cls-6,.cls-7,.cls-8,.cls-9{fill:#00458b;stroke:#fff;stroke-miterlimit:10;}.cls-6{stroke-width:0.85px;}.cls-7{stroke-width:0.57px;}.cls-8{stroke-width:1.07px;}.cls-9{stroke-width:1.06px;}.cls-10{stroke-width:1.22px;}.cls-11{stroke-width:0.44px;}.cls-12{stroke-width:0.51px;}.cls-13{stroke-width:0.49px;}.cls-14{stroke-width:0.41px;}.cls-15{stroke-width:0.31px;}.cls-16{stroke-width:0.31px;}.cls-17{stroke-width:0.35px;}.cls-18{stroke-width:0.34px;}.cls-19{stroke-width:0.22px;}.cls-20{stroke-width:0.26px;}.cls-21{stroke-width:0.22px;}.cls-22{font-size:13.77px;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="JavaScript">
+      <g id="barTextPercentages">
+        <rect class="cls-1" y="194.75" width="862.7" height="24.23"></rect>
+        <rect class="cls-2" y="170.53" width="862.7" height="24.23"></rect>
+        <rect class="cls-1" y="146.3" width="862.7" height="24.23"></rect>
+        <rect class="cls-2" y="122.07" width="862.7" height="24.23"></rect>
+        <rect class="cls-1" y="97.84" width="862.7" height="24.23"></rect>
+        <rect class="cls-2" y="73.61" width="862.7" height="24.23"></rect>
+        <rect class="cls-1" y="49.39" width="862.7" height="24.23"></rect>
+        <rect class="cls-2" y="25.16" width="862.7" height="24.23"></rect>
+        <rect class="cls-2" y="364.35" width="862.7" height="24.23"></rect>
+        <rect class="cls-1" y="340.12" width="862.7" height="24.23"></rect>
+        <rect class="cls-2" y="315.89" width="862.7" height="24.23"></rect>
+        <rect class="cls-1" y="291.67" width="862.7" height="24.23"></rect>
+        <rect class="cls-2" y="267.44" width="862.7" height="24.23"></rect>
+        <rect class="cls-1" y="243.21" width="862.7" height="24.23"></rect>
+        <rect class="cls-2" y="218.98" width="862.7" height="24.23"></rect>
+        <rect class="cls-1" y="0.93" width="862.7" height="24.23"></rect>
+        <text class="cls-3" transform="translate(14.45 89.7)">Edge (EdgeHTML)</text>
+        <text class="cls-3" transform="translate(14.45 65.48)">Safari on iOS</text>
+        <text class="cls-3" transform="translate(14.45 41.25)">Safari</text>
+        <text class="cls-3" transform="translate(14.45 16.69)">Internet Explorer</text>
+        <text class="cls-3" transform="translate(14.45 113.93)">Firefox for Desktop</text>
+        <text class="cls-3" transform="translate(14.45 210.84)">Edge (Chromium)</text>
+        <text class="cls-3" transform="translate(14.45 186.61)">Opera Mini</text>
+        <text class="cls-3" transform="translate(14.45 162.39)">Chrome for Desktop</text>
+        <text class="cls-3" transform="translate(14.45 138.16)">None of the above</text>
+        <text class="cls-3" transform="translate(14.45 283.53)">Firefox for<tspan class="cls-4" x="60.4" y="0"> </tspan><tspan x="63.38" y="0">Android</tspan></text>
+        <text class="cls-3" transform="translate(14.45 259.3)">Chrome for<tspan class="cls-4" x="67.11" y="0"> </tspan><tspan class="cls-5" x="70.1" y="0">Android</tspan></text>
+        <text class="cls-3" transform="translate(14.45 235.07)">Samsung Internet</text>
+        <text class="cls-3" transform="translate(14.45 307.75)">UC Browser</text>
+        <text class="cls-3" transform="translate(14.45 380.44)">Other browser</text>
+        <text class="cls-3" transform="translate(14.45 356.21)">Baidu</text>
+        <text class="cls-3" transform="translate(14.45 331.98)">QQ Browser</text>
+        <rect class="cls-6" x="307.4" y="73.61" width="103.5" height="24.23"></rect>
+        <rect class="cls-7" x="307.4" y="97.84" width="45.5" height="24.23"></rect>
+        <rect class="cls-8" x="307.4" y="49.39" width="166.5" height="24.23"></rect>
+        <rect class="cls-9" x="307.4" y="25.16" width="184" height="24.23"></rect>
+        <rect class="cls-10" x="307.4" y="0.61" width="332" height="24.23"></rect>
+        <rect class="cls-11" x="307.4" y="194.75" width="23" height="24.23"></rect>
+        <rect class="cls-12" x="307.4" y="170.53" width="31" height="24.23"></rect>
+        <rect class="cls-13" x="307.4" y="146.3" width="32.5" height="24.23"></rect>
+        <rect class="cls-14" x="307.4" y="122.07" width="35.5" height="24.23"></rect>
+        <rect class="cls-15" x="307.4" y="267.44" width="14" height="24.23"></rect>
+        <rect class="cls-16" x="307.4" y="291.67" width="13.5" height="24.23"></rect>
+        <rect class="cls-17" x="307.4" y="243.21" width="17.5" height="24.23"></rect>
+        <rect class="cls-18" x="307.4" y="218.98" width="19.5" height="24.23"></rect>
+        <rect class="cls-19" x="307.4" y="364.35" width="6" height="24.23"></rect>
+        <rect class="cls-20" x="307.4" y="340.12" width="9.5" height="24.23"></rect>
+        <rect class="cls-21" x="307.4" y="315.89" width="10" height="24.23"></rect>
+        <text class="cls-22" transform="translate(14.9 414.97)">n = 6,645</text>
+        <text class="cls-3" transform="translate(809.71 65.48)">33.3%</text>
+        <text class="cls-3" transform="translate(809.71 89.7)">20.7%</text>
+        <text class="cls-3" transform="translate(809.71 113.93)">7.1%</text>
+        <text class="cls-3" transform="translate(809.71 16.69)">66.4%</text>
+        <text class="cls-3" transform="translate(809.71 41.25)">36.8%</text>
+        <text class="cls-3" transform="translate(809.71 186.61)">6.2%</text>
+        <text class="cls-3" transform="translate(809.71 210.84)">4.6%</text>
+        <text class="cls-3" transform="translate(809.71 162.39)">6.5%</text>
+        <text class="cls-3" transform="translate(809.71 138.16)">7.1%</text>
+        <text class="cls-3" transform="translate(809.71 259.3)">3.5%</text>
+        <text class="cls-3" transform="translate(809.71 283.53)">2.8%</text>
+        <text class="cls-3" transform="translate(809.71 307.75)">2.7%</text>
+        <text class="cls-3" transform="translate(809.71 235.07)">3.9%</text>
+        <text class="cls-3" transform="translate(809.71 380.44)">1.8%</text>
+        <text class="cls-3" transform="translate(809.71 356.21)">1.9%</text>
+        <text class="cls-3" transform="translate(809.71 331.98)">2.0%</text>
+        <text></text>
+      </g>
+    </g>
+  </g>
+</svg>

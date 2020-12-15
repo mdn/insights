@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 435.58 316.46">
+  <defs>
+    <style>.cls-1{fill:#fff44f;}.cls-2{fill:#ffa356;}.cls-3{fill:#f96282;}.cls-4{fill:#9f4e9d;}.cls-5{fill:#00458b;}.cls-10,.cls-6{font-size:10px;font-family:ArialMT, Arial;}.cls-7{letter-spacing:-0.01em;}.cls-8{letter-spacing:-0.02em;}.cls-9{letter-spacing:-0.01em;}.cls-10{fill:#959595;}.cls-11{letter-spacing:-0.02em;}.cls-12{letter-spacing:-0.02em;}.cls-13{letter-spacing:-0.03em;}.cls-14{letter-spacing:-0.02em;}.cls-15{fill:none;stroke:#000;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path class="cls-1" d="M235.75,161.86V30q-4.16,0-8.31.28Z"></path>
+      <path class="cls-2" d="M235.75,161.86,227.44,30.28A132.34,132.34,0,0,0,203.34,34a128,128,0,0,0-23.73,8.54Z"></path>
+      <path class="cls-3" d="M235.75,161.86,179.61,42.56a131.74,131.74,0,0,0-47.05,37.3,134.24,134.24,0,0,0-15.79,25.3A131.15,131.15,0,0,0,108,194.64Z"></path>
+      <path class="cls-4" d="M197.38,287.68a134.87,134.87,0,0,0,33.71,5.67,130.72,130.72,0,0,0,33.52-3,131.86,131.86,0,0,0,59.79-30.8,127.81,127.81,0,0,0,22.71-27,131,131,0,0,0,20.41-65.84,133.81,133.81,0,0,0-3.14-33.61,131.29,131.29,0,0,0-30.93-59.84A128.86,128.86,0,0,0,306.39,50.5L235.75,161.86,108.32,194.55a130.33,130.33,0,0,0,8.08,22.81,127.07,127.07,0,0,0,12.33,21,135.74,135.74,0,0,0,16.34,18.7,129.15,129.15,0,0,0,20.23,15.74,127.69,127.69,0,0,0,32.08,14.83"></path>
+      <path class="cls-5" d="M235.76,161.86,306.4,50.5a133.17,133.17,0,0,0-33.25-15.14A129.21,129.21,0,0,0,235.76,30Z"></path>
+      <text class="cls-6" transform="translate(286.51 8.58)">Strong<tspan class="cls-7" x="29.46" y="0">l</tspan><tspan class="cls-8" x="31.55" y="0">y</tspan><tspan x="36.32" y="0" xml:space="preserve"> Disagree</tspan></text>
+      <text class="cls-6" transform="translate(405.76 295.34)">
+        <tspan class="cls-9">A</tspan>
+        <tspan x="6.53" y="0">gree</tspan>
+      </text>
+      <text class="cls-10" transform="translate(413.85 313.21)">62%</text>
+      <text class="cls-10" transform="translate(421.13 41.04)">9%</text>
+      <text class="cls-10" transform="translate(348.68 25.5)">1%</text>
+      <text class="cls-10" transform="translate(66.66 31.38)">6%</text>
+      <text class="cls-10" transform="translate(0 76.57)">22%</text>
+      <text class="cls-6" transform="translate(0 59.18)">
+        <tspan class="cls-11">N</tspan>
+        <tspan x="7.01" y="0">eithe</tspan>
+        <tspan class="cls-12" x="28.7" y="0">r</tspan>
+        <tspan class="cls-13" x="31.88" y="0"> </tspan>
+        <tspan class="cls-9" x="34.36" y="0">A</tspan>
+        <tspan x="40.89" y="0">gree o</tspan>
+        <tspan class="cls-14" x="69.25" y="0">r</tspan>
+        <tspan x="72.42" y="0" xml:space="preserve"> Disagree</tspan>
+      </text>
+      <text class="cls-6" transform="translate(66.66 13.29)">Disagree</text>
+      <text class="cls-6" transform="translate(368.94 26.22)">Strong<tspan class="cls-7" x="29.46" y="0">l</tspan><tspan class="cls-8" x="31.55" y="0">y</tspan><tspan class="cls-13" x="36.32" y="0"> </tspan><tspan class="cls-9" x="38.81" y="0">A</tspan><tspan x="45.34" y="0">gree</tspan></text>
+      <line class="cls-15" x1="363.9" y1="12.77" x2="256.04" y2="12.77"></line>
+      <line class="cls-15" x1="323.15" y1="300.49" x2="311.69" y2="272.42"></line>
+      <line class="cls-15" x1="325.79" y1="30.96" x2="300.14" y2="47.13"></line>
+      <line class="cls-15" x1="430.58" y1="300.18" x2="322.72" y2="300.18"></line>
+      <line class="cls-15" x1="433.41" y1="31.03" x2="325.55" y2="31.03"></line>
+      <line class="cls-15" x1="256.25" y1="12.67" x2="230.61" y2="28.84"></line>
+      <line class="cls-15" x1="173.63" y1="18.1" x2="199.27" y2="34.27"></line>
+      <line class="cls-15" x1="66.07" y1="18.17" x2="173.93" y2="18.17"></line>
+      <line class="cls-15" x1="108.11" y1="63.7" x2="133.75" y2="79.87"></line>
+      <line class="cls-15" x1="0.56" y1="63.77" x2="108.41" y2="63.77"></line>
+    </g>
+  </g>
+</svg>
