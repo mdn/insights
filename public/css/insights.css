@@ -227,6 +227,20 @@ h2 {
 /*
  * z-index scale
  */
+/* Used with flexbox and grid. The new syntax is to use `gap`, but here
+   we also provide the fallback of `grid-gap`. This is also why we need
+   the stylelint-disable-line as the order is important */
+/*
+ * A simply utility for setting a max width on an element that constrains its
+ * width to what is commonly known to be a readable line length for prose.
+ */
+/* 
+ * Hide an element visually, but not from screen readers
+ * Use this mixin sparingly to avoid unnecessary code bloat
+ * Instead, use the class `visually-hidden` directly on the
+ * relevant element or component.
+ */
+/* A common reset for `ol` and `ul` elements  */
 .browser-compat-report {
   /*
    * Overriding some styles from:
@@ -237,14 +251,24 @@ h2 {
   margin: 0 0 24px;
   max-width: 42rem;
 }
+.browser-compat-report ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.browser-compat-report ul li,
+.browser-compat-report ul a {
+  display: inline-block;
+}
 .browser-compat-report .button {
+  margin-bottom: 12px;
   max-width: inherit;
   text-align: center;
   width: 100%;
 }
 @media all and (min-width: 63.9385em) {
   .browser-compat-report .button {
-    max-width: max-content;
+    margin-bottom: inherit;
     text-align: left;
     width: inherit;
   }
