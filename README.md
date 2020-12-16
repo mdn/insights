@@ -1,55 +1,37 @@
 # MDN Insights
 
-## Getting started
+This repository contains the code that powers the site, https://inisights.developer.mozilla.org/
+There you will find the results of the MDN Web Docs Web DNA(Developer Needs Assessment) reports in both HTML and PDF.
 
-### Prequisites
+### Running locally
 
-`node` and `npm` are required. Use `nvm`.
+To run the website locally you will need the following pre-installed:
 
-### Getting started
+- [Nodejs](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/)
 
-    $ npm i
-    $ npm start
+Once you have the above installed, run the following command to install all required dependencies:
 
-## Deploying
+```
+yarn
+```
 
-Jenkins is used for building and pushing the dist/ directory to staging. Changes can be pushed to the `stage-push` branch to kick off the build and deployment to staging. See the `Jenkinsfile` in the root of this repo.
+Once the above completed, run:
 
-## Workflow
+```
+yarn start
+```
 
-Contribution workflow should look like this:
+The above will startup a local `http` server and also complete an initial build of the source. Once complete, it will open the landing page in your browser. It will also watch your files for changes, and automatically rebuild the source on save.
 
-- Fork this repo to make your respective updates.
-- When completed, create a PR to be merged into `stage-push` so your changes can be tested on staging.
-- Once confirmed on staging, create a PR from your fork into `master` ready for review.
+### Production
 
-## Tooling
+For right now, production builds are created locally and checked into source control. We will improve this soon and update the documentation to reflect the changes.
 
-### Build tools
+The command that builds for production is:
 
-- [Webpack](http://browserify.org/)
+```
+yarn build:prod
+```
 
-### Linting and formatting
-
-- [eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [stylelint](https://github.com/stylelint/stylelint)
-
-Run `npm run lint` to lint both the JS and the SCSS files. This will also be run as part of the build process, but will not cause it to exit.
-
-### Unit testing
-
-- [Jest](https://jestjs.io/)
-
-Run `npm run test` to execute any unit tests.
-
-## Directory structure
-
-`bin/` - Shell scripts to assist with Jenkins and CI.
-`src/` - The main source directory.
-- `assets/` - Images, fonts, and other assets.
-- `components/` - JavaScript components in vanilla JS.
-- `styles/` - SCSS source files.
-- `utils/` - JavaScript utility files.
-- `index.html` - The main HTML landing page.
-- `index.js` - The main entry point for the JavaScript to be built from.
+The folder that should to serve is `./public`

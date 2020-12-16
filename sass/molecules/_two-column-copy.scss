@@ -1,0 +1,14 @@
+@import "~@mdn/minimalist/sass/vars/layout";
+@import "~@mdn/minimalist/sass/mixins/utils";
+
+.two-column-copy {
+  @media #{$mq-small-desktop-and-up} {
+    @include gap($base-spacing * 2);
+    display: flex;
+
+    .col-1,
+    .col-2 {
+      flex-basis: 50%;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 778.73 154.32">
+  <defs>
+    <style>.cls-1,.cls-2{opacity:0.05;}.cls-2{fill:#fff;}.cls-3{font-size:13.42px;}.cls-3,.cls-4{font-family:ArialMT, Arial;}.cls-4{font-size:13.77px;}.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{fill:#00458b;stroke:#fff;stroke-miterlimit:10;}.cls-5{stroke-width:0.42px;}.cls-6{stroke-width:0.27px;}.cls-7{stroke-width:0.62px;}.cls-8{stroke-width:0.64px;}.cls-9{stroke-width:1.24px;}.cls-10{letter-spacing:-0.07em;}</style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="How_Developers_Felt_About_Needs" data-name="How Developers Felt About Needs">
+      <g id="barTextPercentages">
+        <rect class="cls-1" y="97.85" width="778.73" height="24.23"></rect>
+        <rect class="cls-2" y="73.62" width="778.73" height="24.23"></rect>
+        <rect class="cls-1" y="49.4" width="778.73" height="24.23"></rect>
+        <rect class="cls-2" y="25.17" width="778.73" height="24.23"></rect>
+        <rect class="cls-1" y="0.94" width="778.73" height="24.23"></rect>
+        <text class="cls-3" transform="translate(14.45 89.71)">Disagree that needs are represented</text>
+        <text class="cls-3" transform="translate(14.45 65.49)">Strongly agree that needs are represented</text>
+        <text class="cls-3" transform="translate(14.45 41.26)">Neither agree nor disagree that needs are represented</text>
+        <text class="cls-3" transform="translate(14.45 16.7)">Agree that needs are represented</text>
+        <text class="cls-3" transform="translate(14.45 113.94)">Strongly disagree that needs are represented</text>
+        <text class="cls-4" transform="translate(14.7 149.85)">n = 6,645</text>
+        <rect class="cls-5" x="351.2" y="73.62" width="25" height="24.23"></rect>
+        <rect class="cls-6" x="351.2" y="97.85" width="10" height="24.23"></rect>
+        <rect class="cls-7" x="351.2" y="49.4" width="55.5" height="24.23"></rect>
+        <rect class="cls-8" x="351.2" y="25.17" width="67" height="24.23"></rect>
+        <rect class="cls-9" x="351.2" y="0.62" width="343" height="24.23"></rect>
+        <text class="cls-3" transform="translate(719.71 65.65)">
+          <tspan class="cls-10">1</tspan>
+          <tspan x="6.47" y="0">1.0%</tspan>
+        </text>
+        <text class="cls-3" transform="translate(719.71 89.88)">5.0%</text>
+        <text class="cls-3" transform="translate(719.71 114.1)">2.0%</text>
+        <text class="cls-3" transform="translate(719.71 16.87)">68.6%</text>
+        <text class="cls-3" transform="translate(719.71 41.42)">13.4%</text>
+      </g>
+    </g>
+  </g>
+</svg>

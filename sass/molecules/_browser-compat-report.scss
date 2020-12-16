@@ -1,0 +1,36 @@
+@import "~@mdn/minimalist/sass/vars/layout";
+
+@import "~@mdn/minimalist/sass/mixins/utils";
+
+.browser-compat-report {
+  /*
+   * Overriding some styles from:
+   * sass/atoms/_typography.scss  
+   */
+  .main-lead {
+    margin: 0 0 $base-spacing;
+    max-width: 42rem;
+  }
+
+  ul {
+    @include reset-list();
+
+    li,
+    a {
+      display: inline-block;
+    }
+  }
+
+  .button {
+    margin-bottom: $base-spacing / 2;
+    max-width: inherit;
+    text-align: center;
+    width: 100%;
+
+    @media #{$mq-small-desktop-and-up} {
+      margin-bottom: inherit;
+      text-align: left;
+      width: inherit;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import "~@mdn/minimalist/sass/vars/layout";
+
+h2 {
+  margin-bottom: $base-spacing;
+}
+
+.wrapper {
+  margin: $base-spacing auto;
+  max-width: $max-width-default;
+  padding: $base-spacing;
+}
