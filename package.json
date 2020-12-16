@@ -4,7 +4,8 @@
   "description": "The code that power https://insights.developer.mozilla.org/",
   "scripts": {
     "build": "webpack",
-    "server": "http-server -p 8090",
+    "build:prod": "webpack --config ./webpack.config.prod.js",
+    "server": "http-server -p 8090 -o",
     "start": "run-p build server"
   },
   "repository": {
