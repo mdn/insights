@@ -34,7 +34,7 @@ node {
   if (env.BRANCH_NAME == 'prod-push') {
     stage('Push') {
       println("Pushing to prod bucket")
-      syncs3("insights-prod-178589013767")
+      syncS3("insights-prod-178589013767")
     }
   }
 
