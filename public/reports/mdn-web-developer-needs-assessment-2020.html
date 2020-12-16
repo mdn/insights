@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="">
-    
-<!-- Mirrored from mozilla-reports.d.tokyo.uk/mdn-web-developer-needs-assessment-2020 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Dec 2020 09:03:14 GMT -->
+
+<!-- Mirrored from mozilla-reports.d.tokyo.uk/mdn-web-developer-needs-assessment-2020 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Dec 2020 10:34:52 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
         <meta charset="utf-8" />
@@ -11,7 +11,7 @@
         />
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
         <title>MDN</title>
-        				
+
 	<title>MDN Web Developer Needs Assessment 2020 - MDN</title>
 	<meta name="description" content="" />
 
@@ -26,7 +26,7 @@
 	<meta property="og:site_name" content="MDN" />
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:locale:alternate" content="en_GB" />
-	
+
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:site" content="" />
 	<meta name="twitter:url" content="mdn-web-developer-needs-assessment-2020.html" />
@@ -34,11 +34,11 @@
 	<meta name="twitter:description" content="" />
 	<meta name="twitter:image" content="assets/images/web-developer-needs-assessment-2019/_1200x675_crop_center-center_none/p1.svg" />
 
-    <meta name="robots" content="none, noimageindex" />
-    
-    <link rel="shortcut icon" href="../assets/favicon-32.png" />
-	
-	<link rel="home" href="index.html" />
+	<meta name="robots" content="none, noimageindex" />
+
+  <link rel="shortcut icon" href="../assets/favicon-32.png" />
+
+<link rel="home" href="index.html" />
 	<link rel="canonical" href="mdn-web-developer-needs-assessment-2020.html">
 
         <link
@@ -55,14 +55,14 @@
             type="font/woff2"
             crossorigin
         />
-        
+
         <!-- inject:css -->
 	<link rel="stylesheet" href="assets/css/main.1ba6dce9.css">
 	<!-- endinject -->
-                
+
         <script>
             var callbacks = [];
-            
+
             function addCallback(func) {
                 if (typeof google !== 'undefined') {
                     func();
@@ -70,7 +70,7 @@
                     callbacks.push(func);
                 }
             }
-            
+
             function inViewport(element, options = {offset: {top: 0, right: 0, bottom: 0, left: 0}, threshold: 0}) {
                 const {top, right, bottom, left, width, height} = element.getBoundingClientRect();
                 const intersection = {
@@ -79,20 +79,20 @@
                     b: window.innerHeight/2 - top,
                     l: right
                 };
-            
+
                 const threshold = {
                     x: options.threshold * width,
                     y: options.threshold * height
                 };
-            
+
                 return intersection.t > (options.offset.top + threshold.y)
                     && intersection.r > (options.offset.right + threshold.x)
                     && intersection.b > (options.offset.bottom + threshold.y)
                     && intersection.l > (options.offset.left + threshold.x);
             }
-            
+
             // addCallback(function(){google.charts.load('current', {'packages':['corechart']});});
-            
+
             function googleCheck() {
                 if (typeof google !== 'undefined') {
                     while (callbacks.length > 0) {
@@ -102,16 +102,16 @@
                     setTimeout(googleCheck, 50);
                 }
             }
-            
+
             // googleCheck();
-              
+
               function drawChart(id, data, type, valueType, split) {
                   var chart, options,
                   data = google.visualization.arrayToDataTable(data);
                   if (!split) {
                       split = ['50%','50%'];
                   }
-                  
+
                   if (type == 'pie') {
                       chart = new google.visualization.PieChart(document.getElementById(id));
                       options = { legend: {position:'bottom'}, chartArea: {top:10, width:'100%', height:'80%'}};
@@ -119,7 +119,7 @@
                   }
                   if (type == 'bar') {
                         chart = new google.visualization.BarChart(document.getElementById(id));
-                        
+
                         if (valueType == 'number') {
                         options = { legend: 'none', chartArea: {top:0, left:split[0], width:split[1], height:'80%'}};
                         var view = new google.visualization.DataView(data);
@@ -141,7 +141,7 @@
                             }
                         chart.draw(view, options);
                     }
-                      
+
               }
         </script>
 
@@ -219,7 +219,7 @@
                                         </svg>
                                         Survey Responses
                                     </button>
-                                    
+
                                     <div
                                         class="mt-1 space-y-1"
                                         x-show="sections.includes(2)"
@@ -267,7 +267,7 @@
                                         >
                                             Responses By Experience Level
                                         </a>
-                                                                            
+
                                     </div>
                                                                 </div>
                                                             <div>
@@ -290,7 +290,7 @@
                                         </svg>
                                         Overall Satisfaction With the Web
                                     </button>
-                                    
+
                                     <div
                                         class="mt-1 space-y-1"
                                         x-show="sections.includes(3)"
@@ -310,7 +310,7 @@
                                         >
                                             Satisfaction by Subcategory
                                         </a>
-                                                                            
+
                                     </div>
                                                                 </div>
                                                             <div>
@@ -333,7 +333,7 @@
                                         </svg>
                                         Needs Assessment
                                     </button>
-                                    
+
                                     <div
                                         class="mt-1 space-y-1"
                                         x-show="sections.includes(4)"
@@ -430,7 +430,7 @@
                                         >
                                             How Developers Felt About the Needs List
                                         </a>
-                                                                            
+
                                     </div>
                                                                 </div>
                                                             <div>
@@ -461,7 +461,7 @@
                                         </svg>
                                         Technologies
                                     </button>
-                                    
+
                                     <div
                                         class="mt-1 space-y-1"
                                         x-show="sections.includes(6)"
@@ -502,7 +502,7 @@
                                         >
                                             Accessibility
                                         </a>
-                                                                            
+
                                     </div>
                                                                 </div>
                                                             <div>
@@ -521,7 +521,7 @@
                                         Methodology
                                     </a>
                                                                 </div>
-                                                            
+
                             </nav>
                         </div>
                     </div>
@@ -558,7 +558,7 @@
                         <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h2>Introduction</h2>
                         </div>
-                                                                                                        
+
                         <div class="mb-12" id="introduction-introduction" x-ref="introductionIntroduction" @scroll.window="inViewport($refs.introductionIntroduction) ? page = '1-1' : '', inViewport($refs.introductionIntroduction) && !menuOpen ? sections.push(1) : ''">
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
                                         <p>Welcome to the second edition of the MDN Web Developers Needs Assessment (DNA) — a global, annual study of developer needs on the web. MDN Web DNA aspires to be the voice of developers and designers working on the web.</p>
@@ -574,13 +574,13 @@
 <p>Throughout the report we specify where there were changes in the survey questions.</p>
                                     </div>
                                                                                                                                                                                                                                                 </div>
-                        
+
                     </div>
                                         <div id="survey-responses" class="mb-12">
                         <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h2>Survey Responses</h2>
                         </div>
-                                                                                                        
+
                         <div class="mb-12" id="survey-responses-respondent-overview" x-ref="surveyResponsesRespondentOverview" @scroll.window="inViewport($refs.surveyResponsesRespondentOverview) ? page = '2-1' : '', inViewport($refs.surveyResponsesRespondentOverview) && !menuOpen ? sections.push(2) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Respondent Overview</h3>
@@ -594,7 +594,7 @@
 
                                     </div>
                                                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="survey-responses-responses-by-gender" x-ref="surveyResponsesResponsesByGender" @scroll.window="inViewport($refs.surveyResponsesResponsesByGender) ? page = '2-2' : '', inViewport($refs.surveyResponsesResponsesByGender) && !menuOpen ? sections.push(2) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Responses By Gender</h3>
@@ -619,7 +619,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="survey-responses-responses-by-region" x-ref="surveyResponsesResponsesByRegion" @scroll.window="inViewport($refs.surveyResponsesResponsesByRegion) ? page = '2-3' : '', inViewport($refs.surveyResponsesResponsesByRegion) && !menuOpen ? sections.push(2) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Responses By Region</h3>
@@ -636,7 +636,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="survey-responses-responses-by-country" x-ref="surveyResponsesResponsesByCountry" @scroll.window="inViewport($refs.surveyResponsesResponsesByCountry) ? page = '2-4' : '', inViewport($refs.surveyResponsesResponsesByCountry) && !menuOpen ? sections.push(2) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Responses By Country</h3>
@@ -651,7 +651,7 @@
 <ul><li>United States - 16.6%</li><li>Germany 7.4%</li><li>Russia - 7%</li><li>China - 6.4%</li><li>France - 5.9%</li><li>United Kingdom - 5%</li><li>India - 4.5%</li><li>Canada - 3.1%</li></ul>
                                     </div>
                                                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="survey-responses-responses-by-type-of-developer" x-ref="surveyResponsesResponsesByTypeOfDeveloper" @scroll.window="inViewport($refs.surveyResponsesResponsesByTypeOfDeveloper) ? page = '2-5' : '', inViewport($refs.surveyResponsesResponsesByTypeOfDeveloper) && !menuOpen ? sections.push(2) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Responses By Type of Developer</h3>
@@ -672,7 +672,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="survey-responses-responses-by-experience-level" x-ref="surveyResponsesResponsesByExperienceLevel" @scroll.window="inViewport($refs.surveyResponsesResponsesByExperienceLevel) ? page = '2-6' : '', inViewport($refs.surveyResponsesResponsesByExperienceLevel) && !menuOpen ? sections.push(2) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Responses By Experience Level</h3>
@@ -693,13 +693,13 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                        
+
                     </div>
                                         <div id="overall-satisfaction-with-the-web" class="mb-12">
                         <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h2>Overall Satisfaction With the Web</h2>
                         </div>
-                                                                                                        
+
                         <div class="mb-12" id="overall-satisfaction-with-the-web-overview" x-ref="overallSatisfactionWithTheWebOverview" @scroll.window="inViewport($refs.overallSatisfactionWithTheWebOverview) ? page = '3-1' : '', inViewport($refs.overallSatisfactionWithTheWebOverview) && !menuOpen ? sections.push(3) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Overview</h3>
@@ -722,7 +722,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="overall-satisfaction-with-the-web-satisfaction-by-subcategory" x-ref="overallSatisfactionWithTheWebSatisfactionBySubcategory" @scroll.window="inViewport($refs.overallSatisfactionWithTheWebSatisfactionBySubcategory) ? page = '3-2' : '', inViewport($refs.overallSatisfactionWithTheWebSatisfactionBySubcategory) && !menuOpen ? sections.push(3) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Satisfaction by Subcategory</h3>
@@ -748,13 +748,13 @@
 <ul><li>Documentation for the Web platform (HTML, CSS, JavaScript, etc.)</li><li>Browser developer tools</li><li>IDEs</li></ul>
                                     </div>
                                                                                                                                                                                                                                                 </div>
-                        
+
                     </div>
                                         <div id="needs-assessment" class="mb-12">
                         <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h2>Needs Assessment</h2>
                         </div>
-                                                                                                        
+
                         <div class="mb-12" id="needs-assessment-what-is-a-need" x-ref="needsAssessmentWhatIsANeed" @scroll.window="inViewport($refs.needsAssessmentWhatIsANeed) ? page = '4-1' : '', inViewport($refs.needsAssessmentWhatIsANeed) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>What is a Need?</h3>
@@ -774,7 +774,7 @@
 <ul><li>Working with different tracking protection and data storage policies in browsers.</li><li>Using web technologies in a native or hybrid context (e.g. using WebViews, Electron, CEF, or mini-apps).</li><li>Lack of support for progressive web apps (PWAs)</li></ul>
                                     </div>
                                                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="needs-assessment-ranking-methodology" x-ref="needsAssessmentRankingMethodology" @scroll.window="inViewport($refs.needsAssessmentRankingMethodology) ? page = '4-2' : '', inViewport($refs.needsAssessmentRankingMethodology) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Ranking Methodology</h3>
@@ -786,7 +786,7 @@
 <ul><li>Used Python to code, clean, and visualize the data</li><li>Employed the Choice-Based Conjoint/Hierarchical Bayes (CBC/HB) standalone estimation module from Sawtooth Software to estimate MaxDiff utilities</li><li>Eliminated inconsistent responders</li><li>Eliminated speeders who were below a response consistency threshold</li><li>Ratio scaled the needs, converting them to importance (frustration) scores that sum to 100 across the set of items</li></ul>
                                     </div>
                                                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="needs-assessment-top-ten-needs" x-ref="needsAssessmentTopTenNeeds" @scroll.window="inViewport($refs.needsAssessmentTopTenNeeds) ? page = '4-3' : '', inViewport($refs.needsAssessmentTopTenNeeds) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Top Ten Needs</h3>
@@ -806,7 +806,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="needs-assessment-ranking-of-all-needs" x-ref="needsAssessmentRankingOfAllNeeds" @scroll.window="inViewport($refs.needsAssessmentRankingOfAllNeeds) ? page = '4-4' : '', inViewport($refs.needsAssessmentRankingOfAllNeeds) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Ranking of All Needs</h3>
@@ -826,7 +826,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="needs-assessment-needs-segmentation" x-ref="needsAssessmentNeedsSegmentation" @scroll.window="inViewport($refs.needsAssessmentNeedsSegmentation) ? page = '4-5' : '', inViewport($refs.needsAssessmentNeedsSegmentation) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Needs Segmentation</h3>
@@ -838,7 +838,7 @@
 <p>Each segment has widely divergent needs that surface as the most frustrating when compared to the overall mean scores.</p>
                                     </div>
                                                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="needs-assessment-documentation-disciples" x-ref="needsAssessmentDocumentationDisciples" @scroll.window="inViewport($refs.needsAssessmentDocumentationDisciples) ? page = '4-6' : '', inViewport($refs.needsAssessmentDocumentationDisciples) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Documentation Disciples</h3>
@@ -858,7 +858,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="needs-assessment-browser-beaters" x-ref="needsAssessmentBrowserBeaters" @scroll.window="inViewport($refs.needsAssessmentBrowserBeaters) ? page = '4-7' : '', inViewport($refs.needsAssessmentBrowserBeaters) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Browser Beaters</h3>
@@ -878,7 +878,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="needs-assessment-progressive-programmers" x-ref="needsAssessmentProgressiveProgrammers" @scroll.window="inViewport($refs.needsAssessmentProgressiveProgrammers) ? page = '4-8' : '', inViewport($refs.needsAssessmentProgressiveProgrammers) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Progressive Programmers</h3>
@@ -898,7 +898,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="needs-assessment-testing-technicians" x-ref="needsAssessmentTestingTechnicians" @scroll.window="inViewport($refs.needsAssessmentTestingTechnicians) ? page = '4-9' : '', inViewport($refs.needsAssessmentTestingTechnicians) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Testing Technicians</h3>
@@ -918,7 +918,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="needs-assessment-keeping-currents" x-ref="needsAssessmentKeepingCurrents" @scroll.window="inViewport($refs.needsAssessmentKeepingCurrents) ? page = '4-10' : '', inViewport($refs.needsAssessmentKeepingCurrents) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Keeping Currents</h3>
@@ -938,7 +938,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="needs-assessment-performance-pushers" x-ref="needsAssessmentPerformancePushers" @scroll.window="inViewport($refs.needsAssessmentPerformancePushers) ? page = '4-11' : '', inViewport($refs.needsAssessmentPerformancePushers) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Performance Pushers</h3>
@@ -958,7 +958,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="needs-assessment-regulatory-wranglers" x-ref="needsAssessmentRegulatoryWranglers" @scroll.window="inViewport($refs.needsAssessmentRegulatoryWranglers) ? page = '4-12' : '', inViewport($refs.needsAssessmentRegulatoryWranglers) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Regulatory Wranglers</h3>
@@ -978,7 +978,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="needs-assessment-how-developers-felt-about-the-needs-list" x-ref="needsAssessmentHowDevelopersFeltAboutTheNeedsList" @scroll.window="inViewport($refs.needsAssessmentHowDevelopersFeltAboutTheNeedsList) ? page = '4-13' : '', inViewport($refs.needsAssessmentHowDevelopersFeltAboutTheNeedsList) && !menuOpen ? sections.push(4) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>How Developers Felt About the Needs List</h3>
@@ -998,13 +998,13 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                        
+
                     </div>
                                         <div id="whats-missing-from-the-web" class="mb-12">
                         <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h2>What’s Missing From the Web</h2>
                         </div>
-                                                                                                        
+
                         <div class="mb-12" id="whats-missing-from-the-web-overview" x-ref="whatsMissingFromTheWebOverview" @scroll.window="inViewport($refs.whatsMissingFromTheWebOverview) ? page = '5-1' : '', inViewport($refs.whatsMissingFromTheWebOverview) && !menuOpen ? sections.push(5) : ''">
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
                                         <p>In 2019, we included the open-ended, “What are things that you would like to be able to do on the Web but lack web platform features to do?” This was an optional question, not requiring a response.</p>
@@ -1085,13 +1085,13 @@
 <p><em>“Accessibility, screen reader supports are chaos right now. As every application is trying to be WCAG compliant it make sense [that] ARIA comes by default or have better APIs to handle.”</em></p>
                                     </div>
                                                                                                                                                                                                                                                 </div>
-                        
+
                     </div>
                                         <div id="technologies" class="mb-12">
                         <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h2>Technologies</h2>
                         </div>
-                                                                                                        
+
                         <div class="mb-12" id="technologies-programming-languages" x-ref="technologiesProgrammingLanguages" @scroll.window="inViewport($refs.technologiesProgrammingLanguages) ? page = '6-1' : '', inViewport($refs.technologiesProgrammingLanguages) && !menuOpen ? sections.push(6) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Programming Languages</h3>
@@ -1102,7 +1102,7 @@
 <p>We asked the same question, but new for this year, we then followed up with a second question, taking all the answers selected from the previous question, we asked them to pick the biggest. This allowed us to report more accurate numbers in terms of which is truly the biggest pain point.</p>
                                     </div>
                                                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="technologies-java-script" x-ref="technologiesJavaScript" @scroll.window="inViewport($refs.technologiesJavaScript) ? page = '6-1' : '', inViewport($refs.technologiesJavaScript) && !menuOpen ? sections.push(6) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>JavaScript</h3>
@@ -1124,7 +1124,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="technologies-html" x-ref="technologiesHTML" @scroll.window="inViewport($refs.technologiesHTML) ? page = '6-1' : '', inViewport($refs.technologiesHTML) && !menuOpen ? sections.push(6) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>HTML</h3>
@@ -1144,7 +1144,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="technologies-css" x-ref="technologiesCSS" @scroll.window="inViewport($refs.technologiesCSS) ? page = '6-1' : '', inViewport($refs.technologiesCSS) && !menuOpen ? sections.push(6) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>CSS</h3>
@@ -1164,7 +1164,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="technologies-web-assembly" x-ref="technologiesWebAssembly" @scroll.window="inViewport($refs.technologiesWebAssembly) ? page = '6-1' : '', inViewport($refs.technologiesWebAssembly) && !menuOpen ? sections.push(6) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>WebAssembly</h3>
@@ -1184,7 +1184,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="technologies-adoption-of-new-technologies" x-ref="technologiesAdoptionOfNewTechnologies" @scroll.window="inViewport($refs.technologiesAdoptionOfNewTechnologies) ? page = '6-6' : '', inViewport($refs.technologiesAdoptionOfNewTechnologies) && !menuOpen ? sections.push(6) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Adoption of New Technologies</h3>
@@ -1205,7 +1205,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="technologies-browsers" x-ref="technologiesBrowsers" @scroll.window="inViewport($refs.technologiesBrowsers) ? page = '6-7' : '', inViewport($refs.technologiesBrowsers) && !menuOpen ? sections.push(6) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Browsers</h3>
@@ -1225,7 +1225,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="technologies-browsers-that-cause-issues" x-ref="technologiesBrowsersThatCauseIssues" @scroll.window="inViewport($refs.technologiesBrowsersThatCauseIssues) ? page = '6-7' : '', inViewport($refs.technologiesBrowsersThatCauseIssues) && !menuOpen ? sections.push(6) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Browsers That Cause Issues</h3>
@@ -1246,7 +1246,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="technologies-web-testing" x-ref="technologiesWebTesting" @scroll.window="inViewport($refs.technologiesWebTesting) ? page = '6-9' : '', inViewport($refs.technologiesWebTesting) && !menuOpen ? sections.push(6) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Web Testing</h3>
@@ -1267,7 +1267,7 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                                                                                
+
                         <div class="mb-12" id="technologies-accessibility" x-ref="technologiesAccessibility" @scroll.window="inViewport($refs.technologiesAccessibility) ? page = '6-10' : '', inViewport($refs.technologiesAccessibility) && !menuOpen ? sections.push(6) : ''">
                                                       <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h3>Accessibility</h3>
@@ -1289,32 +1289,34 @@
                                         </figure>
                                     </div>
                                                                                                                                                                                                                 </div>
-                        
+
                     </div>
                                         <div id="conclusion" class="mb-12">
                         <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h2>Conclusion</h2>
                         </div>
-                                                                                                        
+
                         <div class="mb-12" id="conclusion-overview" x-ref="conclusionOverview" @scroll.window="inViewport($refs.conclusionOverview) ? page = '7-1' : '', inViewport($refs.conclusionOverview) && !menuOpen ? sections.push(7) : ''">
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
                                         <p>Respondents took this survey with the promise that their answers will influence how browser vendors prioritize feature development. That work is underway.</p>
-<p><strong>Google</strong></p>
-<p>For Google, MDN DNA 2019 was vastly important both to understand the top needs and pain points of developers, as well as inspiring and helping them to dive deeper within the biggest need, browser compatibility. In partnership with Mozilla, they fielded a follow-up survey on browser compatibility and the report led to a lot of improvements to the web platform, including flexbox. You can read more about a direct example of impact here.</p>
-<p><em>“The MDN DNA report bridges a critical gap in understanding developer needs: replacing guesswork with actionable feedback. We will use it in 2021 to focus our work on improving the areas of the web platform that cause the most pain. Since the report shows that it's not just bugs or gaps in key areas, but also interoperability of those areas across browsers, we will work closely with other browser vendors to drive improvements across the board.”<br /><span class="text-xs">- Chris Harrelson, Senior Staff Software Engineer and Blink Rendering lead</span></em></p>
-<p><strong>Microsoft</strong></p>
-<p>The Edge team used the Web DNA survey results from 2019 to inform their product roadmaps, understand the current needs of web developers, and to discover unmet needs. This has been a valuable data point for their platform, apps, and tools teams to direct planning and inform customer research. The results under- scored the importance of improving compatibility solutions and understanding new tooling opportunities, while reinforcing the general principles behind their choice to move Microsoft Edge to Chromium, collaborate in open source, and ship across platforms. They’re eagerly digging into the 2020 results and look forward to continuing to improve their plans based on this year’s data.</p>
+<p><strong>Google</strong><br /></p>
+<blockquote>“The MDN DNA report bridges a critical gap in understanding developer needs: replacing guesswork with actionable feedback. We will use it in 2021 to focus our work on improving the areas of the web platform that cause the most pain. Since the report shows that it's not just bugs or gaps in key areas, but also interoperability of those areas across browsers, we will work closely with other browser vendors to drive improvements across the board.”</blockquote>
+<p><em><span class="text-xs">- Chris Harrelson, Senior Staff Software Engineer and Blink Rendering lead</span></em></p>
+<p><strong>Microsoft</strong><br /></p>
+<blockquote>“The Edge team used the Web DNA survey results from 2019 to inform their product roadmaps, understand the current needs of web developers, and to discover unmet needs. This has been a valuable data point for their platform, apps, and tools teams to direct planning and inform customer research. The results under- scored the importance of improving compatibility solutions and understanding new tooling opportunities, while reinforcing the general principles behind their choice to move Microsoft Edge to Chromium, collaborate in open source, and ship across platforms. They’re eagerly digging into the 2020 results and look forward to continuing to improve their plans based on this year’s data.”</blockquote>
+<p><em><span class="text-xs">- Kyle Pflug, Principal PM Lead Edge Dev Ecosystem &amp; Tools at Microsoft</span></em></p>
 <p><strong>Mozilla</strong></p>
-<p>Mozilla recognizes that interoperability remains a major pain point. They will continue to invest in cross-browser efforts like web-platform-tests to ensure that interoperability on the web gets better over time. Cross-browser testing is still more difficult than it needs to be, and they hope that initiatives like webdriver-bidi will improve things. This year’s data will be used to ensure they prioritize the right things in that work.</p>
+<blockquote>“The MDN DNA report provides the Web Platform team at Mozilla with critical insight into how we can improve the platform for authors. The results of the survey highlight the importance of cross-browser compatibility, an area which we regard as critical for the health of the web. We will use the survey data to inform the 2021 planning for Gecko, Firefox’s rendering engine, and help us focus our efforts on those areas which will have the biggest impact on web developers.”</blockquote>
+<p><em><span class="text-xs">-Andrew Overholt, Senior Director of Engineering, Web Platform</span></em></p>
                                     </div>
                                                                                                                                                                                                                                                 </div>
-                        
+
                     </div>
                                         <div id="methodology" class="mb-12">
                         <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6">
                             <h2>Methodology</h2>
                         </div>
-                                                                                                        
+
                         <div class="mb-12" id="methodology-methodology" x-ref="methodologyMethodology" @scroll.window="inViewport($refs.methodologyMethodology) ? page = '8-1' : '', inViewport($refs.methodologyMethodology) && !menuOpen ? sections.push(8) : ''">
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
                                         <p><strong>MaxDiff</strong></p>
@@ -1325,17 +1327,17 @@
 <p>For each technique, we evaluated the candidate solutions using various statistical criteria, choosing a best candidate for each of the four approaches. These solutions were then profiled and evaluated more artistically on which told a better story. The solution we settled on and included in this report comes from a k-prototypes model with 7 clusters or segments.</p>
                                     </div>
                                                                                                                                                                                                                                                 </div>
-                        
+
                     </div>
-                                        
+
                 </div>
             </div>
         </div>
-        
+
 <!-- inject:js -->
 	<script src="assets/js/main.094bca66.js"></script>
 	<!-- endinject -->
     </body>
 
-<!-- Mirrored from mozilla-reports.d.tokyo.uk/mdn-web-developer-needs-assessment-2020 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Dec 2020 09:03:41 GMT -->
+<!-- Mirrored from mozilla-reports.d.tokyo.uk/mdn-web-developer-needs-assessment-2020 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Dec 2020 10:34:52 GMT -->
 </html>
