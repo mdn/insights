@@ -5,6 +5,7 @@
   "scripts": {
     "build": "webpack",
     "build:prod": "webpack --config ./webpack.config.prod.js",
+    "lint": "npx eslint",
     "server": "http-server -p 8090 -o",
     "start": "run-p build server"
   },
