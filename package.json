@@ -26,7 +26,7 @@
     "sass": true
   },
   "devDependencies": {
-    "@mdn/dinocons": "^0.1.3",
+    "@mdn/dinocons": "^0.3.0",
     "@mdn/minimalist": "^0.5.3",
     "css-loader": "^5.0.2",
     "eslint": "^7.19.0",
