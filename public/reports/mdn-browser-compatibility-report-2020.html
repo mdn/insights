@@ -585,8 +585,8 @@ compatibility issues.
 as closely as possible, that would be a beautiful world.​ – A Web Developer
 </em></p>
 <p>The challenge of making web sites and applications work consistently across
-browsers is well known to web developers and designers. In the 2​019 MDN
-Developer Needs Assessment​, we learned that indeed it appears to be the overall
+browsers is well known to web developers and designers. In the <a href="https://insights.developer.mozilla.org/" target="_blank" rel="noreferrer noopener">2​019 MDN
+Developer Needs Assessment​</a>, we learned that indeed it appears to be the overall
 top pain point when building for the web, with four of the top five
 frustrations/needs being related:
 </p>
@@ -596,7 +596,7 @@ frustrations/needs being related:
 
 							</li>
 							<li>
-								(Outdatedorinaccuratedocumentationforframeworksandlibraries.)
+								(Outdated or inaccurate documentation for frameworks and libraries.)
 
 							</li>
 							<li>
@@ -633,7 +633,7 @@ meaning as interoperability.</p>
                                                                                                         
                         <div class="mb-12" id="summary-summary" x-ref="summarySummary" @scroll.window="inViewport($refs.summarySummary) ? page = '2-1' : '', inViewport($refs.summarySummary) && !menuOpen ? sections.push(2) : ''">
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>Both in the ​2019 MDN Developer Needs Assessment​ and historically we’ve seen
+                                        <p>Both in the <a href="https://insights.developer.mozilla.org/" target="_blank" rel="noreferrer noopener">​2019 MDN Developer Needs Assessment</a>​ and historically we’ve seen
 that by far the biggest challenge for web developers is with regards to browser
 compatibility. We wanted to learn exactly what areas and features are causing this
 pain, and importantly what we can do to alleviate these, or even make them go
@@ -719,7 +719,7 @@ findings to be as actionable as possible and make sense as input for prioritizat
 						</ul>
 <p>See <a href="#appendix-a-survey-design">a​ppendix A</a>​ for the full set of questions.</p>
 <p>
-The survey was run on MDN in February/March 2020, and was also promoted on Twitter,​ ​web.dev​ and d​evelopers.google.com​ in that period.
+The survey was run on MDN in February/March 2020, and was also promoted on <a href="https://twitter.com/ChromiumDev/status/1232251745893572610" target="_blank" rel="noreferrer noopener">Twitter</a>,​ ​<a href="https://web.dev/" target="_blank" rel="noreferrer noopener">web.dev</a>​ and <a href="https://developers.google.com/web" target="_blank" rel="noreferrer noopener">d​evelopers.google.com</a>​ in that period.
 </p>
 <p>The <a href="https://docs.google.com/spreadsheets/d/1zJtJFLlz2XXqrl9-ay1CQ89Hooh4NjxSXnjF7g2VZNw/edit" target="_blank" rel="noreferrer noopener">3​,236 complete responses</a> ​are available in redacted form in a public
 spreadsheet. (The free-form responses were removed as they could and did
@@ -790,8 +790,8 @@ been required so that more of the responses could be identified as valid. This
 likely biased the results in some way.
 </p>
 <p>Because of this screening and that only 29% of the used responses came from
-MDN, the results can’t be directly compared to the 2​ 019 MDN Developer Needs
-Assessment.​
+MDN, the results can’t be directly compared to the <a href="https://insights.developer.mozilla.org/" target="_blank" rel="noreferrer noopener">2​019 MDN Developer Needs
+Assessment</a>.​
 </p>
                                     </div>
                                                                                                                                                                                                                                                 </div>
@@ -814,7 +814,7 @@ more granularity.
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
                                         <p>Overall for the Web, almost 75% are satisfied or very satisfied, which is very close
-to the ​2019 MDN Developer Needs Assessment​ results. The comparable number
+to the <a href="https://insights.developer.mozilla.org/" target="_blank" rel="noreferrer noopener">​2019 MDN Developer Needs Assessment</a>​ results. The comparable number
 for browser compatibility is 44%. This is a marked difference:
 </p>
                                     </div>
@@ -967,7 +967,7 @@ asked a second question for those who chose it. (685 responses)
 						</ol>
 <p>This ranking is largely consistent with the <a href="#survey-overall-top-pain-points">​top pain points</a>​ ranking, although forms
 were mentioned more than CSS Grid, and responsive layout wasn’t one of the
-categories​ for that question.
+<a href="#appendix-b-top-pain-point-categories">categories</a>​ for that question.
 </p>
                                     </div>
                                                                                                                                                                                                                                                 </div>
@@ -1065,19 +1065,19 @@ questions. These deprioritized topics still came up naturally in some interviews
 however.
 </p>
 <p>The main findings from the interviews were:</p>
-<ul><li>Responsive layout​: When asked about responsive design, most participants brought up issues around viewport size/units, scrolling, as well as their use
+<ul><li><a href="#findings-responsive-layout">Responsive layout​</a>: When asked about responsive design, most participants brought up issues around viewport size/units, scrolling, as well as their use
 of Flexbox, Grid, etc. These led to the detailed findings below. Contrary to
 our expectations, we did not hear about challenges with media queries, one
-of the ​building blocks of responsive design.​ </li><li>Viewport:​ Covers dealing as a developer with the dynamic viewport size on
+of the <a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Responsive/responsive_design_building_blocks#media_queries" target="_blank" rel="noreferrer noopener">​building blocks of responsive design</a>.​ </li><li><a href="#findings-viewport">Viewport</a>:​ Covers dealing as a developer with the dynamic viewport size on
 mobile and adapting the content to the visual viewport. A lot of this is
 around how the vh unit interacts with the URL bar on mobile browsers, and
 originally being different across mobile browsers. Getting desired results is
-still hard for developers.</li><li>Scrolling:​ A number of challenges around scrolling were detected, such as
+still hard for developers.</li><li><a href="#findings-scrolling">Scrolling</a>:​ A number of challenges around scrolling were detected, such as
 customization of scrolling, APIs to control it, events that fire during
 scrolling, and scroll performance. We’ve confirmed that there are many
 differences between mobile browsers, causing a lot of developer pain. Identified use cases include when JavaScript scrolling has been
 implemented to address native scrolling shortcomings, such as overscroll
-and scroll snapping.</li><li>JavaScript:​ Most participants had no issues with the JavaScript language
+and scroll snapping.</li><li><a href="#findings-java-script">JavaScript</a>:​ Most participants had no issues with the JavaScript language
 itself, and many of them attributed this to use of transpilers like Babel. Even
 those few participants that wrote mostly vanilla JavaScript without any
 tooling didn’t feel that browser compatibility was a big problem. We suspect
@@ -1103,10 +1103,10 @@ partial interview transcripts.
                             <h3>Overview</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>This section brings together findings from the ​survey​ and ​interviews​ with some
+                                        <p>This section brings together findings from the ​<a href="#survey">survey</a>​ and ​<a href="#interviews">interviews</a>​ with some
 additional context to try to paint as detailed and nuanced a picture as possible of
-the top pain points relating to browser compatibility. It is organized into f​eatures​,
-browsers​ and ​other themes​.
+the top pain points relating to browser compatibility. It is organized into <a href="#findings-features">f​eatures</a>​,
+<a href="#findings-browsers">browsers</a>​ and <a href="#findings-other-themes">​other themes</a>​.
 </p>
                                     </div>
                                                                                                                                                                                                                                                 </div>
@@ -1118,7 +1118,7 @@ browsers​ and ​other themes​.
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
                                         <p>Through the survey and interviews we heard about many issues, ranging from
 very specific bugs to a general sense that a feature isn’t ready to use. In this
-section we cover roughly the top ​four feature areas that cause issues​. The first
+section we cover roughly the top <a href="#survey-feature-areas-that-cause-issues">​four feature areas that cause issues​</a>. The first
 two of these were the focus of our interviews.
 </p>
                                     </div>
@@ -1129,18 +1129,18 @@ two of these were the focus of our interviews.
                             <h3>CSS Flexbox</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>Flexbox was the most selected option (39%) for ​layout/styling features causing
-issues​. It was also the specific feature most often mentioned (39 times, 2.7%) in
+                                        <p>Flexbox was the most selected option (39%) for <a href="#survey-layout-styling-feature-that-cause-issues">​layout/styling features causing
+issues</a>​. It was also the specific feature most often mentioned (39 times, 2.7%) in
 free-form survey responses.
 </p>
 <p>That compatibility issues with Flexbox are top-of-mind is consistent with the high
-awareness and usage of the feature. In the ​State of CSS 2019​ survey almost
+awareness and usage of the feature. In the <a href="https://2019.stateofcss.com/features/" target="_blank" rel="noreferrer noopener">​State of CSS 2019</a>​ survey almost
 everyone knew about Flexbox and 95% used it. Usage in the wild is around 70% of
-page views, per ​chromestatus.com​.
+page views, per ​<a href="https://www.chromestatus.com/metrics/feature/timeline/popularity/1692" target="_blank" rel="noreferrer noopener">chromestatus.com​</a>.
 </p>
 <p>We heard about issues both with old browsers like Internet Explorer, but also
 difficulties achieving a consistent layout in recent browsers. Notable issues are
-support for gap​ (gutters) and bugs around the sizing of “replaced content”, like
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gap#browser_compatibility" target="_blank" rel="noreferrer noopener">support for gap</a>​ (gutters) and bugs around the sizing of “replaced content”, like
 images and fieldset. Several of these are in the process of being fixed at the time
 of writing.
 </p>
@@ -1202,7 +1202,7 @@ slide the same height, but it didn’t work in anything but Firefox. Don’t kno
 why."</em></p>
 <p><em>"Among the things that bug me the most, it’s mostly little differences in
 Flexbox implementation. Of course we have to support IE11, but even in
-otherbrowsersyouseealotofdifferences.<strong>T</strong>​ <strong>hisissomethingyouface
+other browsers you see a lot of differences.<strong>This is something you face
 almost on a daily basis. You know your way around it, especially with IE11,
 after a while. But I think there are still some bugs that remain, even in
 modern browsers."</strong></em></p>
@@ -1214,34 +1214,34 @@ aware of many of them. This is actually the first time I’ve not had to support
 IE in my career, so it’s pretty nice. [...] A lot of the flex issues were around
 height and flex-grow or flex-shrink. Just simple things like explicitly setting
 a height on the flex child would fix the issues."</em></p>
-<p><strong>Flexbox in Internet Explorer
+<p id="findings-features-flexbox-in-ie"><strong>Flexbox in Internet Explorer
 </strong></p>
-<p>Internet Explorer 11 supports Flexbox without prefixes but with a​ number of
-well-known issues​, many of which were fixed in Edge. Several comments
+<p>Internet Explorer 11 supports Flexbox without prefixes but with <a href="https://github.com/philipwalton/flexbugs" target="_blank" rel="noreferrer noopener">a​ number of
+well-known issues</a>​, many of which were fixed in Edge. Several comments
 suggested that Flexbox is a bigger pain point when supporting Internet Explorer.
 </p>
 <p>In <a href="#appendix-d-survey-results-excluding-ie">a​ppendix D</a>​ we looked at the survey responses that did not indicate any issue
 with Internet Explorer, and Flexbox was no longer the most selected option for
-layout/styling features causing issues​. However, it does still appear to be a
+<a href="#appendix-d-8">layout/styling features causing issues</a>​. However, it does still appear to be a
 significant pain point.
 </p>
 <p><strong>See also
 </strong></p>
 <ul>
 							<li>
-								<p>Flexbox​ on MDN
+								<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout" target="_blank" rel="noreferrer noopener">Flexbox</a>​ on MDN
 </p>
 							</li>
 							<li>
-								<p>Flexbox​ and ​gap​ on caniuse.com
+								<p><a href="https://caniuse.com/flexbox" target="_blank" rel="noreferrer noopener">Flexbox</a>​ and ​<a href="https://caniuse.com/flexbox-gap" target="_blank" rel="noreferrer noopener">gap</a>​ on caniuse.com
 </p>
 							</li>
 							<li>
-								<p>Flexbox​ test results on wpt.fyi
+								<p><a href="https://wpt.fyi/results/css/css-flexbox" target="_blank" rel="noreferrer noopener">Flexbox</a>​ test results on wpt.fyi
 </p>
 							</li>
 							<li>
-								<p>Flexbugs​ list of flexbox issues and cross-browser workarounds
+								<p><a href="https://github.com/philipwalton/flexbugs" target="_blank" rel="noreferrer noopener">Flexbugs</a>​ list of flexbox issues and cross-browser workarounds
 </p></li></ul>
 <p><strong>Chrome bugs
 </strong></p>
@@ -1250,14 +1250,14 @@ significant pain point.
 <p>							</p>
 <ul>
 							<li>
-								<p>[css-flex] Add gutters support in Flexbox
+								<p><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=762679" target="_blank" rel="noreferrer noopener">[css-flex] Add gutters support in Flexbox</a>
 </p>
 							</li>
 							<li>
-								<p>[css-flex][css-grid] Flexbox/grid layout model does not work on fieldset elements</p>
+								<p><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=375693" target="_blank" rel="noreferrer noopener">[css-flex][css-grid] Flexbox/grid layout model does not work on fieldset elements</a></p>
 							</li>
 							<li>
-								<p>[img flex-basis] Flexbox doesn't scale down images correctly
+								<p><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=625560" target="_blank" rel="noreferrer noopener">[img flex-basis] Flexbox doesn't scale down images correctly</a>
 </p></li>
 						</ul>
 <p><strong>Firefox bugs
@@ -1265,8 +1265,8 @@ significant pain point.
 <p>This is the specific Firefox bug we were able to identify:
 </p>
 <p>							</p>
-<ul><li>[css-flexbox] A non-default "flex-basis" incorrectly prevents min-size:auto
-from being clamped by specified size
+<ul><li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1316534" target="_blank" rel="noreferrer noopener">[css-flexbox] A non-default "flex-basis" incorrectly prevents min-size:auto
+from being clamped by specified size</a>
 </li></ul>
 <p><strong>Safari bugs
 </strong></p>
@@ -1274,15 +1274,15 @@ from being clamped by specified size
 </p>
 <ul>
 							<li>
-								<p>[css-flexbox] Implement row-gap and column-gap for flex layout
+								<p><a href="https://bugs.webkit.org/show_bug.cgi?id=206767" target="_blank" rel="noreferrer noopener">[css-flexbox] Implement row-gap and column-gap for flex layout</a>
 </p>
 							</li>
 							<li>
-								<p>[css-flexbox] min-height: auto not applied to nested flexboxes
+								<p><a href="https://b.webkit.org/show_bug.cgi?id=210089" target="_blank" rel="noreferrer noopener">[css-flexbox] min-height: auto not applied to nested flexboxes</a>
 </p>
 							</li>
 							<li>
-								<p>[css-flexbox] min-height:auto not updated after an image loads when the image has a specified height and width</p>
+								<p><a href="https://bugs.webkit.org/show_bug.cgi?id=210475" target="_blank" rel="noreferrer noopener">[css-flexbox] min-height:auto not updated after an image loads when the image has a specified height and width</a></p>
 							</li>
 						</ul>
                                     </div>
@@ -1293,13 +1293,13 @@ from being clamped by specified size
                             <h3>CSS Grid</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>The State of CSS 2019 ​survey suggests very high awareness but less usage of
+                                        <p>The <a href="https://2019.stateofcss.com/features/" target="_blank" rel="noreferrer noopener">State of CSS 2019</a> ​survey suggests very high awareness but less usage of
 Grid than Flexbox. Usage in the wild is around 6% of page views but growing
-steadily, per ​chromestatus.com.​
+steadily, per ​<a href="https://www.chromestatus.com/metrics/feature/timeline/popularity/1693" target="_blank" rel="noreferrer noopener">chromestatus.com</a>.​
 </p>
 <p>The source of frustration with Grid appears to be different to Flexbox. When
 supporting old browsers, mainly Internet Explorer, Grid support is limited. In more
-recent browsers, one issue that came up multiple times is support for S​ubgrid​,
+recent browsers, one issue that came up multiple times is support for <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid" target="_blank" rel="noreferrer noopener">S​ubgrid​</a>,
 which at the time of writing is only supported in Firefox. We did not hear about
 other issues, and one developer saw Grid as a success story.
 </p>
@@ -1327,7 +1327,7 @@ implement, but it’s really useful. And it behaves correctly, I think that’s 
 one of the great things, because every vendor has implemented that, and
 that’s been like a success for us. Because you’re sure you can use it and
 you’re not going to have big issues with it. So that is great, yes."</em></p>
-<p>See also the Responsive layout ​section for a related finding, where Bootstrap’s
+<p>See also the <a href="#findings-responsive-layout">Responsive layout</a> ​section for a related finding, where Bootstrap’s
 grid system was credited with fixing (or avoiding) some issues. (Note that
 Bootstrap’s grid system is built on Flexbox, not Grid, so this doesn’t say much
 about CSS Grid.)
@@ -1339,12 +1339,12 @@ instead to still rely on outdated, hacky workarounds."</em></p>
 <p><em>"Slowness in Chrome to implement new CSS layout like gap for Flexbox or
 subgrid."</em></p>
 <p><em>"I want to use css grid, flexbox etc but I still need to support legacy safari"</em></p>
-<p><strong>Grid in Internet Explorer
+<p id="findings-features-grid-in-ie"><strong>Grid in Internet Explorer
 </strong></p>
 <p>Internet Explorer 11 supported an -ms-prefixed version of CSS Grid.
 </p>
 <p>In <a href="#appendix-d-survey-results-excluding-ie">a​ppendix D</a>​ we looked at the survey responses that did not indicate any issue
-with Internet Explorer. In ​layout/styling features causing issues,​ Grid then appears
+with Internet Explorer. In ​<a href="#appendix-d-8">layout/styling features causing issues</a>,​ Grid then appears
 to be much less of a problem, falling from #2 to #6 in the ranking.
 </p>
 <p>This together with interview comments suggest that when supporting Internet
@@ -1355,27 +1355,27 @@ recent browsers, Grid is much more interoperable and less of a pain point.
 </strong></p>
 <ul>
 							<li>
-								<p>Grid​ and S​ubgrid​ on MDN
+								<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout" target="_blank" rel="noreferrer noopener">Grid</a>​ and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid" target="_blank" rel="noreferrer noopener">S​ubgrid</a>​ on MDN
 </p>
 							</li>
 							<li>
-								<p>Grid​ and S​ubgrid​ on caniuse.com
+								<p><a href="https://caniuse.com/css-grid" target="_blank" rel="noreferrer noopener">Grid</a>​ and <a href="https://caniuse.com/css-subgrid" target="_blank" rel="noreferrer noopener">S​ubgrid</a>​ on caniuse.com
 </p>
 							</li>
 							<li>
-								<p>Grid​ and S​ubgrid​ test results on wpt.fyi
+								<p><a href="https://wpt.fyi/results/css/css-grid" target="_blank" rel="noreferrer noopener">Grid</a>​ and <a href="https://wpt.fyi/results/css/css-grid/subgrid" target="_blank" rel="noreferrer noopener">S​ubgrid</a>​ test results on wpt.fyi
 </p>
 							</li>
 							<li>
-								<p>Gridbugs​ list of bugs, incomplete implementations and interop issues
+								<p><a href="https://github.com/rachelandrew/gridbugs" target="_blank" rel="noreferrer noopener">Gridbugs</a>​ list of bugs, incomplete implementations and interop issues
 </p>
 							</li>
 							<li>
-								<p>[css-grid] Implement subgrid support​ Chromium bug
+								<p><a href="https://bugs.chromium.org/p/chromium/issues/detail?id=618969" target="_blank" rel="noreferrer noopener">[css-grid] Implement subgrid support​ Chromium bug</a>
 </p>
 							</li>
 							<li>
-								<p>[css-grid] Add support for subgrid (Grid Level 2)​ WebKit bug
+								<p><a href="https://bugs.webkit.org/show_bug.cgi?id=202115" target="_blank" rel="noreferrer noopener">[css-grid] Add support for subgrid (Grid Level 2)​ WebKit bug</a>
 </p>
 							</li>
 						</ul>
@@ -1387,9 +1387,9 @@ recent browsers, Grid is much more interoperable and less of a pain point.
                             <h3>Responsive layout</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>Responsive layout (or r​esponsive design​) can mean many things, and in our extra
-question about layout and styling features​ we did not specify exactly what this
-meant. This option was ranked #3 o​verall​ and tied for #1 w​hen excluding IE​.
+                                        <p>Responsive layout (or <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design" target="_blank" rel="noreferrer noopener">r​esponsive design</a>​) can mean many things, and in our extra
+<a href="#appendix-c-8">question about layout and styling features</a>​ we did not specify exactly what this
+meant. This option was ranked #3 <a href="#appendix-c-8">o​verall</a>​ and tied for #1 <a href="#appendix-d-8">w​hen excluding IE​</a>.
 </p>
 <p>							</p>
 <p>However, “responsive” was only directly mentioned a handful of times in free-form
@@ -1398,7 +1398,7 @@ with the dynamic viewport size on mobile: mainly how viewport units work and the
 effect of URL bar on the viewport size and scroll/resize events.
 </p>
 <p>Understanding the pain points that web developers associate with responsive
-layout became a main s​ tudy goal​ for the interviews. The question to interview
+layout became a main <a href="#appendix-e-interview-study-study-goals">s​tudy goal​</a> for the interviews. The question to interview
 participants was typically asking for a recent time when they’d had trouble making
 a design work on both desktop and mobile, only sometimes directly mentioning
 “responsive layout” or “responsive design.” This often led to a discussion of issues
@@ -1409,17 +1409,17 @@ separately.
 </p>
 <ul>
 							<li>
-								<p>Viewport​ issues, namely dealing with the dynamic viewport size on mobile and adapting the content to the visual viewport.</p>
+								<p><a href="#findings-viewport">Viewport</a>​ issues, namely dealing with the dynamic viewport size on mobile and adapting the content to the visual viewport.</p>
 							</li>
 							<li>
-								<p>Scrolling​ issues, like customizing vertical and horizontal scrolling, APIs for scrolling, events that fire during scrolling, and scroll performance.</p></li>
+								<p><a href="#findings-scrolling">Scrolling</a>​ issues, like customizing vertical and horizontal scrolling, APIs for scrolling, events that fire during scrolling, and scroll performance.</p></li>
 						</ul>
-<p>It’s also notable that two interview participants mentioned using the ​Bootstrap
-grid system​ when asked about desktop/mobile/responsive issues. One of them
+<p>It’s also notable that two interview participants mentioned using the ​<a href="https://getbootstrap.com/docs/4.0/layout/grid/" target="_blank" rel="noreferrer noopener">Bootstrap
+grid system</a>​ when asked about desktop/mobile/responsive issues. One of them
 explained why it’s helpful:
 </p>
-<p><em>"We use a grid system from a project called V​uetify​, which is part of the Vue
-ecosystem. It’s based on the ​Bootstrap grid system.​ It’s well tested, it’s
+<p><em>"We use a grid system from a project called <a href="https://vuetifyjs.com/en/" target="_blank" rel="noreferrer noopener">V​uetify​</a>, which is part of the Vue
+ecosystem. It’s based on the ​<a href="https://getbootstrap.com/docs/4.0/layout/grid/" target="_blank" rel="noreferrer noopener">Bootstrap grid system</a>.​ It’s well tested, it’s
 cross-browser, so fortunately we don’t have to worry too much about
 layout issues. [...] Just having a grid system that’s well supported and
 tested by other parties is a super helpful tool."</em></p>
@@ -1441,32 +1441,32 @@ some differences between browsers, and developers can benefit from that.
                             <h3>Viewport</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>The v​iewport​ is the part of a page visible to the user, and is something every web
+                                        <p>The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts" target="_blank" rel="noreferrer noopener">v​iewport</a>​ is the part of a page visible to the user, and is something every web
 page designed to work on mobile devices has to consider. The issues raised were
 mostly about how the vh unit interacts with the URL bar on mobile browsers,
-explained in the “The trick to viewport units on mobile​” article on CSS-Tricks.
-Another factor here might be about not having a ​specification for the viewport.​
-These issues are tightly linked to ​scrolling​.
+explained in the “<a href="https://css-tricks.com/the-trick-to-viewport-units-on-mobile/" target="_blank" rel="noreferrer noopener">The trick to viewport units on mobile</a>​” article on CSS-Tricks.
+Another factor here might be about not having a ​<a href="https://github.com/w3c/csswg-drafts/issues/4766" target="_blank" rel="noreferrer noopener">specification for the viewport</a>.​
+These issues are tightly linked to ​<a href="#findings-scrolling">scrolling</a>​.
 </p>
 <p>Part of the frustration can be attributed to the behavior of vh units originally being
 different across different mobile browsers. It could also be about a discrepancy of
 understanding about the vh unit between developers and the CSS WG, see
-[css-values-4] Add vhc value.​
+<a href="https://github.com/w3c/csswg-drafts/issues/4329" target="_blank" rel="noreferrer noopener">[css-values-4] Add vhc value</a>.​
 </p>
-<p>While ​Chrome 56 changed its behavior to match Safari on iOS​, some developers
+<p><a href="https://developers.google.com/web/updates/2016/12/url-bar-resizing" target="_blank" rel="noreferrer noopener">While ​Chrome 56 changed its behavior to match Safari on iOS​</a>, some developers
 may not have noticed this, and it remains difficult to achieve the desired effect.
-There is an o​pen CSS Working Group issue​ to address this. In the meantime some
+There is an <a href="https://github.com/w3c/csswg-drafts/issues/4329" target="_blank" rel="noreferrer noopener">o​pen CSS Working Group issue</a>​ to address this. In the meantime some
 developers have turned to -webkit-fill-available or JavaScript workarounds.
 </p>
 <p>The effect of scrollbars on the vw unit also came up, and was the subject of
-another CSS Working Group issue,​ resolved as “Drop the requirement to subtract
-scrollbarsizefromvh/vwunitsforoverflowscroll.”Whilenotab​ rowser
+<a href="https://github.com/w3c/csswg-drafts/issues/1766" target="_blank" rel="noreferrer noopener">another CSS Working Group issue</a>,​ resolved as “Drop the requirement to subtract
+scrollbar size from vh/vw units for overflow scroll.”While not a browser
 compatibility issue, a p​latform​ compatibility issue of sorts remains, as some
 platforms have classic scrollbars and some have overlay scrollbars. Some are also
 implementing their own scrollbars and hiding the native one.
 </p>
-<p>In response to these findings, Chrome’s ​input team​ did some i​nvestigation of
-viewport units​, confirming that Chrome and Safari now have the same behavior.
+<p>In response to these findings, Chrome’s ​<a href="https://www.chromium.org/teams/input-dev" target="_blank" rel="noreferrer noopener">input team​</a> did some <a href="https://docs.google.com/document/d/1w5OWXH5ni3V6POkCkMMUJ-_yEw7_1I4u8PlRQsbaDeA/edit#heading=h.2h8pk6w3vzkj" target="_blank" rel="noreferrer noopener">i​nvestigation of
+viewport units​</a>, confirming that Chrome and Safari now have the same behavior.
 </p>
 <p><strong>Web developer quotes
 </strong></p>
@@ -1478,31 +1478,7 @@ annoyance. I kind of read the whole, long bug tracker thread in the WebKit
 forum about why they decided to size the viewport units the way they did.
 And it makes sense, I understand the logic, but we did have to figure out a
 few workarounds for a couple of our screens."</em></p>
-<p>					</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>			</p>
-<p>		</p>
-<p>		</p>
-<p>			</p>
-<p>				</p>
-<p>				</p>
-<p>					</p>
+
 <p><em>"On iOS, as I’m sure you know, as you’re scrolling the address bar will
 collapse. The viewport size is calculated based on the collapsed size of the
 header. ​<strong>If you want, say a full page screen, that fills the screen but no
@@ -1536,43 +1512,7 @@ window.clientWidth, whatever works, test which combination of these is
 going to work to fix a given problem."</em></p>
 <p>Finally, a few quotes from the survey responses: </p>
 <p><em>"Is the URL bar part of 100vh?"</em></p>
-<p>					</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>			</p>
-<p>		</p>
-<p>		</p>
-<p>			</p>
-<p>				</p>
-<p>					</p>
+
 <p><em>"Mobile browser compatibility regardless to when I'm trying to set the web
 page height to 100% (or flex stretch, or via JavaScript window.innerHeight).
 This is because of browsers top/bottom native UI bars inconsistency (which
@@ -1586,9 +1526,9 @@ PITA."</em></p>
 handy to have more control of display of keyboard, etc."</em></p>
 <p><strong>See also
 </strong></p>
-<ul><li>Virtual Keyboard API,​ a proposal for changing the interaction between the
+<ul><li><a href="https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/da5eec87ea4c49da3b97a3a07ddca8d7232a037e/VirtualKeyboardAPI/explainer.md" target="_blank" rel="noreferrer noopener">Virtual Keyboard API</a>,​ a proposal for changing the interaction between the
 virtual keyboard and the viewport size on mobile. The “more control of
-display of keyboard” in the above quote is likely about this, but it didn’t come up in interviews like we had expected . ​
+display of keyboard” in the above quote is likely about this, but it didn’t come up in interviews like we <a href="#appendix-e-interview-study">had expected</a> . ​
 </li></ul>
                                     </div>
                                                                                                                                                                                                                                                 </div>
@@ -1605,8 +1545,8 @@ interviews:
 							<li>
 								<p>The effect of shrinking/hiding URL bar when scrolling on mobile devices on
 the viewport size. Developers sometimes hardcode the expected height of
-the URL, which is a risky approach. Some of this is covered in the ​viewport
-section​.
+the URL, which is a risky approach. Some of this is covered in the ​<a href="#findings-viewport">viewport
+section</a>​.
 </p>
 							</li>
 							<li>
@@ -1621,15 +1561,15 @@ scrollIntoView.
 							</li>
 						</ul>
 <div>
-								<p>In response to these findings, Chrome’s ​input team​ did some i​nvestigation of
-scroll behavior,​ confirming that there are indeed many differences between
+								<p>In response to these findings, Chrome’s ​<a href="https://www.chromium.org/teams/input-dev" target="_blank" rel="noreferrer noopener">input team​</a> did some <a href="https://docs.google.com/document/d/1w5OWXH5ni3V6POkCkMMUJ-_yEw7_1I4u8PlRQsbaDeA/edit" target="_blank" rel="noreferrer noopener">i​nvestigation of
+scroll behavior</a>,​ confirming that there are indeed many differences between
 mobile browsers.
 </p>
 <p><strong>Web developer quotes
 </strong></p>
 <p>One interview participant went into great detail about the challenges getting
 touch interactions to work well on mobile for a “room planner” mobile web app. A
-condensed excerpt of the t​ranscript of that interview​ follows:
+condensed excerpt of the <a href="#appendix-f-interview-transcripts-participant-12">t​ranscript of that interview​</a> follows:
 </p>
 <p><em>"But what was really difficult was to get all the touch interaction right. It’s
 really not a page [...] you can pan, you can zoom, you have all of these
@@ -1637,14 +1577,14 @@ interactions and it’s really not a page that you want to scroll on.
 </em></p>
 <p><em>We just struggled with stuff like the browser bar. If you want to scroll,
 maybe you have a scroll container somewhere inside, and then the browser
-bar appears and disappears. And <strong>y</strong><strong>ou don’t get resize events when the
+bar appears and disappears. And <strong>you don’t get resize events when the
 browser bar is in the process of disappearing, it just resizes after the
 browser bar disappears completely.​ </strong>Maybe in between it’s not going to
 look so nice.
 </em></p>
 <p><em>Like what Google Maps does [...] you can pull it up from the bottom, then
 you have the details about a place. We had something similar to that for
-individual products on the wall. <strong>F</strong><strong>irst we wanted that to have that be a
+individual products on the wall. <strong>First we wanted that to have that be a
 native scroll interaction because we thought if it’s just a native scroll it’s
 going to be fast, it’s going to be hardware accelerated, it’s going to feel
 the nicest.​ </strong>But if you’re working with native scroll it’s very difficult to control
@@ -1655,15 +1595,15 @@ passive now.
 wanted to have too much control, again. If you scroll and there’s a certain
 scroll velocity, and you lift your finger up and it keeps on scrolling, and it
 reaches a certain threshold and you want to have it snap there. [...] If you
-want to do it by JavaScript you can set the scroll position. <strong>O</strong>​<strong>n iOS I think
+want to do it by JavaScript you can set the scroll position. <strong>On iOS I think
 that’s going to stop the scroll velocity immediately. On Chrome it snaps
 to that point but it keeps on scrolling with the same velocity.​ </strong>[...] So it’s
-pretty much impossible to control that. In the end I think <strong>w</strong>​<strong>e had to
-completely redo the scrolling ​</strong>[...] <strong>a</strong>​<strong>nd just do all the scrolling by
+pretty much impossible to control that. In the end I think <strong>we had to
+completely redo the scrolling ​</strong>[...] <strong>and just do all the scrolling by
 JavaScript</strong>.<strong>​
 </strong></em></p>
 <p><em>I wanted to build a “simple” horizontal slider on a completely different
-project. I first thought it’s just horizontal scrolling, if ​<strong>I’m going to use native </strong></em><em><strong>scroll that’s going to work fine​</strong>.[...] <strong>A</strong>​<strong>gain I ran into a problem​</strong>, if you want
+project. I first thought it’s just horizontal scrolling, if ​<strong>I’m going to use native scroll that’s going to work fine​</strong>.[...] <strong>Again I ran into a problem​</strong>, if you want
 to control that, you want to have your own snapping behavior, and control
 the snapping via JavaScript.</em></p>
 
@@ -1673,7 +1613,7 @@ the snapping via JavaScript.</em></p>
 
 <p><em>I think there’s now the ​<strong>CSS snap points API​</strong>, which is kind of covering that. I
 haven’t heard that much about it, either because I just didn’t know about
-the API, or it’s really, really new and it’s not widely supported. [...] <strong>I</strong>​ <strong>think the
+the API, or it’s really, really new and it’s not widely supported. [...] <strong>I think the
 API would kind of cover that use case, and you can just have snap points
 defined in CSS and don’t need JavaScript at all because it’s all handled
 natively.
@@ -1685,10 +1625,10 @@ interaction. You can do it on iOS, because on iOS you can call
 preventDefault() on the touchmove event, if the touchmove event hasn’t led
 to a scroll yet. [...] On Chrome you can’t do that and you have to stop the
 touchstart event [...] but then you don’t know in which direction the user is
-scrolling.[...] <strong>F</strong><strong>inding these things out is very difficult and very time
+scrolling.[...] <strong>Finding these things out is very difficult and very time
 intensive. I’ve done a lot of demos and codepens experimenting with
 browsers.​ </strong>It’s very frustrating because there’s not really standards for it, or
-documentation and stuff. [...] <strong>I</strong>​<strong>t was just very difficult to get these things
+documentation and stuff. [...] <strong>It was just very difficult to get these things
 working, like really, really, really difficult.​ </strong>We did a lot of iteration, a lot of
 testing, over time. I kind of got really obsessed with making scrolling really
 nice on mobile and ​<strong>trying to make native-like applications on the web that
@@ -1700,20 +1640,20 @@ expertise here, to help shed light on this complex set of problems.
 to just get consistent scroll behavior across all browsers:
 </p>
 <p><em>"What gives me the most headaches is typically scrolling behavior of iOS. If I
-need to display a modal or something like a typical hamburger menu. <strong>I</strong>​ <strong>t
+need to display a modal or something like a typical hamburger menu. <strong>It
 annoys me that I need a JavaScript library just to get this right​</strong>, so that if I
 get a modal, that the background doesn’t scroll on iOS. I think that’s
 basically the worst issue that you stumble across in almost every project.
-[...] The goal is always that you lock scrolling completely. There’s a good					library for that, it’s not even large, it’s a small JavaScript dependency. <strong>B</strong><strong>ut it
+[...] The goal is always that you lock scrolling completely. There’s a good					library for that, it’s not even large, it’s a small JavaScript dependency. <strong>But it
 annoys me that you need these workarounds for doing simple stuff like
 that​</strong>."</em></p>
 
 
-<p>The library was later confirmed to be body-scroll-lock​, where body ScrollLock.js
-indeed does a bunch of work only for iOS. It has 269k npm downloads​ per week,
+<p>The library was later confirmed to be <a href="https://github.com/willmcpo/body-scroll-lock" target="_blank" rel="noreferrer noopener">body-scroll-lock​</a>, where <a href="https://github.com/willmcpo/body-scroll-lock/blob/master/src/bodyScrollLock.js" target="_blank" rel="noreferrer noopener">bodyScrollLock.js</a>
+indeed does a bunch of work only for iOS. It has 269k <a href="https://www.npmjs.com/package/body-scroll-lock" target="_blank" rel="noreferrer noopener">npm downloads</a>​ per week,
 which has to be considered a lot for a browser compat workaround.
 </p>
-<p>Another developer had issues with s​ crollIntoView​’s “smooth” mode not being
+<p>Another developer had issues with <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView" target="_blank" rel="noreferrer noopener">s​crollIntoView​</a>’s “smooth” mode not being
 supported on Safari, also requiring the use of a JS workaround:
 </p>
 <p><em>"For “scroll to element”, there’s a “smooth” property [...] I think it’s Safari that
@@ -1739,8 +1679,8 @@ worked fine in Chrome on iOS and in Chrome and Safari on macOS. But in
 Safari for iOS [...] that scroll was interfering with our scroll. Sometimes, if
 you slide somewhere it would scroll and if you slide with a different angle or
 you slide very fast then the scroll wouldn’t work directly. That was an issue
-where there was no solution or help on the internet, so <strong>w</strong>​<strong>e had to get
-creative and redesign some of the screen to get around this problem</strong>.<strong>​ </strong>I
+where there was no solution or help on the internet, so <strong>we had to get
+creative and redesign some of the screen to get around this problem</strong>. I
 don’t really know what that problem actually is, but most of the internet help we found was about Apple’s custom scroll animation at the bottom
 interfering with the browser, or something like that."</em></p>
 <p>Differences in timing of events and callbacks also came up:
@@ -1767,31 +1707,31 @@ SCROLLING"</em></p>
 </p>
 <ul>
 							<li>
-								<p>CSS Scroll Snap​ on MDN
+								<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap" target="_blank" rel="noreferrer noopener">CSS Scroll Snap​</a> on MDN
 </p>
 							</li>
 							<li>
-								<p>CSS Scroll Snap​ on caniuse.com
+								<p><a href="https://caniuse.com/css-snappoints" target="_blank" rel="noreferrer noopener">CSS Scroll Snap</a>​ on caniuse.com
 </p>
 							</li>
 							<li>
-								<p>CSS Scroll Snap​ test results on wpt.fyi
+								<p><a href="https://wpt.fyi/results/css/css-scroll-snap" target="_blank" rel="noreferrer noopener">CSS Scroll Snap​</a> test results on wpt.fyi
 </p>
 							</li>
 							<li>
-								<p>CSS overscroll-behavior​ on MDN
+								<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior" target="_blank" rel="noreferrer noopener">CSS overscroll-behavior​</a> on MDN
 </p>
 							</li>
 							<li>
-								<p>CSS overscroll-behavior​ on caniuse.com
+								<p><a href="https://caniuse.com/css-overscroll-behavior" target="_blank" rel="noreferrer noopener">CSS overscroll-behavior​</a> on caniuse.com
 </p>
 							</li>
 							<li>
-								<p>CSS overscroll-behavior​ test results on wpt.fyi
+								<p><a href="https://wpt.fyi/results/css/css-overscroll-behavior" target="_blank" rel="noreferrer noopener">CSS overscroll-behavior​</a> test results on wpt.fyi
 </p>
 							</li>
 							<li>
-								<p>scrollIntoView​ on MDN
+								<p><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView" target="_blank" rel="noreferrer noopener">scrollIntoView</a>​ on MDN
 </p>
 							</li>
 						</ul>
@@ -1804,18 +1744,18 @@ SCROLLING"</em></p>
                             <h3>JavaScript</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>We asked in the survey about ​feature areas that cause issues​, and “JavaScript
+                                        <p>We asked in the survey about <a href="#survey-feature-areas-that-cause-issues">​feature areas that cause issues</a>​, and “JavaScript
 (core language)” was the 2nd most chosen option, chosen by 26% of survey
 respondents.
 </p>
 <p>The “core language” parenthetical was added to direct survey takers to other
 options where appropriate, especially DOM APIs. Unfortunately, the boundaries
 between JavaScript and the rest of the web platform are not easy to understand.
-For example, ​encodeURIComponent​ is defined in the ECMAScript Language
-Specification while the ​URL​ interface is defined in the URL Standard.
+For example, ​<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent" target="_blank" rel="noreferrer noopener">encodeURIComponent</a>​ is defined in the ECMAScript Language
+Specification while the ​<a href="https://developer.mozilla.org/en-US/docs/Web/API/URL" target="_blank" rel="noreferrer noopener">URL</a>​ interface is defined in the URL Standard.
 </p>
 <p>Understanding if web developers do face a compatibility problem with JavaScript
-itself became a main ​study goal​ for the interviews. We typically asked "can you
+itself became a main <a href="#appendix-e-interview-study-study-goals">​study goal</a>​ for the interviews. We typically asked "can you
 talk about a recent time you had a browser compatibility problem with JavaScript"
 and listened to what the interview participants had to say.
 </p>
@@ -1870,10 +1810,10 @@ for all the syntax stuff in the last couple of years, and I kind of see it as a
 given now, even though I also think that now, a couple years after it really
 became adopted, maybe starting from 2020 it actually should be an option
 to think about, if you actually need Babel in your build stack. [...] There’s a
-project from the New York Times, ​polyfill.io,​ that does testing for browser
+project from the New York Times, ​<a href="https://polyfill.io/v3/" target="_blank" rel="noreferrer noopener">polyfill.io</a>,​ that does testing for browser
 features and lazy loads the polyfills. I always thought that was interesting to
 consider but [...] for now my approach is to keep the amount of polyfills we
-load in not too big, just see it as a <strong>n</strong><strong>ecessary evil of probably 30%
+load in not too big, just see it as a <strong>necessary evil of probably 30%
 </strong><strong>overhead of the bundle is just damned polyfills you don’t need in modern
 browsers</strong>.<strong>​ </strong>[...] It was easier on our build stack to do it like that."</em></p>
 <p><em>"Fortunately it’s pretty good these days. We support pretty much the last
@@ -1897,9 +1837,9 @@ support came up when asking about Internet Explorer, and was quickly identified
 and resolved:
 </p>
 <p><em>"I think it was a missing polyfill, a JavaScript polyfill [...] Something around
-Object.entries()​ or something like that [...] so <strong>I</strong>​ <strong>just opened the IE devtools,
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries" target="_blank" rel="noreferrer noopener">Object.entries()</a>​ or something like that [...] so <strong>I</strong>​ <strong>just opened the IE devtools,
 saw the error and understood a polyfill was needed</strong>.<strong>​ </strong>That was a polyfill
-available in the c​ore-js​ library, which is a library that has a lot of polyfills for
+available in the <a href="https://github.com/zloirock/core-js" target="_blank" rel="noreferrer noopener">c​ore-js</a>​ library, which is a library that has a lot of polyfills for
 modern JavaScript features, ES6 and more, and you can cherry-pick the
 feature you want so that you don’t have to import a full library of polyfills,
 just import the one you need."</em></p>
@@ -1909,7 +1849,7 @@ JavaScript code, but which aren’t about the JavaScript language itself:
 <p><em>"Because we are supporting Internet Explorer 11, it limits the amount of
 modern JavaScript we can use. [...] So I’m dealing with new things that are
 “old hat” for most people, but I didn’t realize that if you have an element and
-use c​lassList.add()​, you can’t add two classes at the same time in Internet
+use <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList" target="_blank" rel="noreferrer noopener">c​lassList.add()</a>​, you can’t add two classes at the same time in Internet
 Explorer 11. [...] I haven’t done anything with ES6 at all, I’m just trying to get
 going with vanilla JavaScript that’s going to work in IE. I haven’t found it
 incredibly difficult, but some people on our team do often use ES6 and
@@ -1930,7 +1870,7 @@ on the same point, it will fire a dblclick event in JS. Some other platforms
 will not, on the same hardware with the same code."</em></p>
 <p><strong>See also
 </strong></p>
-<ul><li>Test262 Report, ​a dashboard for the ECMAScript conformance test suite </li><li>Babel</li><li>core-js</li><li>polyfill.io</li></ul>
+<ul><li><a href="https://test262.report/" target="_blank" rel="noreferrer noopener">Test262 Report</a>, ​a dashboard for the ECMAScript conformance test suite </li><li><a href="https://babeljs.io/" target="_blank" rel="noreferrer noopener">Babel</a></li><li><a href="https://github.com/zloirock/core-js" target="_blank" rel="noreferrer noopener">core-js</a></li><li><a href="https://polyfill.io/v3/" target="_blank" rel="noreferrer noopener">polyfill.io</a></li></ul>
                                     </div>
                                                                                                                                                                                                                                                 </div>
                                                                                 
@@ -1939,9 +1879,9 @@ will not, on the same hardware with the same code."</em></p>
                             <h3>Performance</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>Performance ranked #3 in ​feature areas causing issues​ in the survey. The option
+                                        <p>Performance ranked #3 in ​<a href="#survey-feature-areas-that-cause-issues">feature areas causing issues</a>​ in the survey. The option
 was “Performance (APIs, scrolling, smooth animations)” and some of this may thus
-be related to ​scrolling.​ Some performance-related issues came up in interviews,
+be related to ​<a href="#findings-scrolling">scrolling</a>.​ Some performance-related issues came up in interviews,
 although we did not focus on it. No attempt was made to get a deeper
 understanding of these issues for this report, but the quotes may be useful.
 </p>
@@ -2008,8 +1948,8 @@ reason."</em></p>
                             <h3>Forms</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>In the survey responses, forms ranked #4 for both o​verall feature areas​ and
-layout/styling features​ causing issues. For this report we did not look closer at this
+                                        <p>In the survey responses, forms ranked #4 for both <a href="#survey-feature-areas-that-cause-issues">o​verall feature areas</a>​ and
+<a href="#survey-layout-styling-feature-that-cause-issues">layout/styling features</a>​ causing issues. For this report we did not look closer at this
 area.
 </p>
 <p><strong>Web developer quotes
@@ -2022,40 +1962,7 @@ range."</em></p>
 <p><em>"most interactive elements (i.e. date inputs, select dropdowns) get styled by
 each browser differently and neither of them give you much freedom in
 styling."</em></p>
-<p>					</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>			</p>
-<p>		</p>
-<p>		</p>
-<p>			</p>
-<p>				</p>
-<p>					</p>
+
 <p><em>"Safari desktop does not support type="date" on the &lt;input&gt; element on
 desktop though Safari iOS has support for this attribute."</em></p>
 <p><em>"Datalist would be a nice autocomplete, if everyone did it like FF, allowing for
@@ -2083,15 +1990,15 @@ Firefox."</em></p>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
                                         <p>The primary audience for this report is browser vendors. Unlike with the findings
-for ​features,​ where we have sometimes dug deep to explain the results, for
+for ​<a href="#findings-features">features</a>,​ where we have sometimes dug deep to explain the results, for
 specific browsers we have sought to avoid interpretation or explanation, and to
 instead relay the survey results as directly as possible. This is to allow each
 browser vendor, who are the premiere experts on their own browser, to do their
 own analysis and take what value they can from this report.
 </p>
 <p>Quotes from the interviews are ​not​ repeated here, as many examples have
-already appeared in the f​indings for features​, and all of them can be found in the
-interview transcripts.​
+already appeared in the <a href="#findings-features">f​indings for features</a>​, and all of them can be found in the
+<a href="#appendix-f-interview-transcripts">interview transcripts</a>.​
 </p>
                                     </div>
                                                                                                                                                                                                                                                 </div>
@@ -2101,7 +2008,7 @@ interview transcripts.​
                             <h3>Chrome</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>In browsers/platforms causing issues​, 12% and 11% chose Chrome on desktop and
+                                        <p>In <a href="#survey-browsers-platforms-that-cause-issues">browsers/platforms causing issues​</a>, 12% and 11% chose Chrome on desktop and
 mobile respectively, with up to 3 choices per survey respondent.
 </p>
 <p><strong>Web developer quotes
@@ -2132,7 +2039,7 @@ actual spec. It fragments the web."</em></p>
                             <h3>Edge</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>In b​rowsers/platforms causing issues​, 21% and 8% chose Edge on desktop and
+                                        <p>In <a href="#survey-browsers-platforms-that-cause-issues">b​rowsers/platforms causing issues</a>​, 21% and 8% chose Edge on desktop and
 mobile respectively, with up to 3 choices per survey respondent.
 </p>
 <p><strong>Web developer quotes
@@ -2151,12 +2058,12 @@ mobile respectively, with up to 3 choices per survey respondent.
                             <h3>Internet Explorer</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>In browsers/platforms causing issues​, 70% chose Internet Explorer, with up to 3
+                                        <p>In <a href="#survey-browsers-platforms-that-cause-issues">browsers/platforms causing issues</a>​, 70% chose Internet Explorer, with up to 3
 choices per survey respondent.
 </p>
 <p>We also looked at the survey results when excluding people who reported issues
-with Internet Explorer, see <a href="#appendix-d-survey-results-excluding-ie">a​ppendix D</a>​, F​lexbox in Internet Explorer​ and ​Grid in
-Internet Explorer.​
+with Internet Explorer, see <a href="#appendix-d-survey-results-excluding-ie">a​ppendix D</a>​, <a href="#findings-features-flexbox-in-ie">F​lexbox in Internet Explorer</a>​ and <a href="#findings-features-grid-in-ie">​Grid in
+Internet Explorer</a>.​
 </p>
 <p><strong>Web developer quotes
 </strong></p>
@@ -2180,7 +2087,7 @@ IE11. I bet 99% of people say that."</em></p>
                             <h3>Firefox</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>In browsers/platforms causing issues​, 12% and 7% chose Firefox on desktop and
+                                        <p>In <a href="#survey-browsers-platforms-that-cause-issues">browsers/platforms causing issues</a>​, 12% and 7% chose Firefox on desktop and
 mobile respectively, with up to 3 choices per survey respondent.
 </p>
 <p><strong>Web developer quotes
@@ -2203,36 +2110,10 @@ every browsers gives focus to an anchor, for Firefox you have to use
                             <h3>Safari</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>In browsers/platforms causing issues​, 50% and 46% chose Safari on desktop and
+                                        <p>In <a href="#survey-browsers-platforms-that-cause-issues">browsers/platforms causing issues</a>​, 50% and 46% chose Safari on desktop and
 mobile respectively, with up to 3 choices per survey respondent.
 </p>
-<p>					</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>			</p>
-<p>		</p>
-<p>		</p>
-<p>			</p>
-<p>				</p>
-<p>					</p>
+
 <p><strong>Web developer quotes
 </strong></p>
 <p>A sample of the 229 free-form survey responses relating to Safari:
@@ -2257,8 +2138,8 @@ before any calls to the "screen" object, because even though said object
 has been around for years, it turns out JavaScript just breaks in
 unpredictable ways if you call into screen properties that don't play nice
 with either Safari (or iOS)."</em></p>
-<p>After investigating, a CSSOM View spec bug was filed for this: ​should
-screen.width and screen.height reflect orientation?
+<p>After investigating, a CSSOM View spec bug was filed for this: ​<a href="https://github.com/w3c/csswg-drafts/issues/5204" target="_blank" rel="noreferrer noopener">should
+screen.width and screen.height reflect orientation?</a>
 </p>
                                     </div>
                                                                                                                                                                                                                                                 </div>
@@ -2268,8 +2149,8 @@ screen.width and screen.height reflect orientation?
                             <h3>Samsung Internet</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>Samsung Internet was not included as a predefined option in ​browsers/platforms
-causing issues​, but was named 4 times as the free-form “Other” choice.
+                                        <p>Samsung Internet was not included as a predefined option in ​<a href="#survey-browsers-platforms-that-cause-issues">browsers/platforms
+causing issues</a>​, but was named 4 times as the free-form “Other” choice.
 </p>
 <p><strong>Web developer quotes
 </strong></p>
@@ -2356,11 +2237,11 @@ hardware for testing Safari. (Not transcribed.)
                             <h3>Breaking changes</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>Although breaking changes, or regressions, was not among the o​verall top pain
-points​, and are not always cross-browser compatibility issues, we have clear
+                                        <p>Although breaking changes, or regressions, was not among the <a href="#survey-overall-top-pain-points">o​verall top pain
+points​</a>, and are not always cross-browser compatibility issues, we have clear
 feedback from the survey and interviews worth highlighting.
 </p>
-<p>Note for web developers: ​How to file a good browser bug​ is a good resource for
+<p>Note for web developers: ​<a href="https://web.dev/how-to-file-a-good-bug/" target="_blank" rel="noreferrer noopener">How to file a good browser bug</a>​ is a good resource for
 how to report that a regression has happened. If the problem is reported early, the
 chances of the change being reverted are better.
 </p>
@@ -2381,12 +2262,12 @@ time and money."</em></p>
 doesn't work) that takes ages to get fixed again."</em></p>
 <p>One interview participant also told us about seeming regression in iOS 13:
 </p>
-<p><em>"In our CMS we have input fields using ​CodeMirror​ [...] with iOS 13 there
+<p><em>"In our CMS we have input fields using ​<a href="https://codemirror.net/" target="_blank" rel="noreferrer noopener">CodeMirror</a>​ [...] with iOS 13 there
 have been a lot of changes, under the hood, probably. Because cursor
 placement, copying and pasting inside of CodeMirror no longer works
 reliably. Text selection is broken. I don’t know if it’s a CSS issue on our side,
 but my guess is it’s mostly related to something in iOS that’s changed. [...] Also annoying, let me give you an example for another project. We were
-using a pretty popular JavaScript carousel called G​ lide.js​. With iOS 13 they
+using a pretty popular JavaScript carousel called <a href="https://glidejs.com/" target="_blank" rel="noreferrer noopener">G​lide.js</a>​. With iOS 13 they
 changed something and now scrolling works like garbage on iOS, especially
 on older devices such as an iPhone SE or older iPads. All the animations are
 broken and it doesn’t feel natural if you’re swiping through this gallery. Now
@@ -2412,7 +2293,7 @@ of this report is to highlight specific issues which are concrete enough for bro
 vendors to prioritize. In conversation with the engineering teams, these are the
 efforts we know of at the time of publishing.
 </p>
-<p>Improving Chromium's browser compatibility in 2020​ outlines various efforts
+<p><a href="https://blog.chromium.org/2020/06/improving-chromiums-browser.html" target="_blank" rel="noreferrer noopener">Improving Chromium's browser compatibility in 2020</a>​ outlines various efforts
 happening in the Chromium project, some of which is repeated below.
 </p>
                                     </div>
@@ -2423,10 +2304,10 @@ happening in the Chromium project, some of which is repeated below.
                             <h3>CSS Flexbox &amp; Grid</h3>
                            </div>
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>CSS Flexbox​ and ​CSS Grid​ emerged as two of the features causing the most
-issues in this research. As described in the blogpost​, improvements to both are in
-progress in Chromium, and notably f​lex-gap​ and ​fieldset+flex​ support shipped in
-Chrome 84 in July. In WebKit, ​Igalia​ have been contributing a​ lot of Flexbox fixes​,
+                                        <p><a href="#findings-css-flexbox">CSS Flexbox​</a> and ​<a href="#findings-css-grid">CSS Grid</a>​ emerged as two of the features causing the most
+issues in this research. As described in the <a href="https://blog.chromium.org/2020/06/improving-chromiums-browser.html" target="_blank" rel="noreferrer noopener">blogpost</a>​, improvements to both are in
+progress in Chromium, and notably <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=762679" target="_blank" rel="noreferrer noopener">f​lex-gap</a>​ and ​<a href="https://bugs.chromium.org/p/chromium/issues/detail?id=375693" target="_blank" rel="noreferrer noopener">fieldset+flex​</a> support shipped in
+Chrome 84 in July. In WebKit, ​<a href="https://www.igalia.com/" target="_blank" rel="noreferrer noopener">Igalia</a>​ have been contributing <a href="https://bugs.webkit.org/buglist.cgi?bug_status=RESOLVED&chfield=resolution&chfieldto=Now&email1=svillar%40igalia.com&emailassigned_to1=1&emailtype1=equals&f1=creation_ts&f2=creation_ts&list_id=6434869&o1=greaterthaneq&o2=lessthaneq&query_format=advanced&resolution=FIXED&short_desc=flex%20flexbox&short_desc_type=anywordssubstr&v1=2020-05-01&v2=2020-09-15" target="_blank" rel="noreferrer noopener">a​ lot of Flexbox fixes</a>​,
 specifically around height and aspect ratio.
 </p>
                                     </div>
@@ -2439,9 +2320,9 @@ specifically around height and aspect ratio.
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
                                         <p>The issues identified with Microsoft Edge in this survey, which was conducted in
 February/March 2020, were specifically for EdgeHTML in Microsoft Edge Legacy.
-It will reach ​end of life on March 9, 2021​, and as of June 2020, the new
-Chromium-based Edge is rolling out with Windows updates to W​indows 10​ (see
-blog post​) as well as Windows 7 and 8.1​, and is available on other platforms like
+It will reach ​<a href="https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666" target="_blank" rel="noreferrer noopener">end of life on March 9, 2021</a>​, and as of June 2020, the new
+Chromium-based Edge is rolling out with Windows updates to <a href="https://support.microsoft.com/en-us/topic/the-new-microsoft-edge-is-available-for-windows-10-version-1903-and-1909-99bff9a9-2028-6a98-fcf0-33e23c93efc5" target="_blank" rel="noreferrer noopener">W​indows 10​</a> (see
+<a href="https://blogs.windows.com/windowsexperience/2020/06/16/whats-next-for-windows-10-updates/" target="_blank" rel="noreferrer noopener">blog post</a>​) as well as <a href="https://support.microsoft.com/en-us/topic/update-for-the-new-microsoft-edge-for-windows-7-sp1-and-windows-8-1-june-17-2020-84956dd9-0f0e-3607-1ebf-0cf70da700b1" target="_blank" rel="noreferrer noopener">Windows 7 and 8.1​</a>, and is available on other platforms like
 macOS and Linux. Therefore, we expect a natural phasing out of these particular
 issues for developers.
 </p>
@@ -2458,29 +2339,10 @@ and up-to-date compat data is key. Such data can also help browser vendors get
 an overview of the state of browser compatibility and what needs to be
 addressed to offer the best possible platform for developers.
 </p>
-<p>					</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>				</p>
-<p>			</p>
-<p>		</p>
-<p>		</p>
-<p>			</p>
-<p>				</p>
-<p>					</p>
-<p>There is ​ongoing commitment​ from browser vendors to invest in M​DN’s Browser
-Compatibility Data​, increasing its scope and quality. This data is also being used in
-a number of projects such as V​S Code​, c​aniuse.com​, w​ebhint.io​ and ​many more​.
+
+<p>There is ​<a href="https://github.com/mdn/browser-compat-data/issues/3555" target="_blank" rel="noreferrer noopener">ongoing commitment</a>​ from browser vendors to invest in <a href="https://developer.mozilla.org/en-US/docs/MDN/Structures/Compatibility_tables" target="_blank" rel="noreferrer noopener">M​DN’s Browser
+Compatibility Data​</a>, increasing its scope and quality. This data is also being used in
+a number of projects such as <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer noopener">V​S Code​</a>, <a href="https://caniuse.com/" target="_blank" rel="noreferrer noopener">c​aniuse.com​</a>, <a href="https://webhint.io/docs/user-guide/hints/hint-compat-api/" target="_blank" rel="noreferrer noopener">w​ebhint.io</a>​ and ​<a href="https://github.com/mdn/browser-compat-data#projects-using-the-data" target="_blank" rel="noreferrer noopener">many more​</a>.
 </p>
                                     </div>
                                                                                                                                                                                                                                                 </div>
@@ -2539,7 +2401,7 @@ Select up to 3.<br />
 feature<br />❏ Differences between browsers for a
 given feature<br />❏ Knowing what browsers support a
 given feature<br />❏ Managing polyfills<br />❏ Managing workarounds for browser bugs<br />❏ Getting equivalent performance<br />❏ Dealing with prefixes<br />❏ Other: ...</p></td><td class="focus-visible">Nothing if the hypothesis is confirmed. If falsified, focus on the surprising aspect in interviews. If “knowing” is at the top<br />
-we prioritize c​ompat data<br />
+we prioritize <a href="https://github.com/mdn/browser-compat-data/" target="_blank" rel="noreferrer noopener">c​ompat data</a><br />
 and its use in products.<br />
 <p>If prefixes are at the top
 we prioritize unprefixing
@@ -2567,7 +2429,7 @@ on.
                                                                                                         
                         <div class="mb-12" id="appendix-b-top-pain-point-categories-top-pain-point-categories" x-ref="appendixBTopPainPointCategoriesTopPainPointCategories" @scroll.window="inViewport($refs.appendixBTopPainPointCategoriesTopPainPointCategories) ? page = '8-1' : '', inViewport($refs.appendixBTopPainPointCategoriesTopPainPointCategories) && !menuOpen ? sections.push(8) : ''">
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>As described in ​categorizing responses,​ free-form responses were categorized manually into 46 categories, up to 5 categories per answer. These categories were further combined into 12 larger groups. The following table shows the categories and examples of the responses.</p>
+                                        <p>As described in ​<a href="#survey-categorizing-responses">categorizing responses</a>,​ free-form responses were categorized manually into 46 categories, up to 5 categories per answer. These categories were further combined into 12 larger groups. The following table shows the categories and examples of the responses.</p>
 <table><thead><tr><th><strong>Group</strong></th><th><strong>Category</strong></th><th><strong>Count</strong></th><th><strong>Examples</strong></th></tr></thead><tbody><tr><td>Other</td><td>Accessibility</td><td>15</td><td class="focus-visible"><ul><li>Built-in screen readers</li><li>Inconsistent UX between browsers/screen reader combinations
 							</li>
 							<li>
@@ -2699,7 +2561,7 @@ a more uniform design.
                                                                                                         
                         <div class="mb-12" id="appendix-c-survey-results-survey-results" x-ref="appendixCSurveyResultsSurveyResults" @scroll.window="inViewport($refs.appendixCSurveyResultsSurveyResults) ? page = '9-1' : '', inViewport($refs.appendixCSurveyResultsSurveyResults) && !menuOpen ? sections.push(9) : ''">
                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
-                                        <p>A r​ esults spreadsheet​ contains the 3,236 complete responses further filtered to
+                                        <p>A <a href="https://docs.google.com/spreadsheets/d/1zJtJFLlz2XXqrl9-ay1CQ89Hooh4NjxSXnjF7g2VZNw/edit#gid=68627928&fvid=2096072298" target="_blank" rel="noreferrer noopener">r​esults spreadsheet​</a> contains the 3,236 complete responses further filtered to
 the 1,429 responses where a valid answer was given to the survey’s main
 free-form question. The results can also be filtered by other criteria.
 </p>
@@ -2770,7 +2632,7 @@ set of tools, to enable you to build what you need or want?
                                     </div>
                                                                                                                                                                                                                                                             <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
                                         <p>74.8% are satisfied or very satisfied, 25.2% are less than satisfied. This is very
-close to the results from the ​2019 MDN DNA survey​. The purpose of this question
+close to the results from the ​<a href="https://insights.developer.mozilla.org/reports/mdn-web-developer-needs-assessment-2019.html" target="_blank" rel="noreferrer noopener">2019 MDN DNA survey</a>​. The purpose of this question
 was to contrast it to the following.
 </p>
 <p><strong>4. Based on your experience developing for the web, how satisfied or
@@ -2797,9 +2659,9 @@ previous question.
 </strong></p>
 <p>This was a free-form text question to capture what is top of mind for web
 developers. No limit could be placed on the number of issues mentioned, and the
-maximum number of c​ ategories​ assigned to a single response was 5. For the
-purpose of visualization, the 46 categories were merged into 12 groups, see t​ he
-spreadsheet​ for details.
+maximum number of <a href="#appendix-b-top-pain-point-categories">c​ategories</a>​ assigned to a single response was 5. For the
+purpose of visualization, the 46 categories were merged into 12 groups, see <a href="https://docs.google.com/spreadsheets/d/1zJtJFLlz2XXqrl9-ay1CQ89Hooh4NjxSXnjF7g2VZNw/edit#gid=643525860" target="_blank" rel="noreferrer noopener">t​he
+spreadsheet​</a> for details.
 </p>
 <p>The most straightforward way to visualize the results is as the percentage of
 1,429 valid responses that mentioned each of the groups:
@@ -2869,7 +2731,7 @@ compatibility?
                                             />
                                         </figure>
                                     </div>
-                                                                                                                                                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
+                                                                                                                                                                                                                                                            <div id="appendix-c-8" class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
                                         <p><strong>8. What layout or styling features cause the most issues with browser
 compatibility?
 </strong></p>
@@ -2917,8 +2779,8 @@ In the following graph the total number of responses is 685.
 feature areas would be biased a lot towards what is a problem in IE. Also, IE will
 never change and will eventually become unsupported and unused, so it makes
 sense to ask how things would look if IE wasn’t around. To get a sense for this, we
-look at the ​415 responses that didn’t mention IE in 5 or select it in question 9​. This
-should be compared against the 1,429 responses in the m​ain survey results​.
+look at the ​<a href="https://docs.google.com/spreadsheets/d/1zJtJFLlz2XXqrl9-ay1CQ89Hooh4NjxSXnjF7g2VZNw/edit#gid=68627928&fvid=1418402615" target="_blank" rel="noreferrer noopener">415 responses that didn’t mention IE in 5 or select it in question 9​</a>. This
+should be compared against the 1,429 responses in the <a href="#appendix-c-survey-results">m​ain survey results</a>​.
 </p>
                                     </div>
                                                                                                                                                                                                                                                                                                                             <div class="prose xl:prose-lg mb-6 max-w-full" data-type="image">
@@ -3031,13 +2893,13 @@ compatibility?
                                             />
                                         </figure>
                                     </div>
-                                                                                                                                                                                                                                                            <div class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
+                                                                                                                                                                                                                                                            <div id="appendix-d-8" class="prose xl:prose-lg max-w-none lg:w-3/4 mb-6" data-type="text">
                                         <p><strong>8. What layout or styling features cause the most issues with browser
 compatibility?
 </strong></p>
 <p>This question was only shown if “Layout and styling” was selected in question 7.
-In the following graph the total number of responses is 141, compared to ​685
-overall.​
+In the following graph the total number of responses is 141, compared to <a href="#appendix-c-8">​685
+overall</a>.​
 </p>
                                     </div>
                                                                                                                                                                                                                                                                                                                             <div class="prose xl:prose-lg mb-6 max-w-full" data-type="image">
@@ -3252,15 +3114,15 @@ anything about the browser compatibility landscape, what would it be?
 <p><strong>JavaScript</strong></p>
 <p><em>Fortunately it’s pretty good these days. Like I said, we support pretty much the last two major versions of any major browser, so, JavaScript is in a state where it’s pretty solid, I would say. We do use polyfills for things that are not supported and that’s managed by our build system. We have the TypeScript compiler adding in its polyfills. A lot of that is just handled by our build system. I forget the technical term for them, but we are using the question marks before object property access, that’s an explicit polyfill that we import in our project. But by and large I think most of the JavaScript we’re using is pretty standard now, it’s pretty well supported.</em></p>
 <p> </p>
-<p><em> I used the D​OM mutation API​ recently and that was well supported on all the browsers I tested. Things are fairly good now, it’s not like the old days where there was a big gulf between browsers.</em></p>
+<p><em> I used the <a href="https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver" target="_blank" rel="noreferrer noopener">D​OM mutation API​</a> recently and that was well supported on all the browsers I tested. Things are fairly good now, it’s not like the old days where there was a big gulf between browsers.</em></p>
 <p><strong>Web APIs</strong></p>
 <p>How about Web APIs?</p>
-<p><em>For the most part they’re pretty complete. I’d say the biggest issue is not so much the API itself not being implemented, but parts of API not being implemented in certain browsers. For “s​croll to element​”, there’s a “smooth” property that some browser’s don’t... I think it’s Safari that doesn’t support the smooth object property in the scroll to element API. We just added a polyfill for it, it’s like 2 KB so it’s not a big deal. Fortunately the build systems we have are pretty good at putting in a polyfill for what’s not widely supported.</em></p>
+<p><em>For the most part they’re pretty complete. I’d say the biggest issue is not so much the API itself not being implemented, but parts of API not being implemented in certain browsers. For “<a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView" target="_blank" rel="noreferrer noopener">s​croll to element​</a>”, there’s a “smooth” property that some browser’s don’t... I think it’s Safari that doesn’t support the smooth object property in the scroll to element API. We just added a polyfill for it, it’s like 2 KB so it’s not a big deal. Fortunately the build systems we have are pretty good at putting in a polyfill for what’s not widely supported.</em></p>
 <p><strong>Responsive layout</strong></p>
 <p>Last time you had a problem between desktop and mobile?</p>
-<p><em>We use a grid system from a project called V​uetify​, which is part of the Vue ecosystem. It’s based on the ​Bootstrap grid system.​ It’s well tested, it’s cross-browser, so fortunately we don’t have to worry too much about layout issues. [...] Just having a grid system that’s well supported and tested by other parties is a super helpful tool.</em></p>
+<p><em>We use a grid system from a project called <a href="https://vuetifyjs.com/en/" target="_blank" rel="noreferrer noopener">V​uetify​</a>, which is part of the Vue ecosystem. It’s based on the ​<a href="https://getbootstrap.com/docs/4.0/layout/grid/" target="_blank" rel="noreferrer noopener">Bootstrap grid system</a>.​ It’s well tested, it’s cross-browser, so fortunately we don’t have to worry too much about layout issues. [...] Just having a grid system that’s well supported and tested by other parties is a super helpful tool.</em></p>
 <p><em>No longer supporting IE, what kinds of benefits are you getting from a grid system?</em></p>
-<p><em>It’s something that we use in every component. Our design team is using a grid system in ​Zeplin​ and ​Figma​, which are their tools. We actually did kind of a sprint to align with Zuchrids. [?] So now we have the V​uetify grid system​ using the same breakpoints and columns, gutters and things like that as the design team is using. Having those in sync now makes our development so much easier, and it makes us not have to worry about “are these columns lining up correct” or “are they collapsing when they should?”</em></p>
+<p><em>It’s something that we use in every component. Our design team is using a grid system in ​<a href="https://zeplin.io/" target="_blank" rel="noreferrer noopener">Zeplin</a>​ and ​<a href="https://www.figma.com/" target="_blank" rel="noreferrer noopener">Figma</a>​, which are their tools. We actually did kind of a sprint to align with Zuchrids. [?] So now we have the <a href="https://vuetifyjs.com/en/components/grids/" target="_blank" rel="noreferrer noopener">Vuetify grid system​</a> using the same breakpoints and columns, gutters and things like that as the design team is using. Having those in sync now makes our development so much easier, and it makes us not have to worry about “are these columns lining up correct” or “are they collapsing when they should?”</em></p>
 <p>Any other browser than IE a problem for Flexbox/Grid?</p>
 <p> </p>
 <p><em> I would say Safari is the other wildcard, just because they’ve sort of implemented their own... a lot of their own technologies, and they’ve implemented standards with slight variations on behavior from Firefox and Chrome, which seem to be kind of on the same page with a lot of layout. Safari is kind of a wildcard, most of it is OK, but occasionally I do run into Flexbox quirks with Safari. Usually a simple CSS rule will fix it, but sometimes it’s a little more difficult.</em></p>
@@ -3298,11 +3160,11 @@ anything about the browser compatibility landscape, what would it be?
 <p>Is the issue bouncing at the end?</p>
 <p> </p>
 <p><em> Yes. The goal is always that you lock scrolling completely. There’s a good library for that, it’s not even large, it’s a small JavaScript dependency. But it annoys me that you need these workarounds for doing simple stuff like that. And while keeping support for desktop browsers, at the same time.</em></p>
-<p>(The library was later confirmed to be ​body-scroll-lock​.) </p>
+<p>(The library was later confirmed to be ​<a href="https://github.com/willmcpo/body-scroll-lock" target="_blank" rel="noreferrer noopener">body-scroll-lock​</a>.) </p>
 <p><strong>Safari</strong></p>
 <p>For Safari, you mentioned scrolling. Anything else?</p>
-<p><em>In our CMS we have input fields using ​CodeMirror.​ We are still waiting for version 6, I really hope it comes out this year. Because with iOS 13 there have been a lot of changes, under the hood, probably. Because cursor placement, copying and pasting inside of CodeMirror no longer works reliably. Text selection is broken. I don’t know if it’s a CSS issue on our side, but my guess is it’s mostly related to something in iOS that’s changed.</em></p>
-<p><em>Also annoying, let me give you an example for another project. We were using a pretty popular JavaScript carousel called G​ lide.js​. With iOS 13 they changed something and now scrolling works like garbage on iOS, especially on older devices such as an iPhone SE or older iPads. All the animations are broken and it doesn’t feel natural if you’re swiping through this gallery. Now I’ve used this in 5 or 6 projects, and something that used to work fine is now broken.</em></p>
+<p><em>In our CMS we have input fields using ​<a href="https://codemirror.net/" target="_blank" rel="noreferrer noopener">CodeMirror</a>.​ We are still waiting for version 6, I really hope it comes out this year. Because with iOS 13 there have been a lot of changes, under the hood, probably. Because cursor placement, copying and pasting inside of CodeMirror no longer works reliably. Text selection is broken. I don’t know if it’s a CSS issue on our side, but my guess is it’s mostly related to something in iOS that’s changed.</em></p>
+<p><em>Also annoying, let me give you an example for another project. We were using a pretty popular JavaScript carousel called <a href="https://glidejs.com/" target="_blank" rel="noreferrer noopener">Glide.js​</a>. With iOS 13 they changed something and now scrolling works like garbage on iOS, especially on older devices such as an iPhone SE or older iPads. All the animations are broken and it doesn’t feel natural if you’re swiping through this gallery. Now I’ve used this in 5 or 6 projects, and something that used to work fine is now broken.</em></p>
 <p>You mentioned scrolling, you mean going from one card to the next? Can you talk more about what broke?</p>
 <p><em>Suddenly the animation didn’t... if I start swiping on the other surface, then the current slide just starts to follow my finger, but not in a natural way like you would expect from native iOS component. A lot of sliders don’t replicate the iOS behavior. This time, you just slide, and once you reach a point where it should move on to the next slide, it just flashes and the next slide is there. There’s no smooth transition. It’s probably mostly a memory issue or performance issue. But it’s just annoying to see that something used to work and doesn’t work any longer.</em></p>
 <p> </p>
@@ -3382,14 +3244,12 @@ anything about the browser compatibility landscape, what would it be?
                                         <p><strong>JavaScript</strong></p>
 <p><em>There was a difference between Firefox and Chrome when it came to CORS. This was back in either November or early December. This actually relates to CesiumJS, using an ion service. What they do is they offer tilesets and terrain that you can grab from their server and render it with their CesiumJS platform. That’s all fine and dandy, but something in one of the</em></p>
 <p> </p>
-<p><em> Firefox updates just completely broke the CORS, or rather the CORS broke the program. Even though running on the website (not localhost or anything) and even though it should have been sending the proper origin. Because I looked in the headers, and it was sending the origin and sending accept headers, but for some reason the options we received in the response didn’t actually work in Firefox. It was sending the... wasn’t like HEAD... I forget the term for it, but it was reaching out to the server asking for CORS and then it was saying “nope, can’t do this.” And it was doing this for every single tile that came from ​Cesium ion​ servers.</em></p>
+<p><em> Firefox updates just completely broke the CORS, or rather the CORS broke the program. Even though running on the website (not localhost or anything) and even though it should have been sending the proper origin. Because I looked in the headers, and it was sending the origin and sending accept headers, but for some reason the options we received in the response didn’t actually work in Firefox. It was sending the... wasn’t like HEAD... I forget the term for it, but it was reaching out to the server asking for CORS and then it was saying “nope, can’t do this.” And it was doing this for every single tile that came from <a href="https://cesium.com/cesium-ion/" target="_blank" rel="noreferrer noopener">​Cesium ion</a>​ servers.</em></p>
 <p><em>This was on Firefox and I thought that was just broken with Cesium. I was about to submit a bug report, open up an issue, but I checked it out on Chrome and it worked just fine. So I looked into it a little bit more and it was something to do with the strict syntax, I think that Firefox had a little more strictness to it when it was looking for CORS information. And Chrome seemed to be fine, like it didn’t really care one way or the other if this was sent first, or if this was in a certain case, as long as it received the information it was fine with that. Whereas Firefox was freaking out about either order or like literally either uppercase or lowercase. I don’t know what actually did it, but about a month after that started happening Firefox had resolved the issue, but that’s just one example.</em></p>
 <p><strong>Safari</strong></p>
 <p>Do any incompatibilities come to mind?</p>
 <p><em>I’ve noticed that the fonts, for some reason, don’t really render correctly. I’ll have a font that was stock issue from one of those... it wasn’t Typekit and it wasn’t Google Fonts, I forget what the CDN was. It was a relatively old but stable font, that we could include anywhere. I noticed that even though we had the margin right, the padding right, the kerning right, everything was just spot on, the display of it on Safari didn’t look right, it was like the width of the characters, even though it was in the same style, it didn’t have the correct width, or thickness rather, for the letter strokes. We kind of had to throw our hands up and say “well, this is just going to look a little bit weird on Safari.” So that was an unfortunate thing.</em></p>
-<p><em>I’ve noticed some other CSS-related issues. I can’t think of one off-hand, but it was either something about vw or vh for the viewport width and</em></p>
-<p> </p>
-<p><em>height. Or percentages for widths and heights. It was some irregularity with that, and although it was perfect on Chrome and Firefox, it just did not look correct on Safari. We still support it, because it still works with the dashboard that we’ve been building, but some of the things don’t just quite look right. You know, it’s little cosmetic things, it’s fine, it’s just not perfect.</em></p>
+<p><em>I’ve noticed some other CSS-related issues. I can’t think of one off-hand, but it was either something about vw or vh for the viewport width and height. Or percentages for widths and heights. It was some irregularity with that, and although it was perfect on Chrome and Firefox, it just did not look correct on Safari. We still support it, because it still works with the dashboard that we’ve been building, but some of the things don’t just quite look right. You know, it’s little cosmetic things, it’s fine, it’s just not perfect.</em></p>
 <p><strong>Performance</strong></p>
 <p><em>Since we’re doing a lot of WebGL stuff we have to recommend that everyone that uses our website uses Firefox, because it is just not performant on Chrome, sorry. I guess it works, it’s just you can’t really get up to 60 frames per second, especially with a lot of entities and assets being deployed. I don’t know if it’s specifically CesiumJS or if it’s my code, I haven’t done a strict A/B testing. We’ve just seen that Firefox seems to be a lot more performant. So we definitely recommend Firefox over Chrome, but Chrome works and, you know, a lot of people use it so we don’t really say “don’t use it,” we just, if we have a chance we recommend Firefox. For this specifically, for the algorithms we have to run and for WebGL, I think some of it is also WebAssembly with CesiumJS specifically, some of the workers to load in textures, those are a lot more performant on Firefox for some reason.</em></p>
 <p><strong>Magic wand question</strong></p>
@@ -3415,7 +3275,7 @@ anything about the browser compatibility landscape, what would it be?
 <p>You mentioned a selector issue in old versions of IE. How did you work around that, the last time it came up?</p>
 <p><em>I don’t remember whether it was on Edge or Internet Explorer, but there is a selector which says if you have a placeholder in a form input is shown or not. In that case, I wanted to remove the label when it was not shown, in order to make a cool-to-see input field. But it could not work in Internet Explorer and I wanted a CSS-only solution. I had to make a different layout, because there was no other CSS-only solution to make it backwards compatible with Explorer.</em></p>
 <p> </p>
-<p>Note: This was about the :​ :placeholder​ pseudo-element.</p>
+<p>Note: This was about the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder" target="_blank" rel="noreferrer noopener">:​:placeholder​</a> pseudo-element.</p>
 <p><strong>Safari</strong></p>
 <p>You mentioned you want to stick to things that also work in older browsers. How do you find out what works and doesn’t work?</p>
 <p><em>Testing, just testing. I would like to say that when Explorer will definitely die, my new concern will be Safari on macOS, rather than iOS. Because I also hate that browser, because I often found many bugs.</em></p>
@@ -3439,7 +3299,7 @@ anything about the browser compatibility landscape, what would it be?
 <p><em>It depends. If there is already an audience and already data for that audience, then we try to see what browsers are used. It’s always good if you can drop Internet Explorer of course, but it’s not always the case. That’s it. It depends on the target audience. If it’s for a broad audience then we look at the countries that are concerned by the project and start based on this. Sometimes, also, the project doesn’t have to support Internet Explorer but the client typically uses it, is blocked on Internet Explorer, so we still have to support it to smooth the communication with the client.</em></p>
 <p><strong>Internet Explorer</strong></p>
 <p>Last IE11 problem, do you remember what it was and what you did?</p>
-<p><em>I think it was a missing polyfill, a JavaScript polyfill, but I don’t remember the feature exactly. Something around Object.entries() or something like that, I’m not sure. I don’t remember the exact problem, but I quickly noticed that it was something around JavaScript, so I just opened the IE devtools, saw the error and understood a polyfill was needed. That was a polyfill available in the c​ ore-js​ library, which is a library that has a lot of polyfills for modern JavaScript features, ES6 and more, and you can cherry-pick the feature you want so that you don’t have to import a full library of polyfills, just import the one you need.</em></p>
+<p><em>I think it was a missing polyfill, a JavaScript polyfill, but I don’t remember the feature exactly. Something around Object.entries() or something like that, I’m not sure. I don’t remember the exact problem, but I quickly noticed that it was something around JavaScript, so I just opened the IE devtools, saw the error and understood a polyfill was needed. That was a polyfill available in the <a href="https://github.com/zloirock/core-js" target="_blank" rel="noreferrer noopener">c​ore-js</a>​ library, which is a library that has a lot of polyfills for modern JavaScript features, ES6 and more, and you can cherry-pick the feature you want so that you don’t have to import a full library of polyfills, just import the one you need.</em></p>
 <p><strong>Filing bugs</strong></p>
 <p>(Regarding a position:sticky issue not transcribed.) By any chance, did you file a bug for this, or find a bug?</p>
 <p><em>No, no no no, no. I didn’t. Usually, I’m a bit discouraged about filing bugs, because it’s not clear how to properly do that, and where, whether it’s on Chrome or Firefox or Safari. I think the process isn’t well explained and I personally have a hard time to understand what is to correctly fill out a bug, while I regularly do this on GitHub for example. That’s it. Usually when I have this kind of issue I never go into the process of filing a bug for browsers. When you see a discussion about a CSS spec that is ongoing, sometimes I’m interested, but the discussion seems like you have to consider a lot of things to participate in these discussions. Even by giving your “I will be a user of this CSS feature in the future”, even that I’m not sure... it doesn’t seem to be very welcoming to non-spec-writer views. But maybe it’s just me, the way I feel about it, not sure.</em></p>
@@ -3505,7 +3365,7 @@ anything about the browser compatibility landscape, what would it be?
                                         <p><strong>JavaScript</strong></p>
 <p>Do remember the last time you ran into an interoperability problem with JavaScript?</p>
 <p> </p>
-<p><em>Probably yesterday. Because we are supporting Internet Explorer 11, it limits the amount of modern JavaScript we can use. We relied on jQuery for many years, and it’s still in our main codebase. It’s only been a few months that I’ve been switching to write everything new in vanilla JavaScript. We haven’t refactored it out of our site, but we’re removing things, like, we don’t, we just got rid of Modernizr, and we had a text truncation plugin called dot-dot-dot that I just coded a replacement for this week. So that’ll drop later this month. So we’re making strides to reduce the amount of code that we have to send the browsers. So I’m dealing with new things that are “old hat” for most people, but I didn’t realize that if you have an element and use classList.add(),​ you can’t add two classes at the same time in Internet Explorer 11. So I ran into that recently, I said “Why isn’t this class showing? Well, it’s because it doesn’t support multiple classes at the same time.”</em></p>
+<p><em>Probably yesterday. Because we are supporting Internet Explorer 11, it limits the amount of modern JavaScript we can use. We relied on jQuery for many years, and it’s still in our main codebase. It’s only been a few months that I’ve been switching to write everything new in vanilla JavaScript. We haven’t refactored it out of our site, but we’re removing things, like, we don’t, we just got rid of Modernizr, and we had a text truncation plugin called dot-dot-dot that I just coded a replacement for this week. So that’ll drop later this month. So we’re making strides to reduce the amount of code that we have to send the browsers. So I’m dealing with new things that are “old hat” for most people, but I didn’t realize that if you have an element and use <a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/classList" target="_blank" rel="noreferrer noopener">classList.add()</a>,​ you can’t add two classes at the same time in Internet Explorer 11. So I ran into that recently, I said “Why isn’t this class showing? Well, it’s because it doesn’t support multiple classes at the same time.”</em></p>
 <p>Did others support that OK?</p>
 <p><em>Yeah, and I haven’t done anything with ES6 at all, I’m just trying to get going with vanilla JavaScript that’s going to work in IE. I haven’t found it incredibly difficult, but some people on our team do often use ES6 and transpile it for older browsers. And that’s fine, but so far it’s only been on these isolated projects and tools that are maybe on one page of the site. But the overall site, thousands and thousands of pages, I just don’t feel comfortable changing the process from using the file that runs. We could build it into our build script that compiles... like we have Sass for CSS and it compiles and builds the code and pushes it to the server. But we just haven’t prioritized that.</em></p>
 <p><em>Unfortunately, we had a problem with the recording of this interview after the first topic, and couldn’t transcribe the rest. We did take notes, however, so the feedback was not lost and is included in aggregate numbers elsewhere in this report.</em></p>
@@ -3573,8 +3433,8 @@ anything about the browser compatibility landscape, what would it be?
 <p><em>Obviously there are differences in support, but these are really not that problematic because you know what’s supported and not, and it’s very easy to deal with that. If you’re working on a bigger scale and have a bit more QA and work harder on supporting browsers, if you know this browser’s not going to support some features, it’s really easy to plan for that.</em></p>
 <p><em>The biggest thing that I currently find problematic is the handling of requestAnimationFrame and microtasks and the event loop is inconsistencies between WebKit and Blink. I think the Chrome way is the correct way, at least I heard Chrome DevRel people say that at conferences, that microtasks run directly behind regular tasks, and eventually you have the animation frame right before the paint. In WebKit I think there was some inconsistency around microtasks, I think there are no microtasks? I don’t know exactly. And requestAnimationFrame actually triggers right on the other side, so after the paint has happened. Well that’s not good. It’s not that bad, I think in most places it works fine, but if you want to optimize your code and really have it be performant, I think sometimes timing problems around when that triggers and you want to really have predictable [timing].</em></p>
 <p>How do you deal with missing JS features?</p>
-<p><em>In most projects I have a fairly common stack of Babel and Webpack, and also Babel polyfills. Babel became very popular for all the syntax stuff in the last couple of years, and I kind of see it as a given now, even though I also think that now, a couple years after it really became adopted, maybe starting from 2020 it actually should be an option to think about, if you actually need Babel in your build stack, because a lot of it is supported now and is not as relevant anymore. But because I come from the mindset that I need to support all the way down to at least IE11, maybe even IE9, naturally if you want to support IE9 you’re going to have Babel. Different combinations of ​core-js​ polyfills, either manually or through Babel polyfill. I tried out different solutions.</em></p>
-<p><em>There’s a project from the New York Times, ​polyfill.io​, that does testing for browser features and lazy loads the polyfills. I always thought that was interesting to consider but haven’t worked with it yet because I feel like it’s probably going to have network latency problems on really slow devices, so for now my approach is to keep the amount of polyfills we load in not too big, just see it as a necessary evil of probably 30% overhead of the bundle is just damned polyfills you don’t need in modern browsers, but at least modern browsers are faster anyway and then you can allow the network overhead, but I also haven’t done any numbers on that. It was easier on our build stack to do it like that.</em></p>
+<p><em>In most projects I have a fairly common stack of Babel and Webpack, and also Babel polyfills. Babel became very popular for all the syntax stuff in the last couple of years, and I kind of see it as a given now, even though I also think that now, a couple years after it really became adopted, maybe starting from 2020 it actually should be an option to think about, if you actually need Babel in your build stack, because a lot of it is supported now and is not as relevant anymore. But because I come from the mindset that I need to support all the way down to at least IE11, maybe even IE9, naturally if you want to support IE9 you’re going to have Babel. Different combinations of ​<a href="https://github.com/zloirock/core-js" target="_blank" rel="noreferrer noopener">core-js</a>​ polyfills, either manually or through Babel polyfill. I tried out different solutions.</em></p>
+<p><em>There’s a project from the New York Times, <a href="https://polyfill.io/v3/" target="_blank" rel="noreferrer noopener">​polyfill.io​</a>, that does testing for browser features and lazy loads the polyfills. I always thought that was interesting to consider but haven’t worked with it yet because I feel like it’s probably going to have network latency problems on really slow devices, so for now my approach is to keep the amount of polyfills we load in not too big, just see it as a necessary evil of probably 30% overhead of the bundle is just damned polyfills you don’t need in modern browsers, but at least modern browsers are faster anyway and then you can allow the network overhead, but I also haven’t done any numbers on that. It was easier on our build stack to do it like that.</em></p>
 <p><strong>Viewport issues</strong></p>
 <p> </p>
 <p> How did you work around vh/vw issues, inconsistent on desktop and mobile? Did you stop using them or find some combination that does the same thing in the end?</p>
