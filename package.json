@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@mdn/dinocons": "^0.3.0",
-    "@mdn/minimalist": "^0.5.3",
+    "@mdn/minimalist": "^0.7.3",
     "css-loader": "^5.0.2",
     "eslint": "^7.19.0",
     "eslint-config-prettier": "^7.2.0",
