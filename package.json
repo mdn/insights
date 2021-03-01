@@ -29,7 +29,7 @@
     "@mdn/dinocons": "^0.3.0",
     "@mdn/minimalist": "^0.7.3",
     "css-loader": "^5.1.0",
-    "eslint": "^7.20.0",
+    "eslint": "^7.21.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-import": "^2.22.1",
     "file-loader": "^6.2.0",
