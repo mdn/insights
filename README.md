@@ -1,6 +1,6 @@
 # MDN Insights
 
-This repository contains the code that powers the site, https://inisights.developer.mozilla.org/
+This repository contains the code that powers the site, https://insights.developer.mozilla.org/
 There you will find the results of the MDN Web Docs Web DNA(Developer Needs Assessment) reports in both HTML and PDF.
 
 ### Running locally
