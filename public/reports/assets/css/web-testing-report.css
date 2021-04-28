@@ -1,0 +1,48 @@
+.main-container {
+  margin: 24px auto;
+  max-width: 1400px;
+}
+
+.header {
+  display: flex;
+}
+
+.logo {
+  flex: 0 0 250px;
+}
+
+.header h1 {
+  flex: 1 1 50%;
+}
+
+.participants-table th {
+  font-size: 1rem;
+}
+
+.participants-table th,
+.participants-table td {
+  padding: 12px;
+}
+
+.prose-sm tbody td:first-child {
+  padding-left: 12px;
+}
+
+.participants-table tr:nth-child(odd) td {
+  background-color: #ccc;
+}
+
+.respondent-comment {
+  background-color: #edecec;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  padding: 12px 24px;
+}
+
+.prose .no-highlight {
+  background-color: transparent;
+  color: #212121;
+  display: block;
+  margin-bottom: 24px;
+  padding: 0;
+}
